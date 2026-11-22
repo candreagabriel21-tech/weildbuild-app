@@ -351,16 +351,46 @@ def setup_logging(base_dir: Path, name: str) -> logging.Logger:
     return logger
 
 
-def python_launch_command() -> list:
+def probe_interpreter(candidate: str) -> bool:
+    flags = 0x08000000 if os.name == "nt" else 0
+    try:
+        completed = subprocess.run([candidate, "-c", "print(1)"], capture_output=True, timeout=15, creationflags=flags)
+        return completed.returncode == 0
+    except (OSError, subprocess.SubprocessError):
+        return False
+
+
+_INTERPRETER_CACHE: list | None = None
+
+
+def pick_interpreter() -> list | None:
+    global _INTERPRETER_CACHE
+    if _INTERPRETER_CACHE is not None:
+        return list(_INTERPRETER_CACHE)
     if is_frozen():
-        return [sys.executable]
+        _INTERPRETER_CACHE = [sys.executable]
+        return list(_INTERPRETER_CACHE)
+    candidates = [sys.executable]
     if os.name == "nt":
-        for candidate in ("pythonw.exe", "python.exe"):
-            found = shutil.which(candidate)
-            if found:
-                return [found]
-        return [sys.executable]
-    return [sys.executable]
+        candidates += ["py.exe", "python.exe", "python3.exe"]
+    else:
+        candidates += ["python3", "python"]
+    seen = set()
+    for candidate in candidates:
+        resolved = shutil.which(candidate)
+        if resolved is None and Path(candidate).is_absolute() and Path(candidate).is_file():
+            resolved = candidate
+        if not resolved or resolved.lower() in seen:
+            continue
+        seen.add(resolved.lower())
+        if probe_interpreter(resolved):
+            _INTERPRETER_CACHE = [resolved]
+            return list(_INTERPRETER_CACHE)
+    return None
+
+
+def python_launch_command() -> list | None:
+    return pick_interpreter()
 
 
 def sibling_tool_path(tool_name: str) -> Path:
@@ -383,7 +413,10 @@ def spawn_tool(tool_name: str, extra_args: list | None = None, base_dir: Path | 
     if tool_path.suffix.lower() == ".py":
         if not tool_path.is_file():
             return None
-        command = python_launch_command() + [str(tool_path)]
+        interpreter = pick_interpreter()
+        if interpreter is None:
+            return None
+        command = interpreter + [str(tool_path)]
     else:
         if not tool_path.is_file():
             return None
@@ -415,14 +448,16 @@ def windows_desktop_path() -> Path | None:
 
 def create_desktop_shortcut(base_dir: Path, logger: logging.Logger | None = None) -> str | None:
     launcher_path = sibling_tool_path("weildbuild_launcher")
+    interpreter = pick_interpreter()
+    if launcher_path.suffix.lower() == ".py" and interpreter is None:
+        return None
     if os.name == "nt":
         desktop = windows_desktop_path()
         if desktop is None:
             return None
         shortcut = desktop / "WeildBuild Launcher.lnk"
         if launcher_path.suffix.lower() == ".py":
-            interpreter = python_launch_command()[0]
-            target = interpreter
+            target = interpreter[0]
             arguments = f'"{launcher_path}"'
         else:
             target = str(launcher_path)
@@ -443,7 +478,7 @@ def create_desktop_shortcut(base_dir: Path, logger: logging.Logger | None = None
     home = Path.home()
     if sys.platform == "darwin":
         command_path = desktop_or_home(home) / "WeildBuild Launcher.command"
-        body = "#!/bin/sh\ncd \"" + str(base_dir) + "\"\nexec \"" + python_launch_command()[0] + "\" \"" + str(launcher_path) + "\"\n"
+        body = "#!/bin/sh\ncd \"" + str(base_dir) + "\"\nexec \"" + interpreter[0] + "\" \"" + str(launcher_path) + "\"\n"
         atomic_write(command_path, body.encode("utf-8"))
         command_path.chmod(0o755)
         return str(command_path)
@@ -451,7 +486,7 @@ def create_desktop_shortcut(base_dir: Path, logger: logging.Logger | None = None
     applications.mkdir(parents=True, exist_ok=True)
     entry = applications / "weildbuild-launcher.desktop"
     if launcher_path.suffix.lower() == ".py":
-        exec_line = f'"{python_launch_command()[0]}" "{launcher_path}"'
+        exec_line = f'"{interpreter[0]}" "{launcher_path}"'
     else:
         exec_line = f'"{launcher_path}"'
     body = (

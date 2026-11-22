@@ -351,16 +351,46 @@ def setup_logging(base_dir: Path, name: str) -> logging.Logger:
     return logger
 
 
-def python_launch_command() -> list:
+def probe_interpreter(candidate: str) -> bool:
+    flags = 0x08000000 if os.name == "nt" else 0
+    try:
+        completed = subprocess.run([candidate, "-c", "print(1)"], capture_output=True, timeout=15, creationflags=flags)
+        return completed.returncode == 0
+    except (OSError, subprocess.SubprocessError):
+        return False
+
+
+_INTERPRETER_CACHE: list | None = None
+
+
+def pick_interpreter() -> list | None:
+    global _INTERPRETER_CACHE
+    if _INTERPRETER_CACHE is not None:
+        return list(_INTERPRETER_CACHE)
     if is_frozen():
-        return [sys.executable]
+        _INTERPRETER_CACHE = [sys.executable]
+        return list(_INTERPRETER_CACHE)
+    candidates = [sys.executable]
     if os.name == "nt":
-        for candidate in ("pythonw.exe", "python.exe"):
-            found = shutil.which(candidate)
-            if found:
-                return [found]
-        return [sys.executable]
-    return [sys.executable]
+        candidates += ["py.exe", "python.exe", "python3.exe"]
+    else:
+        candidates += ["python3", "python"]
+    seen = set()
+    for candidate in candidates:
+        resolved = shutil.which(candidate)
+        if resolved is None and Path(candidate).is_absolute() and Path(candidate).is_file():
+            resolved = candidate
+        if not resolved or resolved.lower() in seen:
+            continue
+        seen.add(resolved.lower())
+        if probe_interpreter(resolved):
+            _INTERPRETER_CACHE = [resolved]
+            return list(_INTERPRETER_CACHE)
+    return None
+
+
+def python_launch_command() -> list | None:
+    return pick_interpreter()
 
 
 def sibling_tool_path(tool_name: str) -> Path:
@@ -383,7 +413,10 @@ def spawn_tool(tool_name: str, extra_args: list | None = None, base_dir: Path | 
     if tool_path.suffix.lower() == ".py":
         if not tool_path.is_file():
             return None
-        command = python_launch_command() + [str(tool_path)]
+        interpreter = pick_interpreter()
+        if interpreter is None:
+            return None
+        command = interpreter + [str(tool_path)]
     else:
         if not tool_path.is_file():
             return None
@@ -415,14 +448,16 @@ def windows_desktop_path() -> Path | None:
 
 def create_desktop_shortcut(base_dir: Path, logger: logging.Logger | None = None) -> str | None:
     launcher_path = sibling_tool_path("weildbuild_launcher")
+    interpreter = pick_interpreter()
+    if launcher_path.suffix.lower() == ".py" and interpreter is None:
+        return None
     if os.name == "nt":
         desktop = windows_desktop_path()
         if desktop is None:
             return None
         shortcut = desktop / "WeildBuild Launcher.lnk"
         if launcher_path.suffix.lower() == ".py":
-            interpreter = python_launch_command()[0]
-            target = interpreter
+            target = interpreter[0]
             arguments = f'"{launcher_path}"'
         else:
             target = str(launcher_path)
@@ -443,7 +478,7 @@ def create_desktop_shortcut(base_dir: Path, logger: logging.Logger | None = None
     home = Path.home()
     if sys.platform == "darwin":
         command_path = desktop_or_home(home) / "WeildBuild Launcher.command"
-        body = "#!/bin/sh\ncd \"" + str(base_dir) + "\"\nexec \"" + python_launch_command()[0] + "\" \"" + str(launcher_path) + "\"\n"
+        body = "#!/bin/sh\ncd \"" + str(base_dir) + "\"\nexec \"" + interpreter[0] + "\" \"" + str(launcher_path) + "\"\n"
         atomic_write(command_path, body.encode("utf-8"))
         command_path.chmod(0o755)
         return str(command_path)
@@ -451,7 +486,7 @@ def create_desktop_shortcut(base_dir: Path, logger: logging.Logger | None = None
     applications.mkdir(parents=True, exist_ok=True)
     entry = applications / "weildbuild-launcher.desktop"
     if launcher_path.suffix.lower() == ".py":
-        exec_line = f'"{python_launch_command()[0]}" "{launcher_path}"'
+        exec_line = f'"{interpreter[0]}" "{launcher_path}"'
     else:
         exec_line = f'"{launcher_path}"'
     body = (
@@ -734,24 +769,39 @@ def browser_command(browser: str, url: str, base_dir: Path) -> list:
     ]
 
 
-def ensure_installed(base_dir: Path, logger) -> bool:
+def open_installer(logger, args_list: list) -> bool:
+    installer = core.sibling_tool_path("weildbuild_installer")
+    if installer.is_file() and installer.suffix.lower() == ".exe":
+        command = [str(installer)]
+    else:
+        interpreter = core.pick_interpreter()
+        if interpreter is None or not installer.is_file():
+            return False
+        command = interpreter + [str(installer)]
+    try:
+        subprocess.run(command + args_list, cwd=str(core.app_dir()), check=True, timeout=3600)
+        return True
+    except (OSError, subprocess.SubprocessError) as exc:
+        logger.error("installer failed: %s", exc)
+        return False
+
+
+def ensure_installed(base_dir: Path, logger) -> tuple:
+    manifest = core.load_manifest(base_dir)
+    if manifest is None:
+        logger.warning("WeildBuild is not installed in %s - opening the setup wizard", base_dir)
+        return False, "not-installed"
     ok, broken = core.verify_installed_files(base_dir)
     if ok:
-        return True
-    logger.warning("integrity check failed on %d file(s), running repair", len(broken))
-    installer = core.sibling_tool_path("weildbuild_installer")
-    if installer.is_file() and installer.suffix.lower() == ".py":
-        command = core.python_launch_command() + [str(installer), "--cli", "--dir", str(base_dir)]
-        try:
-            subprocess.run(command, cwd=str(base_dir), check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=1800)
-        except (OSError, subprocess.SubprocessError) as exc:
-            logger.error("repair failed: %s", exc)
-            return False
+        return True, "ok"
+    logger.warning("integrity check failed on %d file(s) - opening the repair wizard", len(broken))
+    if not open_installer(logger, ["--dir", str(base_dir)]):
+        return False, "repair-failed"
     ok, broken = core.verify_installed_files(base_dir)
     if not ok:
         logger.error("installation still broken after repair: %s", broken[:10])
-        return False
-    return True
+        return False, "still-broken"
+    return True, "repaired"
 
 
 def shutdown_handler(signum, frame):
@@ -786,7 +836,19 @@ def main() -> int:
         print("OK" if ok else f"BROKEN ({len(broken)} files)")
         return 0 if ok else 1
 
-    if not ensure_installed(base_dir, logger):
+    installed, reason = ensure_installed(base_dir, logger)
+    if not installed:
+        if reason == "not-installed":
+            if open_installer(logger, []):
+                print("Setup finished. Run the WeildBuild Launcher shortcut (or this script again) from the install folder.", file=sys.stderr)
+                return 2
+            print(
+                "WeildBuild is not installed here and no working Python 3.9+ was found.\n"
+                "Fix: run 'py weildbuild_installer.py' or install Python from python.org (check 'Add to PATH'),\n"
+                "or use the no-Python installer: weildbuild-installer.exe (built by the Rust kit / GitHub Actions).",
+                file=sys.stderr,
+            )
+            return 2
         print("WeildBuild installation is broken and could not be repaired. Run the installer again.", file=sys.stderr)
         return 1
 

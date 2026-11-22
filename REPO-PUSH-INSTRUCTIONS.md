@@ -27,8 +27,11 @@ git push origin main
 ## Notes
 
 - The installer/launcher/updater .py files at the repo root are plain Python,
-  stdlib only. Optional: build .exe wrappers with the kit's build-exe.bat and
-  drop them next to the .py files; the installer prefers the .exe when present.
+  stdlib only. The rust/ folder holds the same tools in Rust: GitHub Actions
+  (.github/workflows/build-launcher-rs.yml) compiles weildbuild_installer.exe,
+  weildbuild_launcher.exe and weildbuild_updater.exe on every push (and on
+  tags/releases) with NO Python required by end users. Drop the .exe files
+  into the repo root or the install folder; every tool prefers the .exe.
 - jsDelivr only mirrors files up to 20 MiB; bigger blobs (the mobile APK) are
   served by raw.githubusercontent.com, which the tools try first anyway.
 - Future releases: run weildbuild_publisher.py (in the launcher kit) against

@@ -11,21 +11,21 @@
   },
   {
    "path": "weildbuild_data/payload/404-image.png.wbenc",
-   "sha256": "3763b4d9f7110f0be3759bc16c0dc70e346f78c7e7f0759a4552bb868b187cc8",
+   "sha256": "1c1fc8375333d062558bf5510f73e76e20567550adfef74d984dbeb724783825",
    "size": 15196,
    "source": "404-image.png",
    "src": "payload/404-image.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/404.html.wbenc",
-   "sha256": "6aed2e8ea8a8ec6db3400800c32e27f512ca6704e8c41d487f601939881b817b",
+   "sha256": "4080ae99e1e0e1e34c8ed39b39f530070ba515df7af75ab553c25704cdc9bdd4",
    "size": 23123,
    "source": "404.html",
    "src": "payload/404.html.wbenc"
   },
   {
    "path": "weildbuild_data/payload/404/index.html.wbenc",
-   "sha256": "ed7c204c3c7e4cfec8589d169507b71d17b7569a1217491324d06ce2632b5a4c",
+   "sha256": "52adcebe2bb8f68dc5174c0bbae122b71647561cfe2780a28d79b3b73cac22b8",
    "size": 23123,
    "source": "404/index.html",
    "src": "payload/404/index.html.wbenc"
@@ -33,1777 +33,1777 @@
   {
    "apk": true,
    "path": "weildbuild_data/payload/WeildBuild-1.0.0.apk.wbenc",
-   "sha256": "cef78c53d2fbceb0304953b73ffecf82be1df0a9ed42a4e614a20f2e37758c21",
+   "sha256": "6e9b8bd48dd90815fa2d4e72589128e3db56e8fbc9780c64a206ba7efff6738f",
    "size": 45510169,
    "source": "WeildBuild-1.0.0.apk",
    "src": "payload/WeildBuild-1.0.0.apk.wbenc"
   },
   {
    "path": "weildbuild_data/payload/__next.__PAGE__.txt.wbenc",
-   "sha256": "8cc778cdf86791ba65c98a079b39eff3198f84dcbf695e6c4f74af8146e86a85",
+   "sha256": "c170a56b2d4ff89827357c2bb1802d1c3ad2d1f2e312054a2441675f1f313b15",
    "size": 1572,
    "source": "__next.__PAGE__.txt",
    "src": "payload/__next.__PAGE__.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/__next._full.txt.wbenc",
-   "sha256": "2886bb32890fcf07347e31b00958e1790a759ffabd9ea9a8c33653a0201113b1",
+   "sha256": "153329738905cc7756cfbdabff5530cfa6eafd7838d13e3cbd4dcfe0b57a51a4",
    "size": 9711,
    "source": "__next._full.txt",
    "src": "payload/__next._full.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/__next._head.txt.wbenc",
-   "sha256": "1287f26a72132ce918db82d8051e9d03679018b4aff40119c22f9ecf0d69a4ef",
+   "sha256": "73ab07e83f0497ee71b27fa50380654e5603db76b5c3a5612946141d138ca617",
    "size": 1523,
    "source": "__next._head.txt",
    "src": "payload/__next._head.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/__next._index.txt.wbenc",
-   "sha256": "9e8c68fad06ded44ee343e6066f560b41107b8ac8be9ff0c6bab8cedccdcd315",
+   "sha256": "a7390b27c0a2ed2ce2b18abca9a36d42ca4b62bdfaf9004d2b5c9e6656b6c04d",
    "size": 5896,
    "source": "__next._index.txt",
    "src": "payload/__next._index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/__next._tree.txt.wbenc",
-   "sha256": "e133b7bdafa5968446b79f47e51c3b004889d5b9b43171066b4de38d16ed0f67",
+   "sha256": "da6681f2aab24bef19b8c6004bc618cdf773cd360796941d8d72f4ddfac10721",
    "size": 328,
    "source": "__next._tree.txt",
    "src": "payload/__next._tree.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/01mm6ro1ctctf.css.wbenc",
-   "sha256": "ff242c708e85f6fb499bf44c51185e8a15ad0ea680ebd2019f0bd0d7b0fc5efd",
+   "sha256": "8dee5bfadc1d429bceb3bd5f77e0b93b2c5f9a311c6707883b0a4dfcc89c3152",
    "size": 219723,
    "source": "_next/static/chunks/01mm6ro1ctctf.css",
    "src": "payload/_next/static/chunks/01mm6ro1ctctf.css.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/05-c3ty_6dwfk.js.wbenc",
-   "sha256": "aef2e934b3eaa5728c69fef8d5063eeef7a4dee24ed1dbb61a1cac3fdb375c0b",
+   "sha256": "d0dd5190cbb6d6a1643b47f48b8a9a8a4d9a5b8ea82214e999c49824a2029c5b",
    "size": 3431,
    "source": "_next/static/chunks/05-c3ty_6dwfk.js",
    "src": "payload/_next/static/chunks/05-c3ty_6dwfk.js.wbenc"
   },
   {
+   "path": "weildbuild_data/payload/_next/static/chunks/084mr3fu9gtg9.js.wbenc",
+   "sha256": "53e3074e5a66ddb81d5ada386e9e62884293d6ee11ea61c556fea7529ebabff1",
+   "size": 29518,
+   "source": "_next/static/chunks/084mr3fu9gtg9.js",
+   "src": "payload/_next/static/chunks/084mr3fu9gtg9.js.wbenc"
+  },
+  {
    "path": "weildbuild_data/payload/_next/static/chunks/0cz1d0mv5g_q7.js.wbenc",
-   "sha256": "0e8a5d9800e45417c5b9f8c1525e4b7acb23ef947ce263b96b338b6334f6e941",
+   "sha256": "21c04e455e8f7c556cbab3eba29c8767ed9c0a3fed51e09bedb9e0dd50ece671",
    "size": 112648,
    "source": "_next/static/chunks/0cz1d0mv5g_q7.js",
    "src": "payload/_next/static/chunks/0cz1d0mv5g_q7.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/0f-n2esjzafad.js.wbenc",
-   "sha256": "2913ad15a2ef8add9b179e57bfea80b3738a000aba4cda5d41aa201ee289c612",
+   "sha256": "2dda1ef19ab20f3a153f0ecdc4abb7297f0b582c5afed3f8881518d8a68aab60",
    "size": 6869,
    "source": "_next/static/chunks/0f-n2esjzafad.js",
    "src": "payload/_next/static/chunks/0f-n2esjzafad.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/0k0b6w9pzw_ki.js.wbenc",
-   "sha256": "ee85d8c5969de1ca4acb20a55c217040fd3b081db317b59b8b97ee85493e08a9",
+   "sha256": "8a9ce36fbe69619dfa077c342e9eca670fe87a122ca561c22006c9eb3b475a9e",
    "size": 50169,
    "source": "_next/static/chunks/0k0b6w9pzw_ki.js",
    "src": "payload/_next/static/chunks/0k0b6w9pzw_ki.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/0kw6-ke1pt323.js.wbenc",
-   "sha256": "016602a253c1973d09a6b655335d2ebfcec5050a9cec0f114a0f115f1837d3ae",
+   "sha256": "db3ab224861525de00741bf7fbb993157292a926b93db0e44b85c91f860c4a1c",
    "size": 56161,
    "source": "_next/static/chunks/0kw6-ke1pt323.js",
    "src": "payload/_next/static/chunks/0kw6-ke1pt323.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/16gtqoylixq9n.js.wbenc",
-   "sha256": "c4411d8c749949de3938e15f00376e0da438ed4e4f5a41a8587638ca0697fdd6",
+   "sha256": "51cf5e6a0fb8a8bbea6e442972a3c63da6ab0f1007c3294723c08d5ecfbb2eb2",
    "size": 13437,
    "source": "_next/static/chunks/16gtqoylixq9n.js",
    "src": "payload/_next/static/chunks/16gtqoylixq9n.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/19hz7sn1bbhqv.js.wbenc",
-   "sha256": "29a906753949761da7f025aa75caab6693668343c2b2fb8e3bc6ec713819f1c5",
+   "sha256": "3f541c06c49a850644eb508ac94d1b4c32f6e7bcb68ef0d0f319bec1101ba5d5",
    "size": 16168,
    "source": "_next/static/chunks/19hz7sn1bbhqv.js",
    "src": "payload/_next/static/chunks/19hz7sn1bbhqv.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/1aidumqvn97kd.js.wbenc",
-   "sha256": "aefc3d04cc1a9ae67521a99a71df20119479cd6fff90dcc2abd67ddd6c3be540",
+   "sha256": "a9f4b0aff29e8adfc69bab577ef94659a9a05d01685a5a537d24879146ea0bea",
    "size": 352104,
    "source": "_next/static/chunks/1aidumqvn97kd.js",
    "src": "payload/_next/static/chunks/1aidumqvn97kd.js.wbenc"
   },
   {
-   "path": "weildbuild_data/payload/_next/static/chunks/1bopmorfz0qjw.js.wbenc",
-   "sha256": "a60b77f507e87d21bddb0c55ce26b2fb508ff3df7ca687880c39eadf449d725a",
-   "size": 29265,
-   "source": "_next/static/chunks/1bopmorfz0qjw.js",
-   "src": "payload/_next/static/chunks/1bopmorfz0qjw.js.wbenc"
-  },
-  {
    "path": "weildbuild_data/payload/_next/static/chunks/1d1w9dvao1h42.js.wbenc",
-   "sha256": "c5b08d5532bac22f62ef7f6b1c3f7979c74aa8c85547c9db3dbe138ee2bdce0d",
+   "sha256": "f965da3308305b017d8965052e9b3c4bc414170fcd3d1a3aa9f22a5dc88a0be1",
    "size": 44000,
    "source": "_next/static/chunks/1d1w9dvao1h42.js",
    "src": "payload/_next/static/chunks/1d1w9dvao1h42.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/1eb-sqafh6qa2.js.wbenc",
-   "sha256": "98267d2527a4f2b47ccf631e4ae7ed8e4a61bc0e350786990102d6f184e199e3",
+   "sha256": "19a350e25365dee1c89f4a739ef733922d24ffeb5d424857320c4ce11c7bac76",
    "size": 24319,
    "source": "_next/static/chunks/1eb-sqafh6qa2.js",
    "src": "payload/_next/static/chunks/1eb-sqafh6qa2.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/1i8bjrextp7qi.js.wbenc",
-   "sha256": "3aeb8ea74757f40016b62247571fffc56557bb39e989f8673e013f3850af6209",
+   "sha256": "fa411f131ecee3704368a3ebee16740307d546e5711b021eb545a7bf4626e694",
    "size": 6293035,
    "source": "_next/static/chunks/1i8bjrextp7qi.js",
    "src": "payload/_next/static/chunks/1i8bjrextp7qi.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/1t055q2h_lgbe.js.wbenc",
-   "sha256": "31346922f3ec29da4b0f949785b9c51771a5a566cf82f1d7f3903e7c593a4423",
+   "sha256": "83cc49aa23ae46a8ebe425dd409bab5345bd2ce9e0ae49a1af8e0a87b063bf2f",
    "size": 14918,
    "source": "_next/static/chunks/1t055q2h_lgbe.js",
    "src": "payload/_next/static/chunks/1t055q2h_lgbe.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/1xtjeaxrx2sn0.js.wbenc",
-   "sha256": "387823dc023a27923427c7b82348beaee07166c28b13983533dffcdf816c4fff",
+   "sha256": "1dfe2fe6864723ae2a6d2b0d6075b19565f5211f413dea6d2e4de94d4d7fe0dc",
    "size": 16204,
    "source": "_next/static/chunks/1xtjeaxrx2sn0.js",
    "src": "payload/_next/static/chunks/1xtjeaxrx2sn0.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/2sii1-4l2ob9j.js.wbenc",
-   "sha256": "950be06aa72c68653ec42412ff736f3f37587d466949dc3a62fd8861d309b509",
+   "sha256": "2c749d43dbcde7862891c60a0565a779b8a6221d68c4adb467ebb09d6fc40aaa",
    "size": 6293035,
    "source": "_next/static/chunks/2sii1-4l2ob9j.js",
    "src": "payload/_next/static/chunks/2sii1-4l2ob9j.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/314o2p8-gaysn.js.wbenc",
-   "sha256": "7f94915a56124b24c88c189a7e0d1d5ebfd03706058e02d2fedad32e28e36702",
+   "sha256": "2446f1036669847c9be9916459c0523ef8c8f76f6615a49c81e4dfb953ef1fa0",
    "size": 54700,
    "source": "_next/static/chunks/314o2p8-gaysn.js",
    "src": "payload/_next/static/chunks/314o2p8-gaysn.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/34avkk1rn-gtc.js.wbenc",
-   "sha256": "4721fa12a77fad64bd85b6ac9638ff01a9c85d6ad6662e2fdca1d7be6ff2e9bf",
+   "sha256": "13691cabd1a70295cea2db33c7d9ba22d53b1638566c858e4c54c74ba9d23ed1",
    "size": 31918,
    "source": "_next/static/chunks/34avkk1rn-gtc.js",
    "src": "payload/_next/static/chunks/34avkk1rn-gtc.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/3jh1u-s3k0bkk.js.wbenc",
-   "sha256": "f9b6efc266853ac75dda4d183071cc371b5a881d7d5dceaeca8dd037bc0f42d2",
+   "sha256": "db2a9214f49d4345a3f1a372fb6c29d8f36ec41828124cc3d4267f9dc47800d8",
    "size": 203438,
    "source": "_next/static/chunks/3jh1u-s3k0bkk.js",
    "src": "payload/_next/static/chunks/3jh1u-s3k0bkk.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/3obfewke3_gct.js.wbenc",
-   "sha256": "83577c9d5d13a58b1dba4841a06c74d28d2f5e33164d46e6a850f153af265121",
+   "sha256": "9a85fae5e46d35d72424238defba0f2f8e17430dab672ffc05604a295f03b156",
    "size": 5418,
    "source": "_next/static/chunks/3obfewke3_gct.js",
    "src": "payload/_next/static/chunks/3obfewke3_gct.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/3rkb7mhvf0pbr.js.wbenc",
-   "sha256": "084a9a5eba2aed410c38e8073f5ac5bf8bddc8680c2808947bb93e736335a3c9",
+   "sha256": "a2968cda7fc2df491e746ffa8dc733e81d614a08044e9cfa95e6fd673bd5b41a",
    "size": 137024,
    "source": "_next/static/chunks/3rkb7mhvf0pbr.js",
    "src": "payload/_next/static/chunks/3rkb7mhvf0pbr.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/3u89emnr38f8z.js.wbenc",
-   "sha256": "22443fb57b557373a346da3933d5cf72d89e63fb972dfd2dc323c4d7e3efe3ed",
+   "sha256": "2cf38f694fba14e368b03230da22d456cdfcc28d6c527972efc7b85d0ae010ff",
    "size": 112702,
    "source": "_next/static/chunks/3u89emnr38f8z.js",
    "src": "payload/_next/static/chunks/3u89emnr38f8z.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/42l61ft34eog7.js.wbenc",
-   "sha256": "80407d112bff5996d5a7f076f682616055c538866cf101590c3daafb4efdd0ce",
+   "sha256": "d98831c7e22018f929354150743ddfe0ab03ff958f6496b47c5846b278b955c4",
    "size": 783,
    "source": "_next/static/chunks/42l61ft34eog7.js",
    "src": "payload/_next/static/chunks/42l61ft34eog7.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_next/static/chunks/turbopack-0dwuar63e99oe.js.wbenc",
-   "sha256": "327027f34e19abd47ee528a24a6f882d89996c20382f255a713266103828bf95",
+   "sha256": "b3c4744ed02bfb7c478e2f9ed2adb41e12a67effbb2e6914c629d8cf7b385f5e",
    "size": 10700,
    "source": "_next/static/chunks/turbopack-0dwuar63e99oe.js",
    "src": "payload/_next/static/chunks/turbopack-0dwuar63e99oe.js.wbenc"
   },
   {
-   "path": "weildbuild_data/payload/_next/static/hqZZjwo_keOsCRpBnfsuA/_buildManifest.js.wbenc",
-   "sha256": "b6c0513644c573209ca008bd01008867684a30323de814ec61a40f087b562739",
+   "path": "weildbuild_data/payload/_next/static/nTMy9L8nNGyc3wr-zzMxb/_buildManifest.js.wbenc",
+   "sha256": "5f5eebd37867cf0d75ee7c2a788331c43c356fbf754b67300ab1895fab14d98d",
    "size": 273,
-   "source": "_next/static/hqZZjwo_keOsCRpBnfsuA/_buildManifest.js",
-   "src": "payload/_next/static/hqZZjwo_keOsCRpBnfsuA/_buildManifest.js.wbenc"
+   "source": "_next/static/nTMy9L8nNGyc3wr-zzMxb/_buildManifest.js",
+   "src": "payload/_next/static/nTMy9L8nNGyc3wr-zzMxb/_buildManifest.js.wbenc"
   },
   {
-   "path": "weildbuild_data/payload/_next/static/hqZZjwo_keOsCRpBnfsuA/_clientMiddlewareManifest.js.wbenc",
-   "sha256": "1416b6d0b15e5c24d3425f1e2e51e245a2f12c72a237d59955240ce8c133a64d",
+   "path": "weildbuild_data/payload/_next/static/nTMy9L8nNGyc3wr-zzMxb/_clientMiddlewareManifest.js.wbenc",
+   "sha256": "877e557010cbcd7565ae9424db07edeae363703ff62caea2cdf9a28a9607e714",
    "size": 150,
-   "source": "_next/static/hqZZjwo_keOsCRpBnfsuA/_clientMiddlewareManifest.js",
-   "src": "payload/_next/static/hqZZjwo_keOsCRpBnfsuA/_clientMiddlewareManifest.js.wbenc"
+   "source": "_next/static/nTMy9L8nNGyc3wr-zzMxb/_clientMiddlewareManifest.js",
+   "src": "payload/_next/static/nTMy9L8nNGyc3wr-zzMxb/_clientMiddlewareManifest.js.wbenc"
   },
   {
-   "path": "weildbuild_data/payload/_next/static/hqZZjwo_keOsCRpBnfsuA/_ssgManifest.js.wbenc",
-   "sha256": "6d0a8a6bbfa847c72160726ddbbed9d7df74be0efa64b14fac8fd44468e5b615",
+   "path": "weildbuild_data/payload/_next/static/nTMy9L8nNGyc3wr-zzMxb/_ssgManifest.js.wbenc",
+   "sha256": "b94bda808179f7cb122790798450a36585d58130f3186eb047a7295b8c9777f1",
    "size": 134,
-   "source": "_next/static/hqZZjwo_keOsCRpBnfsuA/_ssgManifest.js",
-   "src": "payload/_next/static/hqZZjwo_keOsCRpBnfsuA/_ssgManifest.js.wbenc"
+   "source": "_next/static/nTMy9L8nNGyc3wr-zzMxb/_ssgManifest.js",
+   "src": "payload/_next/static/nTMy9L8nNGyc3wr-zzMxb/_ssgManifest.js.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_not-found/__next._full.txt.wbenc",
-   "sha256": "f84a0ebe2be7e7acd5c61007ed55fa5a5ccfa8ab5dda507939767a0ead5d7fda",
+   "sha256": "64510a2e3fbff14e6d44957edea09f11f6e79b9cf80e81c861211695d7b9daed",
    "size": 9779,
    "source": "_not-found/__next._full.txt",
    "src": "payload/_not-found/__next._full.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_not-found/__next._head.txt.wbenc",
-   "sha256": "d95fdf2fbef6c2ca910d1a71759920d3ee33739a48889d0e66cffa0c6dd38598",
+   "sha256": "6c2ee7bce4080390fbb8313989cb8431da9b71f0632d79eae5a7971bc686718f",
    "size": 1574,
    "source": "_not-found/__next._head.txt",
    "src": "payload/_not-found/__next._head.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_not-found/__next._index.txt.wbenc",
-   "sha256": "0ff2f14a7188c72adf215876fbb048d911b10fba5e235278c387dc2a30c696dc",
+   "sha256": "4c7b5af3d547b00783ad593d0e6359e3e27cfac5e81c2b711849af556dd05ea9",
    "size": 5896,
    "source": "_not-found/__next._index.txt",
    "src": "payload/_not-found/__next._index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_not-found/__next._not-found.__PAGE__.txt.wbenc",
-   "sha256": "3cc83e3dbc48199a528a52d9ca7c88b2e53655499e7d452d9d79d94b49d35c0a",
+   "sha256": "6a421335a5a753b61c7d33931f79709121493afc993f78631a69ba0c63c00690",
    "size": 1254,
    "source": "_not-found/__next._not-found.__PAGE__.txt",
    "src": "payload/_not-found/__next._not-found.__PAGE__.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_not-found/__next._not-found.txt.wbenc",
-   "sha256": "6e062966bcf5957e05c5bc7f9375e63abce4e09cd1499a5c3465c6bcdfa54912",
+   "sha256": "4684332cb0e14258cba392eef2b0c9213805dd28abe578c7d380e0fc83c05a74",
    "size": 739,
    "source": "_not-found/__next._not-found.txt",
    "src": "payload/_not-found/__next._not-found.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_not-found/__next._tree.txt.wbenc",
-   "sha256": "cbb47b2fc0acb0e65f21cd098a63b810a69c6cd6831af3b16c7f4a1331a836c9",
+   "sha256": "14d9d14621e3c65b7556dbae11899ffe16b068b8d9f75c8082ad1fd953216644",
    "size": 403,
    "source": "_not-found/__next._tree.txt",
    "src": "payload/_not-found/__next._tree.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_not-found/index.html.wbenc",
-   "sha256": "b74329beb8e8f110ec71db899e64a37650ae5fee6c6398ee475d3f66bc49b18d",
+   "sha256": "e352bce144fa5c4a70b9a9a79ae72664c71704ddb133b3d81e46f6b37b3c9012",
    "size": 23123,
    "source": "_not-found/index.html",
    "src": "payload/_not-found/index.html.wbenc"
   },
   {
    "path": "weildbuild_data/payload/_not-found/index.txt.wbenc",
-   "sha256": "0bd4ce0e9fa07b29278ae2ef93c9eb064aafbd6a1d0cebce373a599445580db6",
+   "sha256": "dabc10fd1b3952eaf39ebcbcadfbd39ef15df90001dde2a8c509625d8a585ef1",
    "size": 9779,
    "source": "_not-found/index.txt",
    "src": "payload/_not-found/index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/avatars/default_avatar.png.wbenc",
-   "sha256": "6162bdd0ebd282806d59e844611142dbbc5735a543875b28c721c4bba03f5815",
+   "sha256": "675681f79afe607d87ae7fa62c2ac4e348980dac1a389e4c30606254bbaa961f",
    "size": 21315,
    "source": "avatars/default_avatar.png",
    "src": "payload/avatars/default_avatar.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/city-map-e2e.json.wbenc",
-   "sha256": "992a885e27fdc5878e814ff523ba1a72f733ae848fa1e333d4a382a699b11ec3",
+   "sha256": "c17a78c1d0536a69e53d5b5164e69d8965732570b750b94b343cc96cfd56d305",
    "size": 3257064,
    "source": "city-map-e2e.json",
    "src": "payload/city-map-e2e.json.wbenc"
   },
   {
    "path": "weildbuild_data/payload/city-map.json.wbenc",
-   "sha256": "84ed518a854f22da3b3d94f7498959de99a1e2f75ada2d81a55a7d6db9cd62f8",
+   "sha256": "966e57927322a266b33296631e5270e802c8cb71d09fb46d9828eccca7022ea5",
    "size": 3257064,
    "source": "city-map.json",
    "src": "payload/city-map.json.wbenc"
   },
   {
    "path": "weildbuild_data/payload/create/__next._full.txt.wbenc",
-   "sha256": "403d597d392f4c5e5ca9303185ac6cb8e33758905e6973e88123a4b2a02983ad",
+   "sha256": "465173fc9cf79db5436e5ccb1f9494c81630dab02f633fa6cc20637065aee52a",
    "size": 9838,
    "source": "create/__next._full.txt",
    "src": "payload/create/__next._full.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/create/__next._head.txt.wbenc",
-   "sha256": "5521e86798a1a7fa3854ca3200fd4c883382f1304be78ab223ef0ec2b6da13bb",
+   "sha256": "2a7880df8454b34406c9c3ac382f852c75541fcd7452479684883fe89b177204",
    "size": 1523,
    "source": "create/__next._head.txt",
    "src": "payload/create/__next._head.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/create/__next._index.txt.wbenc",
-   "sha256": "1bf84f5c3824c6ef4d3db13c3f58052599f84268fe349276d15b264bd6d64ab3",
+   "sha256": "1f6ab86d52d479e8bf29fd3577a0c0ae33c517902a4fb1be3aa5c0a980c6ab94",
    "size": 5896,
    "source": "create/__next._index.txt",
    "src": "payload/create/__next._index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/create/__next._tree.txt.wbenc",
-   "sha256": "b4eae006ba36e9c22f147506fddc09b3935d5465b5d8aa0e4cbe889bfbf066e5",
+   "sha256": "a3fb3810379788c90abc756fac734f8fb0de4830986549e2b5d40777f8366ce3",
    "size": 398,
    "source": "create/__next._tree.txt",
    "src": "payload/create/__next._tree.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/create/__next.create.__PAGE__.txt.wbenc",
-   "sha256": "5640e3c27550519df6496a2edc08666d7e28e2e5a30d265b48edfd16a70910d7",
+   "sha256": "32b5246a8e129319657d86b145f1b059b226a8748c84af5b8d51969c863d4fe9",
    "size": 1318,
    "source": "create/__next.create.__PAGE__.txt",
    "src": "payload/create/__next.create.__PAGE__.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/create/__next.create.txt.wbenc",
-   "sha256": "8a2c8aba16ed94ce9690462da525a5712e3324286fa01df369519096fecfc2eb",
+   "sha256": "58c0eb3df3fbe0d9673f1a34d5ce5ca2d5d04b3010426070be0fc350182b5f83",
    "size": 739,
    "source": "create/__next.create.txt",
    "src": "payload/create/__next.create.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/create/index.html.wbenc",
-   "sha256": "e900ad8c8367a55e4f16c8d73866362d9553b60f762e4aaa7cb30df4cba3b289",
+   "sha256": "62673840b421c577cdf9c3632a7562c922f6d0765965592230ae30156c69041b",
    "size": 23302,
    "source": "create/index.html",
    "src": "payload/create/index.html.wbenc"
   },
   {
    "path": "weildbuild_data/payload/create/index.txt.wbenc",
-   "sha256": "6735bce61a2e7eca85c606003fbba912d66c83139e205be559d95848df2c6cef",
+   "sha256": "aa077aa1f65640d3fe37197f4184a764517a075436d359f41d78c2267606b038",
    "size": 9838,
    "source": "create/index.txt",
    "src": "payload/create/index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/devlogs/__next._full.txt.wbenc",
-   "sha256": "456a4d46c87ea1292db04b85c23cf98606147bafa3461280674ae5e823295fe6",
+   "sha256": "28c77a2e953bf4a5d1b1ab802366329e109c21aade5f01c6a831cd0058d6b62e",
    "size": 34877,
    "source": "devlogs/__next._full.txt",
    "src": "payload/devlogs/__next._full.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/devlogs/__next._head.txt.wbenc",
-   "sha256": "da51916db9493a5b1f71fc7478679842cf4d5b6f8203c284b478383610b5f12c",
+   "sha256": "cd3485052301fb2c0debeea26dbd3e49f3e8b089f9f67a31f2a00c2092a9880b",
    "size": 1483,
    "source": "devlogs/__next._head.txt",
    "src": "payload/devlogs/__next._head.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/devlogs/__next._index.txt.wbenc",
-   "sha256": "28762cf984a8d566fa3d475430d5d199809551cd899d436c4089a0c90705428d",
+   "sha256": "b2f3e31cd2cd2af209088d41a35d9215c1edb26672c63b7bb4774a764a5d2a48",
    "size": 5896,
    "source": "devlogs/__next._index.txt",
    "src": "payload/devlogs/__next._index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/devlogs/__next._tree.txt.wbenc",
-   "sha256": "54e471f592857a008349e85b8b9674d65378e7cb72272137baa310ce6e39ec18",
+   "sha256": "2b8a644709a7910202fade1c17fe1a9aca9a0fd7fb38122812e4b77e669f24df",
    "size": 399,
    "source": "devlogs/__next._tree.txt",
    "src": "payload/devlogs/__next._tree.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/devlogs/__next.devlogs.__PAGE__.txt.wbenc",
-   "sha256": "9cda96fbfca36fdefdfcdd882ceac1f4767b3221eb50d512e9c58e64d2d375d9",
+   "sha256": "a9d077723d3ee61ccbed6364496dd455cfb86ae3afe6eca03292552ee7da9f9d",
    "size": 26377,
    "source": "devlogs/__next.devlogs.__PAGE__.txt",
    "src": "payload/devlogs/__next.devlogs.__PAGE__.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/devlogs/__next.devlogs.txt.wbenc",
-   "sha256": "3b929d5f0ce75027e2bdfa3959416f54fa045a94fee04312ea9079cc4a399e7d",
+   "sha256": "d4d2fb50f7b571832e094e60ecbb498babfcdc5bc5a139bcf40bf9d8a2c3ef40",
    "size": 739,
    "source": "devlogs/__next.devlogs.txt",
    "src": "payload/devlogs/__next.devlogs.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/devlogs/index.html.wbenc",
-   "sha256": "116de164c5a128e054a9c28acab9c055120186bf53f9b9c97e83d6ea539a8fe3",
+   "sha256": "bb88b9e94e967ed4680734d4dce0046e884be1a9e9f8ee85a415d638c6d5c5ad",
    "size": 73470,
    "source": "devlogs/index.html",
    "src": "payload/devlogs/index.html.wbenc"
   },
   {
    "path": "weildbuild_data/payload/devlogs/index.txt.wbenc",
-   "sha256": "b54e3c1b393531e8b2b43595756c19fbaa7d8c564a376a0c8eb4879d52baba67",
+   "sha256": "f03045419e33cdd72d231ea4ddd5f925887a5c806a964f6ce2e355156569bf20",
    "size": 34877,
    "source": "devlogs/index.txt",
    "src": "payload/devlogs/index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/images/build-to-survive-thumb.jpg.wbenc",
-   "sha256": "1e35730abf58e65d1c55cd5626f0d719c642649f148a0bf02a6ad1afa0a6d87a",
+   "sha256": "1c8242ce2bdad3af4aaa53672f5a2cd0c4d3987eeb2f27e3e90419c3a6754e0f",
    "size": 28795,
    "source": "images/build-to-survive-thumb.jpg",
    "src": "payload/images/build-to-survive-thumb.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/images/tower-sword-fight-thumb.jpg.wbenc",
-   "sha256": "6514d429412970257345665cb10033a3b0e602ac7af71208f88e26e07e8f625b",
+   "sha256": "b854e613371d55bc4a5114f6eb690bb971ea12c79fce30b07b4cb96cc15fcb40",
    "size": 33239,
    "source": "images/tower-sword-fight-thumb.jpg",
    "src": "payload/images/tower-sword-fight-thumb.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/index.html.wbenc",
-   "sha256": "3e3d77987171cbc727b65400d1ccf88f80e627a0bd7be8feee4c96150093be00",
+   "sha256": "6dafb6ce2bb787b1cb45787b851fc8ae7ded64f8d6789296bb387efff8a2b436",
    "size": 22899,
    "source": "index.html",
    "src": "payload/index.html.wbenc"
   },
   {
    "path": "weildbuild_data/payload/index.txt.wbenc",
-   "sha256": "a60b82ec835a61151fb4abbc4d21c8880d160a79f7740d91f927cb78d86e5268",
+   "sha256": "c8a8756c081c60e2eadb8b862c9daa85b2837654fecda835209b5589e4100c0d",
    "size": 9711,
    "source": "index.txt",
    "src": "payload/index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-1.png.wbenc",
-   "sha256": "629211188d888e3caadc95f872966dbfcaf73bd91611127cffe73813be51bf45",
+   "sha256": "cf3830e80737ba528225fb9d4076997727fc58e094f09f9e008f49a6b5494dd0",
    "size": 405,
    "source": "items/faces/FACE-1.png",
    "src": "payload/items/faces/FACE-1.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-11.png.wbenc",
-   "sha256": "6bcdae2a7c87ad4dc236330bed1b461381916545d83eea582951d332e00f00a4",
+   "sha256": "9b7dbaecba77f739d5fda5fe5a71d1a8f8bc0424272e07f7700f83c8591452fb",
    "size": 5558,
    "source": "items/faces/FACE-11.png",
    "src": "payload/items/faces/FACE-11.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-12.png.wbenc",
-   "sha256": "4ac75e80493fafdd1cf0425daf900f123e4c476238c7ea50a4f3271088740706",
+   "sha256": "40cdac1d4153634effa0b42a22da517bc18b4ebd12b81f427448d6caf7b7acbe",
    "size": 4002,
    "source": "items/faces/FACE-12.png",
    "src": "payload/items/faces/FACE-12.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-13.png.wbenc",
-   "sha256": "c511950a285bd6b4a96c5b01161460e67c97cd75ce2a6476100c12dd8bdf0f61",
+   "sha256": "e1c5edfbbf3b60a2a19aa30724b46ee4e54602fd8991d7b34c9722b4d8c55626",
    "size": 5421,
    "source": "items/faces/FACE-13.png",
    "src": "payload/items/faces/FACE-13.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-14.png.wbenc",
-   "sha256": "568308bc36674a1b1f8776205a5129572f60cd505b18df03b74662ffb7c25f7c",
+   "sha256": "87e57812a689c682e179e5a2bcd7a2b2de06a831b0fb3d1a37232c55287eb004",
    "size": 3554,
    "source": "items/faces/FACE-14.png",
    "src": "payload/items/faces/FACE-14.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-15.png.wbenc",
-   "sha256": "dec1e9ab59c4f362daf17f5c5519f4251f8ae13d8597e133c165c983000580b4",
+   "sha256": "434ea696114c414338dd46b278d52815826f3d00c23e6d99a0bfba05fec9c0f9",
    "size": 451,
    "source": "items/faces/FACE-15.png",
    "src": "payload/items/faces/FACE-15.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-16.png.wbenc",
-   "sha256": "650eca9910405c9d5ba5896dce23baf2c67d8dfbf1be99351eda4a1dc41d4d32",
+   "sha256": "64c82818358085da95f11d07f33d807ff17ce07318885f902fef3adf6fd7b839",
    "size": 8054,
    "source": "items/faces/FACE-16.png",
    "src": "payload/items/faces/FACE-16.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-17.png.wbenc",
-   "sha256": "a106cbae12487438e3701371fefe7eac4a3e5e2c16a9ca05c9e8269f40c2709f",
+   "sha256": "4ab34fd9a32e66599e3f76fadf8a05c740867c7930c98151fe43caaa7f436d5e",
    "size": 14407,
    "source": "items/faces/FACE-17.png",
    "src": "payload/items/faces/FACE-17.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-18.png.wbenc",
-   "sha256": "1856f51c694b74d80ffc70e7fcb51c59b6612e0e5f3c19d8393afcc5a9356b23",
+   "sha256": "1690c6aae134c01c94dc885ace635f858fde43aba5f951323ea2b89d8707f137",
    "size": 8627,
    "source": "items/faces/FACE-18.png",
    "src": "payload/items/faces/FACE-18.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-19.png.wbenc",
-   "sha256": "f01528a73f1a37248efef8a0c7aa6c642861b23b457fc5250556190c6378a75b",
+   "sha256": "43ae1efb1f04e6f4eb9e7140b12d85027180250a8911873cd414297991a77bc8",
    "size": 605,
    "source": "items/faces/FACE-19.png",
    "src": "payload/items/faces/FACE-19.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-2.png.wbenc",
-   "sha256": "73e5eaef12d59c3713c24babf8aaafa078dc43b767cc6cb8a5de6edb72200d24",
+   "sha256": "a982f32c2e86cb60ea11768f7c093bc8f0c06b2090eb3fc6be4b26f644a0c3fe",
    "size": 468,
    "source": "items/faces/FACE-2.png",
    "src": "payload/items/faces/FACE-2.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-20.png.wbenc",
-   "sha256": "9d8c9932adaff406e4eaa3097b00c5611321391bb9c1e734f49e682078d79419",
+   "sha256": "56e3999d8ef6ea7eaed8b57f7e210d4d760584123228e2d28ede22cc84f666b3",
    "size": 494,
    "source": "items/faces/FACE-20.png",
    "src": "payload/items/faces/FACE-20.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-21.png.wbenc",
-   "sha256": "ce8c97b03c7abb6073e5708b2fce118f3de2fd2e6b3b79905ed2bd72bc43af48",
+   "sha256": "d96dc55329472f6a10aa3251fde17820f5982bb2c01a84802ba04125cb378411",
    "size": 1046,
    "source": "items/faces/FACE-21.png",
    "src": "payload/items/faces/FACE-21.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-3.png.wbenc",
-   "sha256": "fe51fade77eb1945d57a36574a5485c66c87baf340ae100b64431c76979bc38b",
+   "sha256": "8c3a67e7a1b82c129a4e849d3ee0db360a2530df406929efcb4f3b1fcb7c4c06",
    "size": 4642,
    "source": "items/faces/FACE-3.png",
    "src": "payload/items/faces/FACE-3.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-4.png.wbenc",
-   "sha256": "6ede8fa9122fceac374887cd9d7af3e0166dfe71bc25b73ff89fea05603cea60",
+   "sha256": "602dc60cb0fc1a3d36544a8535bfa0679a9c4a0e1b7ff8a74775b36ef1e99df4",
    "size": 2784,
    "source": "items/faces/FACE-4.png",
    "src": "payload/items/faces/FACE-4.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-5.png.wbenc",
-   "sha256": "608d0b0540699eb9605cedb5d14cbf6bf57ce9309b20bf34abbc42363527aad6",
+   "sha256": "bdd0df86bbf906446ffd58d1bb37837e6e3f2c2c6696a304f35c158945f9d743",
    "size": 494,
    "source": "items/faces/FACE-5.png",
    "src": "payload/items/faces/FACE-5.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-6.png.wbenc",
-   "sha256": "9f041a56305d2ac827275cebaf8f8bc143f3a3c628b264ab58745e45ed0c484f",
+   "sha256": "bb010955b9bbda7dfded1fdbe366ee6004431e89a1db45d0dba26aadcc18fcc9",
    "size": 2771,
    "source": "items/faces/FACE-6.png",
    "src": "payload/items/faces/FACE-6.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-7.png.wbenc",
-   "sha256": "e8f9632f6076806c2fe9a8360578fc0eff4f5deed05cd8d67ef083cf92cb57ab",
+   "sha256": "d868d65c8336ecfa0a17ab1440ff6d9f93edb596bb304423bdbf88623ec18b58",
    "size": 2727,
    "source": "items/faces/FACE-7.png",
    "src": "payload/items/faces/FACE-7.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-8.png.wbenc",
-   "sha256": "a68da79376ea622c9d03f34b6a1c2775437f60a0ce8330bfdde8615639442b97",
+   "sha256": "77bce0a6b4675cc1646f9f0ca9f031261219966352afcdc971ebfaaf968ad0e6",
    "size": 2222,
    "source": "items/faces/FACE-8.png",
    "src": "payload/items/faces/FACE-8.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/items/faces/FACE-9.png.wbenc",
-   "sha256": "7644844ac79c5a41ba3efa35abec8464ade70e677cbb0ab4cc54fe045af9e2ae",
+   "sha256": "452b960097a281b5cf840678030f3fee3130deddba23d9aaf38b227946c2b155",
    "size": 3434,
    "source": "items/faces/FACE-9.png",
    "src": "payload/items/faces/FACE-9.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/logo.png.wbenc",
-   "sha256": "44ad73d2d1a474773048dd6caf7bca9f01b5d64f94138a5eb3cae0f67602518b",
+   "sha256": "2929701714ea96cad8bc0d2072b6af7dacc3520c1c3c62be4d79d5038d7ca83c",
    "size": 40643,
    "source": "logo.png",
    "src": "payload/logo.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/logos/icon-192.png.wbenc",
-   "sha256": "fa496782986d70fd2482ab3df7141c6e0382f7b9cb4e15c2124b0429cad9faae",
+   "sha256": "3f700741436d10f2fca5f2d24bd90f57708248118c8251bad3d4b53c98cd5f32",
    "size": 23033,
    "source": "logos/icon-192.png",
    "src": "payload/logos/icon-192.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/logos/icon-512.png.wbenc",
-   "sha256": "85ff76981a838e1f09dc489b452d26c063a48272ce931e0cc0668e8671376558",
+   "sha256": "3f3566b95f52b6af08cced329e2a3599b35bbf6bcb46ff649a24110ddfa56730",
    "size": 55747,
    "source": "logos/icon-512.png",
    "src": "payload/logos/icon-512.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/logos/logo.png.wbenc",
-   "sha256": "3fb47184a81ec934300e7a03d674f46545fd7f30b5d5e40bc1695e7057a16ea2",
+   "sha256": "8e35040cedec43bddcc110f9fd1b51d530c238874617ce9c63b4de17cb49668d",
    "size": 40643,
    "source": "logos/logo.png",
    "src": "payload/logos/logo.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/logos/text_logo_retro.png.wbenc",
-   "sha256": "5f038c679186c743e680f21442ec27b2360256fd99dc8cefe1ac00418c71336d",
+   "sha256": "5e1dae03ad8784da427f7294a848dbaeeecdb74960740b371d71d95c18eb682a",
    "size": 7597,
    "source": "logos/text_logo_retro.png",
    "src": "payload/logos/text_logo_retro.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/logos/text_logo_simple.png.wbenc",
-   "sha256": "58a2e030bc3de836ebf311b67e11caf8a6e050a410ead9ec7286d9b0a4c8defc",
+   "sha256": "1d071d9d2caa1b3e2ff973742f0cddba6f804c796faf2b72096a14f88fdd687b",
    "size": 79211,
    "source": "logos/text_logo_simple.png",
    "src": "payload/logos/text_logo_simple.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/manifest.webmanifest.wbenc",
-   "sha256": "1e8f397b00e3688e38fad38cf043fa5cdc9bcaba0e6cdb9ffb77d30e38dc6a58",
+   "sha256": "1f315b67739b013e460861547145683358660e5fa4e4cd25ff1a5d0fa5a8779c",
    "size": 804,
    "source": "manifest.webmanifest",
    "src": "payload/manifest.webmanifest.wbenc"
   },
   {
    "path": "weildbuild_data/payload/privacy/__next._full.txt.wbenc",
-   "sha256": "0310ba1cc3d66bfa499a833e32d4fd3106a616ad494db990ec635d19c360ef3e",
+   "sha256": "4968c4c4dc230657a91d5ca89e4a7cfa72325295a92671ec52def17c4485ba5a",
    "size": 24850,
    "source": "privacy/__next._full.txt",
    "src": "payload/privacy/__next._full.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/privacy/__next._head.txt.wbenc",
-   "sha256": "584afdeac01585b319d0eb4cc657399de1812e90dbcf71a5e053181b01ac9724",
+   "sha256": "fcfbc8592f67e3bae76ddef41b1e03117d9d5656bfb64bd045841eba41575fb5",
    "size": 1499,
    "source": "privacy/__next._head.txt",
    "src": "payload/privacy/__next._head.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/privacy/__next._index.txt.wbenc",
-   "sha256": "7582076f007a6821ea9dbdd6a48f87188ab54a38f0f72f9a2190a7042a4ea9fd",
+   "sha256": "31eb8cc8acbb11682eb340b49d9313042faa1c350c6a07cf7975b51af65d0dcf",
    "size": 5896,
    "source": "privacy/__next._index.txt",
    "src": "payload/privacy/__next._index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/privacy/__next._tree.txt.wbenc",
-   "sha256": "91e78b9641237e9f61af261402a8f7dd3ac06cfea77eacb97cba5a329c4c2546",
+   "sha256": "feab06606a069df9dc1e5e207386fed9ef4743f5e0c854d357368fc218144915",
    "size": 399,
    "source": "privacy/__next._tree.txt",
    "src": "payload/privacy/__next._tree.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/privacy/__next.privacy.__PAGE__.txt.wbenc",
-   "sha256": "598069c8c4392a1599a54733b04a675674229742f20967470e7e9ea58bab6ab2",
+   "sha256": "9c580430a07450eaaf2c3539266bb4173eeea1ec58ba5f61b60b061045c53bd0",
    "size": 16354,
    "source": "privacy/__next.privacy.__PAGE__.txt",
    "src": "payload/privacy/__next.privacy.__PAGE__.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/privacy/__next.privacy.txt.wbenc",
-   "sha256": "8d00a356a12b88b2bdd12ef71993ed9f79f31a3a7eb7413cc4defef07287e7fd",
+   "sha256": "0a5d3ed4e4fbde185d2c65d75e51876ea76c10fd503bbdb3396185702ad7e22d",
    "size": 739,
    "source": "privacy/__next.privacy.txt",
    "src": "payload/privacy/__next.privacy.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/privacy/index.html.wbenc",
-   "sha256": "c0f186b9e4c7908a723be75d5cd51af3bdb4db6de687ffcd4d130f1f7b9717f0",
+   "sha256": "7a1181c00a62d64e5f4daa6ab73ef2df9819f2d1183ead09176f8f03ca44fb90",
    "size": 55848,
    "source": "privacy/index.html",
    "src": "payload/privacy/index.html.wbenc"
   },
   {
    "path": "weildbuild_data/payload/privacy/index.txt.wbenc",
-   "sha256": "ebd9460cb960908be1364097d4fbc90f2a29acfa16770316f0b60beed32bef3b",
+   "sha256": "6a9878e6e21d1cb5d19033a84b0e9583c703b68744b0cd7f46509946b1d82c76",
    "size": 24850,
    "source": "privacy/index.txt",
    "src": "payload/privacy/index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/robots.txt.wbenc",
-   "sha256": "9980db4e0b3a0a1c05da6eb2357f8bb64a2efa6a6ffc9dd6363b5ba0fd9f1658",
+   "sha256": "0f65bff8a665f538ae0f5c9a480920db37cdc108b2045e5eb1324637e93306e8",
    "size": 214,
    "source": "robots.txt",
    "src": "payload/robots.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/rules/__next._full.txt.wbenc",
-   "sha256": "8e80cb833a99cd75066ea20e8ade320db5ed4ee2e91b0c8d7c7dc00b7f5b50ea",
+   "sha256": "0643c8d3a569a34393361b63c5fc5e1a0e732ecf6e508d57c12ffab663ab847f",
    "size": 19570,
    "source": "rules/__next._full.txt",
    "src": "payload/rules/__next._full.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/rules/__next._head.txt.wbenc",
-   "sha256": "1a266d0bb233909cb8d476b3fc771639cd9770c0ac6e9111ed6d2d709c2a70a6",
+   "sha256": "f0e636b6d89b8a572cb19db96974390d3588205de56a1d715283a51b0e77bb2a",
    "size": 1501,
    "source": "rules/__next._head.txt",
    "src": "payload/rules/__next._head.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/rules/__next._index.txt.wbenc",
-   "sha256": "96e70f4df7ec0e842c291e4a4612eb27bf1698e1b902d25b26c5f3d1de2db76d",
+   "sha256": "bd98362b62e30b8bb8a05a8a7847be76c1ddeea375e2d33785d3b7deb4abda05",
    "size": 5896,
    "source": "rules/__next._index.txt",
    "src": "payload/rules/__next._index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/rules/__next._tree.txt.wbenc",
-   "sha256": "2b18147f51f80304bc6becd5c7533a55930dfe3f238d9bcdbdb5f37a0133eac9",
+   "sha256": "4056795c4552579286df6620651121ab0e2ae281fc5ff0085f80e60d68a5251b",
    "size": 397,
    "source": "rules/__next._tree.txt",
    "src": "payload/rules/__next._tree.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/rules/__next.rules.__PAGE__.txt.wbenc",
-   "sha256": "e2605e8a84ab4e21eba42b51677269dc26d216b26c656c1373719e0f6e22bb02",
+   "sha256": "4b0fb5959d78cfff28016393603ede5a38bce0a4e6b500e04553cdd6fc0057f4",
    "size": 11054,
    "source": "rules/__next.rules.__PAGE__.txt",
    "src": "payload/rules/__next.rules.__PAGE__.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/rules/__next.rules.txt.wbenc",
-   "sha256": "2484471a3c9d12ee702015a21c2e8033591d3d297043dd6ea7b24b402db657db",
+   "sha256": "10adb96b2518a7fc37d923125b82ae03993ebc232df0800eafb0e49be22dd35d",
    "size": 739,
    "source": "rules/__next.rules.txt",
    "src": "payload/rules/__next.rules.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/rules/index.html.wbenc",
-   "sha256": "62283e781ff6791acbed5be19a172f3dae2103e609168710c662df205ef162bd",
+   "sha256": "4ffdaaabb021863714c448be91bd01ef77dc768054a3634ca03ef10209dc306f",
    "size": 45740,
    "source": "rules/index.html",
    "src": "payload/rules/index.html.wbenc"
   },
   {
    "path": "weildbuild_data/payload/rules/index.txt.wbenc",
-   "sha256": "7c12bfccbe0d407a58684865bf0b16835e2538cd236b6b22a98a60609a612352",
+   "sha256": "eaae2da64432e94c7c47a50f30a6888a2653e3844f92588f7ae91b94db933b1b",
    "size": 19570,
    "source": "rules/index.txt",
    "src": "payload/rules/index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/build-to-survive/break.mp3.wbenc",
-   "sha256": "d3af6ea5b2d58d2b6f467ab53998dff3216fb1665a2c141020399d8eabe62c98",
+   "sha256": "7d21718345a502e7fd676fdc7da76995ae3fa620f344eb068488a7a45ccda95d",
    "size": 10085,
    "source": "sounds/build-to-survive/break.mp3",
    "src": "payload/sounds/build-to-survive/break.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/build-to-survive/claim.mp3.wbenc",
-   "sha256": "3b877f63210538a1b1518f51c4a7b16d32fc58a35def86b8efc5d17d710f7827",
+   "sha256": "713e7a7aae6a6f785633c0fc6400551c4f8b9ef7e1108022e90fa14b0cb9794f",
    "size": 5069,
    "source": "sounds/build-to-survive/claim.mp3",
    "src": "payload/sounds/build-to-survive/claim.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/build-to-survive/disaster_warn.mp3.wbenc",
-   "sha256": "179457fe3b77861ed08c6b796c00a6e0fc98cc2dd47f87c6cb787c900685f344",
+   "sha256": "1fa4eb68006c2e38a1431e3bcbf4ad0086eb11d8e2c19493ca60415d40eaf7c8",
    "size": 321846,
    "source": "sounds/build-to-survive/disaster_warn.mp3",
    "src": "payload/sounds/build-to-survive/disaster_warn.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/build-to-survive/place.mp3.wbenc",
-   "sha256": "b8cab36e91195535ba7616cecf871583018457d8b3c26937b7e336f844305ee6",
+   "sha256": "5be3fdb9eb48748c1bde1446622b69c8c3d41d0542c6682c77569a30c2822503",
    "size": 37686,
    "source": "sounds/build-to-survive/place.mp3",
    "src": "payload/sounds/build-to-survive/place.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/build-to-survive/survive.mp3.wbenc",
-   "sha256": "68054b40b381a7b21abca8e3924b6bc6734206f8740173234eee9d649daf2911",
+   "sha256": "40c813141d3dedc1e56edb4ab97cd5bce8bb0df95d21d74ca530b0a7c5121c69",
    "size": 29311,
    "source": "sounds/build-to-survive/survive.mp3",
    "src": "payload/sounds/build-to-survive/survive.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/build-to-survive/zombie_attack.mp3.wbenc",
-   "sha256": "249b710d856300ebdd849240ebb804161aab408d7566637a3a9d2ccee528d5c9",
+   "sha256": "a8128eb44169d65550d931f76e09328c8156a30a9d870733ccf08bfb5f11fceb",
    "size": 16854,
    "source": "sounds/build-to-survive/zombie_attack.mp3",
    "src": "payload/sounds/build-to-survive/zombie_attack.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/build-to-survive/zombie_sound.m4a.wbenc",
-   "sha256": "63d66c8cb22ada6cd25b9f24910990d3563feb228322e4b35c98af099fbce7d8",
+   "sha256": "2350f091f90738fbbf0a921645fbbb066763ec97147ac4f0e2ba6174affce9d8",
    "size": 73569,
    "source": "sounds/build-to-survive/zombie_sound.m4a",
    "src": "payload/sounds/build-to-survive/zombie_sound.m4a.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/effects/click.mp3.wbenc",
-   "sha256": "fb865f0d17e63a2f35eb2dd4a0067f38cad14edddb04b4ac640c3c1655065c4a",
+   "sha256": "f8cfee3bcb8e3e220c4fe71b4aed2b0e656a2a481e3130b3f3f00dd6d9b8c88a",
    "size": 5069,
    "source": "sounds/effects/click.mp3",
    "src": "payload/sounds/effects/click.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/effects/death.mp3.wbenc",
-   "sha256": "c0bc2f9c749a586153165bfda966a60e0f1f5173c8a10e0c0ebee31bb42ee86e",
+   "sha256": "0dfb298f05ea532016ddda2b581e8a4f3966f354f306850d25c03ed89662b719",
    "size": 49635,
    "source": "sounds/effects/death.mp3",
    "src": "payload/sounds/effects/death.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/effects/explosion.mp3.wbenc",
-   "sha256": "fd62bac5175378165f3772ab5be97c9699318ba2d20b60cd9551e3a7c8e5b451",
+   "sha256": "18d1c3bb8da4f76c1b98b5db6856332c70d708315e0f624ffa7bb0d36e6d3d5e",
    "size": 49635,
    "source": "sounds/effects/explosion.mp3",
    "src": "payload/sounds/effects/explosion.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/effects/install_error.mp3.wbenc",
-   "sha256": "0cb8ccf4dbac7a1e2da747314b494c205fa46900c5e9d59e62cd0e3aa4ed9573",
+   "sha256": "7b9d1f98de9e2febb608a80ddbd8a780339df4ace6950b6bc77616655d5f000f",
    "size": 12174,
    "source": "sounds/effects/install_error.mp3",
    "src": "payload/sounds/effects/install_error.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/effects/install_success.mp3.wbenc",
-   "sha256": "c49b14b2f60379f370f8ac0ad656925461561b4451c8392b2be42b177862fa8b",
+   "sha256": "c1eb8676e19e243681ac8a97eacc561a00af49d3620827d23dd23af7d3e5aa52",
    "size": 43939,
    "source": "sounds/effects/install_success.mp3",
    "src": "payload/sounds/effects/install_success.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/effects/jump.mp3.wbenc",
-   "sha256": "9e2b710d9e0b0337ee45ffde74339fa5c5b66b71acb4ec9ad1eb3cb9767237ff",
+   "sha256": "545454007d1b9cad2ca58cca6a0f94557efdbd4d2d98a6ed3c0f86c3407dec4e",
    "size": 11574,
    "source": "sounds/effects/jump.mp3",
    "src": "payload/sounds/effects/jump.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/effects/scary_laugh.mp3.wbenc",
-   "sha256": "020f9cb9c330dd9005e7486359ffbe3e97a7013d2e7bb27b0aace7b13ee6e9a0",
+   "sha256": "d2535c73e2802938d46b2b343882656e582ed4b58958da7b5ff8ef87be690f4e",
    "size": 224916,
    "source": "sounds/effects/scary_laugh.mp3",
    "src": "payload/sounds/effects/scary_laugh.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/effects/scream.mp3.wbenc",
-   "sha256": "f461a6e779d9196412fab93f6623a0beca7b03f6afd01c4024b75574f60e60b0",
+   "sha256": "bafb16f6bffe3e0339733135570a506a2119f2aa3ace2bdc1522ad95a131f2d7",
    "size": 62747,
    "source": "sounds/effects/scream.mp3",
    "src": "payload/sounds/effects/scream.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/effects/used_tool.wav.wbenc",
-   "sha256": "227ceaeb9231fa37aafd26655b0595fb03c096ef432eeec03b933833111b9e96",
+   "sha256": "70bca3c633491f7188efa0f4241928c8ab4de6a5b4a9ab1d84a6f8e76302e8e1",
    "size": 105938,
    "source": "sounds/effects/used_tool.wav",
    "src": "payload/sounds/effects/used_tool.wav.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/effects/walk.mp3.wbenc",
-   "sha256": "57a20a71e2da90268f3f38b6a3a01de6e5cb38bd60a6c7cd94e87152bd6db28e",
+   "sha256": "822551a99d578b00a1a17f5bba7058a19c30f5ff187eee3f1ed26a3f9de41bce",
    "size": 6323,
    "source": "sounds/effects/walk.mp3",
    "src": "payload/sounds/effects/walk.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/tower-sword-fight/bazooka_shoot.mp3.wbenc",
-   "sha256": "107a51ca8200f73ba86b5da57c1ea16eb04a18e746c64c080c1c81346a2864fa",
+   "sha256": "d4a0e33971b515bd89b3417a0d71ca388416158c29c59598aacbc1dbfa25cfe3",
    "size": 76086,
    "source": "sounds/tower-sword-fight/bazooka_shoot.mp3",
    "src": "payload/sounds/tower-sword-fight/bazooka_shoot.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/tower-sword-fight/draw_regen_staff.mp3.wbenc",
-   "sha256": "f9d5202268c9fbdbb183730ed95f2a0b633390bd00b73bb8608cc21a278723d0",
+   "sha256": "8ff3f700cea84d881792bed3100b2e345373a596da9605a998d2d71d6e157800",
    "size": 65334,
    "source": "sounds/tower-sword-fight/draw_regen_staff.mp3",
    "src": "payload/sounds/tower-sword-fight/draw_regen_staff.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/tower-sword-fight/draw_sword.mp3.wbenc",
-   "sha256": "c2ab658539fc26066765d019c5a777cfa10ba06f8e56aa480106f1dd9061db38",
+   "sha256": "c28785a889cc640312ae339b3bd68ae979dbd897a52d26ecea03628e0e7d749c",
    "size": 35094,
    "source": "sounds/tower-sword-fight/draw_sword.mp3",
    "src": "payload/sounds/tower-sword-fight/draw_sword.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/tower-sword-fight/grap_hook_select.mp3.wbenc",
-   "sha256": "f82941edf9e128ae645bacdcfa909a4c2c8c99bc403841394d1c36066b3b76e7",
+   "sha256": "3c7fe1ec21781f29690eced5857a6d1d6a09116a7ee586b7ff35b7f0cbc91583",
    "size": 30983,
    "source": "sounds/tower-sword-fight/grap_hook_select.mp3",
    "src": "payload/sounds/tower-sword-fight/grap_hook_select.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/tower-sword-fight/hook_shoot.mp3.wbenc",
-   "sha256": "05d79fea6ba903e0898549d0395a1e6d3d199fa9cd29c50f10fee7f79178139d",
+   "sha256": "bf153c88e9195c7121c166cc91760271feba7190f4946f09adeedc407bd17142",
    "size": 3397,
    "source": "sounds/tower-sword-fight/hook_shoot.mp3",
    "src": "payload/sounds/tower-sword-fight/hook_shoot.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/sounds/tower-sword-fight/sword_use.mp3.wbenc",
-   "sha256": "3a35e8a9ecd7d2f9b861e92381093997d0f119678bbac0066417ce980be77fba",
+   "sha256": "0a7fbd24af3a86c52baba5b48ac43b055819dedfdbc84780ab0e201790cdcfcc",
    "size": 16854,
    "source": "sounds/tower-sword-fight/sword_use.mp3",
    "src": "payload/sounds/tower-sword-fight/sword_use.mp3.wbenc"
   },
   {
    "path": "weildbuild_data/payload/splash-texts.json.wbenc",
-   "sha256": "986d8f6498177714c915050b06203dd00e6be7fc0f1cee0e5045cd1e8894c657",
+   "sha256": "f32149c03ab6c9a16e8c8784df1c67e5576dbbbd0d077cc2c650795cc36a975b",
    "size": 4261,
    "source": "splash-texts.json",
    "src": "payload/splash-texts.json.wbenc"
   },
   {
    "path": "weildbuild_data/payload/splashscreen.html.wbenc",
-   "sha256": "44fd93f9b2951c58b1e29aff39f85d6d829f4ff29e641d60b5c00294e60f52d2",
+   "sha256": "9e9f014b10025f69e07f4e1fea2e5dcc33bcde09ad3298ec737462d18289aaaa",
    "size": 15642,
    "source": "splashscreen.html",
    "src": "payload/splashscreen.html.wbenc"
   },
   {
    "path": "weildbuild_data/payload/studio/__next._full.txt.wbenc",
-   "sha256": "ed917eb63068ae81623fa37576ec84121d13de1560c3432dd8d2afdfa79e1265",
+   "sha256": "43e6d0878585f4323f581977b62c0a289656de3476560c8184f12826df69dfdd",
    "size": 9838,
    "source": "studio/__next._full.txt",
    "src": "payload/studio/__next._full.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/studio/__next._head.txt.wbenc",
-   "sha256": "4859220cc081c9a3d28757e71bf813cec226ccd3fad3d4efb9f0b8a1998ea887",
+   "sha256": "f6fc2d1f2b8fd2d3ecc7fd5a0be854f30e76ca31b68891722b4dc5c16a616619",
    "size": 1523,
    "source": "studio/__next._head.txt",
    "src": "payload/studio/__next._head.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/studio/__next._index.txt.wbenc",
-   "sha256": "1f423ec1f811e899b98d807c4e5ef2179217d58745ea3adc1896b09c879c5d53",
+   "sha256": "461badbbb5d313e8e7fe7e893838f92e17243966a58470787b99a726a58907d3",
    "size": 5896,
    "source": "studio/__next._index.txt",
    "src": "payload/studio/__next._index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/studio/__next._tree.txt.wbenc",
-   "sha256": "deba43de34d26c9b06f93cabfdf6333e5050485ed3c07bd7a550b6c134340a90",
+   "sha256": "578db7cdc07331f36b6e5ec2d089e5c5ca668459d755022c99a9a56ed29f6822",
    "size": 398,
    "source": "studio/__next._tree.txt",
    "src": "payload/studio/__next._tree.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/studio/__next.studio.__PAGE__.txt.wbenc",
-   "sha256": "06693fd968a54a52f7e5617c9e6f756643dabac4d2226aab8a6939dc547434f1",
+   "sha256": "d376ec9a4f34064981e219e96ea4b85593436cd127ccb09971227e4119035850",
    "size": 1318,
    "source": "studio/__next.studio.__PAGE__.txt",
    "src": "payload/studio/__next.studio.__PAGE__.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/studio/__next.studio.txt.wbenc",
-   "sha256": "94ae18b71e6d5ecc6c49dbdaa17d05e3d66fa3e2af565ea0dc376638c02a3c4b",
+   "sha256": "47a0b7c4dd62e6e897b85d2cab3639ab5348513df477250967a1051d6f0a68cb",
    "size": 739,
    "source": "studio/__next.studio.txt",
    "src": "payload/studio/__next.studio.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/studio/index.html.wbenc",
-   "sha256": "f164d2cfa9a08d7f61782016cca8774150d368e74c97065f00ce092e4f4fff0b",
+   "sha256": "c203c752cfbe692cfe655ac838822ad570e3b771159efa809d992be96ffba145",
    "size": 23302,
    "source": "studio/index.html",
    "src": "payload/studio/index.html.wbenc"
   },
   {
    "path": "weildbuild_data/payload/studio/index.txt.wbenc",
-   "sha256": "94e1e039bfaf624d58b849e07ad90bdf2d28f45e8346f1086685aa8102e09d69",
+   "sha256": "19dd1cbc3c5541519a046f2bb795d23c3f2ff86fa72e2ddc11f0fa19e35e7dfe",
    "size": 9838,
    "source": "studio/index.txt",
    "src": "payload/studio/index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/terms/__next._full.txt.wbenc",
-   "sha256": "7a3de750f78b18220638d7c91a4b87b6961f7dadf481001f3d961f4cd54f5f02",
+   "sha256": "90bcff37ccfb77644d5385e79034870ea84759b094f5221e4c8975436c7c6b55",
    "size": 20716,
    "source": "terms/__next._full.txt",
    "src": "payload/terms/__next._full.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/terms/__next._head.txt.wbenc",
-   "sha256": "df3e6ccb9966e5945e5cc76ee656063d2b0a1979d31ab4bde790b0b80d1aa0a0",
+   "sha256": "516f89c9cafabc2ed4c17d437497a4cb04ce9667839e0db7448c9911c68ba0a1",
    "size": 1479,
    "source": "terms/__next._head.txt",
    "src": "payload/terms/__next._head.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/terms/__next._index.txt.wbenc",
-   "sha256": "19e861f70a9182efb451e09bbdb2de36c32d5c7b4f574e6cf6cb9469a0a6daee",
+   "sha256": "e20e8e62fe8512f44c73c6c73a98745c96c72e027290675209dfdc482edafe86",
    "size": 5896,
    "source": "terms/__next._index.txt",
    "src": "payload/terms/__next._index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/terms/__next._tree.txt.wbenc",
-   "sha256": "57a8297de7119915898d4f09f7e21a3410badd19fedfd80c47a2f0baa0d7efd9",
+   "sha256": "1164c98a6f0545958e82a0dd3ccc5d9eae54d9aa409893b0ce87cdab758e35d4",
    "size": 397,
    "source": "terms/__next._tree.txt",
    "src": "payload/terms/__next._tree.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/terms/__next.terms.__PAGE__.txt.wbenc",
-   "sha256": "00ccbc89c0d9bc81ad75a4ea1e9931929b8fce8236cf766f24e877c15f81d291",
+   "sha256": "8c16e0198e935c5381e59a740af68c1428728e9066a4d74d64338eb5f6767736",
    "size": 12224,
    "source": "terms/__next.terms.__PAGE__.txt",
    "src": "payload/terms/__next.terms.__PAGE__.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/terms/__next.terms.txt.wbenc",
-   "sha256": "e8313fd08e33f3526776a342e5e30786eba74084f280d843f3e9d5b6a3bbefc3",
+   "sha256": "a90094cdd3d3ba1bb58b498c275b2aacdb682f8a2372d6173ef1e067199c569c",
    "size": 739,
    "source": "terms/__next.terms.txt",
    "src": "payload/terms/__next.terms.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/terms/index.html.wbenc",
-   "sha256": "4d5c18ce28b8ce46bb48d067730d12fbfcaf0af9b889855ffe09167e5fd50605",
+   "sha256": "9837703550b0daf3c64b4419a19189ea254bdcb011781bb447d92df0b4a96227",
    "size": 48227,
    "source": "terms/index.html",
    "src": "payload/terms/index.html.wbenc"
   },
   {
    "path": "weildbuild_data/payload/terms/index.txt.wbenc",
-   "sha256": "950f602e8ba348601ce334a1a383b2d2e018ea748c94d7c4cce0b0493d036dfe",
+   "sha256": "9f6ab6e9f5bf2c42e67f7f81b1e38b82839c47124d5f571aa3cd8f2fd78dc460",
    "size": 20716,
    "source": "terms/index.txt",
    "src": "payload/terms/index.txt.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/brick/albedo.jpg.wbenc",
-   "sha256": "e66828a356178b2f28001af6edf2cd0d4fa3041a31bec19ecf16e00d97bcc6e8",
+   "sha256": "1bba120f8ba27aaa46686c94aa89f614baac337a13d2a490f3ce4b7cca5dca8a",
    "size": 313308,
    "source": "textures/brick/albedo.jpg",
    "src": "payload/textures/brick/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/brick/normal.jpg.wbenc",
-   "sha256": "ec4faec1420c9b0564fd4ba07868004059845b0ad3142396240860e3fc62a7b2",
+   "sha256": "e3a4f064aa10a7aa801b5a7248ce3610cf2f16aa28f527dc680401e21e9443b8",
    "size": 337486,
    "source": "textures/brick/normal.jpg",
    "src": "payload/textures/brick/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/brick/roughness.jpg.wbenc",
-   "sha256": "99cb01a2529d13e0a3e7d969fb8b76e5f6058594e3658f920f580f43ad52887c",
+   "sha256": "c83daf7f6a5fcc18fb8df50bf8fa6c56c07488eab7546f85c1e57101882f6ab6",
    "size": 317865,
    "source": "textures/brick/roughness.jpg",
    "src": "payload/textures/brick/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/cardboard/albedo.jpg.wbenc",
-   "sha256": "c6e057ce0747082d8aead797b2803aec35407b8a1dfefbf10f74a5fb1a992cd3",
+   "sha256": "47c3b9bd5618686afc631f216825af8546defc0a462094cce3a1d342081e5479",
    "size": 120248,
    "source": "textures/cardboard/albedo.jpg",
    "src": "payload/textures/cardboard/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/cardboard/normal.jpg.wbenc",
-   "sha256": "21d00b8c58b6376dc68a6b1b06e41a3a2f34d852cc3ac724e1e9df16a53b63ae",
+   "sha256": "0a7b39722053b10ca781bc74b3fc8f31c3ed1105e50794ffec04e946c9b93bc0",
    "size": 132425,
    "source": "textures/cardboard/normal.jpg",
    "src": "payload/textures/cardboard/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/cardboard/roughness.jpg.wbenc",
-   "sha256": "4e844828e34ef5891ff18b3eb8acadb532cb27e7ddca87e2bf2f894ec4a3feb1",
+   "sha256": "6451d31a64b1b3920fdde14148f715a786e190574fe33d3cb1aa8d43da0e53e4",
    "size": 97576,
    "source": "textures/cardboard/roughness.jpg",
    "src": "payload/textures/cardboard/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/carpet/albedo.jpg.wbenc",
-   "sha256": "8fbce8242d44147afb36526cd41ff3c5c323df6e48233ae660a4c71b250cf4d2",
+   "sha256": "932ea5ecc8c5fbb15845511226e5c697e6b6e745fcbc730370a6c4cd5174ad6c",
    "size": 290700,
    "source": "textures/carpet/albedo.jpg",
    "src": "payload/textures/carpet/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/carpet/normal.jpg.wbenc",
-   "sha256": "2c9d3e3e9da66ac874fa2e4d724545fe125a260bf30b6d3706f26b1f28cf8ee7",
+   "sha256": "885dc913b085ba2ae74d6905ff97b69477e4d212d444dbcc56fe6e4379ed4181",
    "size": 570473,
    "source": "textures/carpet/normal.jpg",
    "src": "payload/textures/carpet/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/carpet/roughness.jpg.wbenc",
-   "sha256": "1d070a9801b2a823ee34c277df48c3a0734b7aa6fb122854cf3b2c8e27ce67c4",
+   "sha256": "91f7c771d3f6fcb4bdf9777fdb3589f843550bce62ab501eb0af8b9d71bffe08",
    "size": 335433,
    "source": "textures/carpet/roughness.jpg",
    "src": "payload/textures/carpet/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/cobblestone/albedo.jpg.wbenc",
-   "sha256": "3ccaf9bdeba9b0c66594fb43cf1c1db41b0f9b46b562833abaab43966b5fef36",
+   "sha256": "c61c6e2b316c5bd46e4bb623d62646b2af3a1952a9dc23ff2f35a70af7177f5f",
    "size": 437869,
    "source": "textures/cobblestone/albedo.jpg",
    "src": "payload/textures/cobblestone/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/cobblestone/normal.jpg.wbenc",
-   "sha256": "f259862dbed803e8d549d2c1bf8a1b6c0ff1bfb4193e9795ff13b44686b40bfa",
+   "sha256": "320558f1648c2655666d5d42130c6c47e74b7df8263b77406ace3e12be7a31e1",
    "size": 331122,
    "source": "textures/cobblestone/normal.jpg",
    "src": "payload/textures/cobblestone/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/cobblestone/roughness.jpg.wbenc",
-   "sha256": "e55c21b08df27e88674efe85b0bb09877336fde294ae3474e8263e560df66798",
+   "sha256": "4ff30abd0743573ce399c9678e4954732f109e2970c5836272f47a5c666e0e55",
    "size": 387215,
    "source": "textures/cobblestone/roughness.jpg",
    "src": "payload/textures/cobblestone/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/concrete/albedo.jpg.wbenc",
-   "sha256": "6dc7c12a1650e2499492f7dbe8047252f1cfe1d5c63b8c6f41e4899758b93df3",
+   "sha256": "27076afdcdcda772b84ee76813945e36b8d27a9409619c72b53f5db88e6aeb89",
    "size": 503863,
    "source": "textures/concrete/albedo.jpg",
    "src": "payload/textures/concrete/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/concrete/normal.jpg.wbenc",
-   "sha256": "5d8e9f681c655cd38530d703b50dacbd011fded0fbf54b68ea2c045b63a034c3",
+   "sha256": "e8ee50b1c38a22e772b13c3c184d3d77a94dc9d7f294e9563b3981fdee895bdd",
    "size": 367263,
    "source": "textures/concrete/normal.jpg",
    "src": "payload/textures/concrete/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/concrete/roughness.jpg.wbenc",
-   "sha256": "57b31bd3a9ee0fa15594d6517c1c7efef7ccda376d495d15354c6fb24ca6cfee",
+   "sha256": "82bc896267513d400098ba573f8fb9afb3b346efd00be6f24940894c507eef0f",
    "size": 375657,
    "source": "textures/concrete/roughness.jpg",
    "src": "payload/textures/concrete/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/diamond_plate/albedo.jpg.wbenc",
-   "sha256": "8e68f6759fa18ecb9f229844234b2025bfca3b9921f8347c2c88ecf4680cd2dc",
+   "sha256": "88292f129b32dea80851e4184266c5783d2d70af02cd1c5f3bd171ef4960c076",
    "size": 221394,
    "source": "textures/diamond_plate/albedo.jpg",
    "src": "payload/textures/diamond_plate/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/diamond_plate/normal.jpg.wbenc",
-   "sha256": "44b3c4f6d6345499104182aab8b1be0b4bcae1256420bd950b206d82e46f7bf7",
+   "sha256": "2ba718b75eb24e8904fad90cca3925bf92f35b66a8571683b3236b09bcc28a07",
    "size": 269154,
    "source": "textures/diamond_plate/normal.jpg",
    "src": "payload/textures/diamond_plate/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/diamond_plate/roughness.jpg.wbenc",
-   "sha256": "7725a9a1e35392949ef5258ee134c8b03a3a96836d6dbcf407de4c57a42583ff",
+   "sha256": "58663cdadaf88281d6be277d3cc6c61fe72897551ef205260be24035f3e62d87",
    "size": 296320,
    "source": "textures/diamond_plate/roughness.jpg",
    "src": "payload/textures/diamond_plate/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/dirt/albedo.jpg.wbenc",
-   "sha256": "c8f890c4ef8f27c911c326b9e9de05e4b517cde3523236d7899e1dd8d769c744",
+   "sha256": "1c1e58ecb68f67b282dadc6a3d541a6a3a851666e09d3142b53c4aba8104a5b8",
    "size": 461181,
    "source": "textures/dirt/albedo.jpg",
    "src": "payload/textures/dirt/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/dirt/normal.jpg.wbenc",
-   "sha256": "c72ad6e51b17cd964d9b19fcb5ef710eabc501f04b0defed4e96bccb57823fb6",
+   "sha256": "f562eb122391db91e4d9ab0addd16494711e62d1660aab8fc653f5ba3ab64f04",
    "size": 554736,
    "source": "textures/dirt/normal.jpg",
    "src": "payload/textures/dirt/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/dirt/roughness.jpg.wbenc",
-   "sha256": "74cb43c034231f18ab46c8ee0f221cec209c7746d060c3678e5c8ae47cd43cb7",
+   "sha256": "8e7803657d6e103b2a16d18c1f7613cc7c3f0dd7fef674328244bc1bd73c2947",
    "size": 528387,
    "source": "textures/dirt/roughness.jpg",
    "src": "payload/textures/dirt/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/foil/albedo.jpg.wbenc",
-   "sha256": "6aece05600c8f42347b1e77a3e7e98c73da4ad67d485e656e5699c0e3f7e7afd",
+   "sha256": "1d7636e54c1171b130557869c98ec191dc64f474aaf84c210210a0851cf68c88",
    "size": 68835,
    "source": "textures/foil/albedo.jpg",
    "src": "payload/textures/foil/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/foil/normal.jpg.wbenc",
-   "sha256": "6f32e4cb9bfd73c324d844814e09daca23c07a64d6a369228147a91b287af1e0",
+   "sha256": "75001e41d0cd7a503224e2e0926705d1d5d19128cffb235fefed930b61e155d9",
    "size": 431562,
    "source": "textures/foil/normal.jpg",
    "src": "payload/textures/foil/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/foil/roughness.jpg.wbenc",
-   "sha256": "21c94beea25a19c83370aca0b674e279d6eb3f25c2892a92026f809d93b2682b",
+   "sha256": "8d9bb991d96947c9468fee5e8a97a5589b64e64e9c54b98f583cf93a031f4c34",
    "size": 110273,
    "source": "textures/foil/roughness.jpg",
    "src": "payload/textures/foil/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/geometric_tiles/albedo.jpg.wbenc",
-   "sha256": "1c94be187d22ab4f4434c409e0f50fd218dddc586e92c7a46125ea805b851be7",
+   "sha256": "c7c04485c1d13e905a2a3743d6f0019710a275bbf15c05cf07c36191eb63c243",
    "size": 469266,
    "source": "textures/geometric_tiles/albedo.jpg",
    "src": "payload/textures/geometric_tiles/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/geometric_tiles/normal.jpg.wbenc",
-   "sha256": "a2b586b9f437669c7f3092fb5ac26e5b9a84f2cf2f196e0ac291da46c3351306",
+   "sha256": "b69f161f160f5e6b42634aba4973e1d305b7beb66679267b0079445690b390eb",
    "size": 394032,
    "source": "textures/geometric_tiles/normal.jpg",
    "src": "payload/textures/geometric_tiles/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/geometric_tiles/roughness.jpg.wbenc",
-   "sha256": "5b6a7ed7ad0bffdb841e2c9b1a7efee6e82d9e5c31b6f2ec09383a5d553c4b5d",
+   "sha256": "0599d018ca9959819a25918a3d1a1a0c986b491a8619b10330731a7f19f4e63f",
    "size": 383074,
    "source": "textures/geometric_tiles/roughness.jpg",
    "src": "payload/textures/geometric_tiles/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/granite/albedo.jpg.wbenc",
-   "sha256": "f56635e5d766ac6ce5ad7df976c4cbf4b107a8c6eb1b6d4fdfeef8518eccb0a1",
+   "sha256": "6f8e47655773a31fc49c10b67e13cdb221b29530436c25d1d1058e5950b496fa",
    "size": 565342,
    "source": "textures/granite/albedo.jpg",
    "src": "payload/textures/granite/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/granite/normal.jpg.wbenc",
-   "sha256": "17ba584edadbe7ce98b04b7d65b28ace3d884340e2ad1b03d625e22c32cbf7dc",
+   "sha256": "e914c34905ff8b467bffa628040d6c91e8bc7e49828ea5312e08b90d76197295",
    "size": 230788,
    "source": "textures/granite/normal.jpg",
    "src": "payload/textures/granite/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/granite/roughness.jpg.wbenc",
-   "sha256": "af9f0b9fc022145bb337ce96572776b25d3c1eb0dc5c973ad55258cd8270a804",
+   "sha256": "e474aeac84fcc5226775bcc1fc29de1df9d1ff54f5e1d032fa20f83549304beb",
    "size": 321951,
    "source": "textures/granite/roughness.jpg",
    "src": "payload/textures/granite/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/grass/albedo.jpg.wbenc",
-   "sha256": "5af99ddb85a01f8322a18375f2e33ce82f1006b4097c996db56d019da2fba374",
+   "sha256": "117d1c62a71938ea2469b484e3065b3cb43fe7fc57ad9f014f3feb9b92b5a1be",
    "size": 439603,
    "source": "textures/grass/albedo.jpg",
    "src": "payload/textures/grass/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/grass/normal.jpg.wbenc",
-   "sha256": "0dd087a95db77ca970a8f657026c15d3ff97f31d202521c900456c963cb6613f",
+   "sha256": "94a48e6460bb3aaa3c8cd743540a40101fcc621afb65c11024063b55aaf58056",
    "size": 661471,
    "source": "textures/grass/normal.jpg",
    "src": "payload/textures/grass/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/grass/roughness.jpg.wbenc",
-   "sha256": "4354f269e5954f0cbfc9d01de64205be97a44f76e6fb9a007079eeb2f9155ce7",
+   "sha256": "c8170836af4d70e6db7b9ba8501e26c8b6e6777c0d40edf2f11f4592f6ce63ea",
    "size": 500678,
    "source": "textures/grass/roughness.jpg",
    "src": "payload/textures/grass/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/ice/albedo.jpg.wbenc",
-   "sha256": "f6fe462026eb2b46514fdb67d0a64b9d0f69139a63e650208bff2b3992d4dc3a",
+   "sha256": "db8ebed74658485fdb5e4e904669c916bc9dac31f0f88fa14256ba593c5149b9",
    "size": 230842,
    "source": "textures/ice/albedo.jpg",
    "src": "payload/textures/ice/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/ice/normal.jpg.wbenc",
-   "sha256": "843b12a163cc3864ee0e0032e301e44e378f2e9c9c65803d940b423af66810ab",
+   "sha256": "d3314722aff39284ade7e69ba05cadeba57addd2ccfd81e8e6c7066a294dbbf4",
    "size": 83836,
    "source": "textures/ice/normal.jpg",
    "src": "payload/textures/ice/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/ice/roughness.jpg.wbenc",
-   "sha256": "b8096877560e1ae18734d3cc80d73147492c5b3de589c3647d65ab599b3bb982",
+   "sha256": "421a6453b40cc60912330a4658eb581f764e40a98254b8be6b006921202571c4",
    "size": 186843,
    "source": "textures/ice/roughness.jpg",
    "src": "payload/textures/ice/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/lava/albedo.jpg.wbenc",
-   "sha256": "b18b30a2e03a832d49927c8c45511ccbe49f5c82f5d6e3644c06b250a424b3b8",
+   "sha256": "f12a1ecc528d7aa774cbb545a8f550ef05642a0600452427e43c094600062b8a",
    "size": 306134,
    "source": "textures/lava/albedo.jpg",
    "src": "payload/textures/lava/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/lava/normal.jpg.wbenc",
-   "sha256": "e4f658c830893f6ee5e7bcdc66940a6c8805eb9d6cbe06c563bb131bddc46550",
+   "sha256": "b2b02d30f45a3fd34db5ae0150cfff96aff22e8ad3c3a9f7a0c84463a8579235",
    "size": 349346,
    "source": "textures/lava/normal.jpg",
    "src": "payload/textures/lava/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/lava/roughness.jpg.wbenc",
-   "sha256": "94b20505569a27e7c19f3bf2a3b7f6b51726453fd2f44b7c7e9eeddaa370c97e",
+   "sha256": "ac941095708c681bd97eee1290ecb2c00729555ebb334bf74dbc76d22dd01692",
    "size": 223936,
    "source": "textures/lava/roughness.jpg",
    "src": "payload/textures/lava/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/leather/albedo.jpg.wbenc",
-   "sha256": "4e8c82fb6e81c6c1a876856de0b4f600d0896a3efc2a1f9bd643245e6655db87",
+   "sha256": "8a70af1da947900e32de07beca18d97ed9f9b3193757006cab0149fdf077cd4f",
    "size": 277920,
    "source": "textures/leather/albedo.jpg",
    "src": "payload/textures/leather/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/leather/normal.jpg.wbenc",
-   "sha256": "366aa8827dc55c486aef48ab59eb84acf91c582aaf6359b9c4fafc928b73ddd3",
+   "sha256": "a51c3fbc5e9cc719bd7003f881618643410fd32e2bb96ed5e1741610f56b161c",
    "size": 211068,
    "source": "textures/leather/normal.jpg",
    "src": "payload/textures/leather/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/leather/roughness.jpg.wbenc",
-   "sha256": "2e2d3f341b256d7d9e6f2839af9abde4708a21d2869811f7da7e8ac1c5d0a90a",
+   "sha256": "fbe7cb05d4537b1b04e9970c4d677f8b8ce60f36bf4f2c282091389527da6f6f",
    "size": 597514,
    "source": "textures/leather/roughness.jpg",
    "src": "payload/textures/leather/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/magma/albedo.jpg.wbenc",
-   "sha256": "0c0b0f6da0daef59da4b04239e8f2470f0cdfae13e68277d7997b18719940d86",
+   "sha256": "ccdc1a3b3c73283fdf1aaf346946b1e83055494099de1845575bc54cb2a6d809",
    "size": 411908,
    "source": "textures/magma/albedo.jpg",
    "src": "payload/textures/magma/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/magma/normal.jpg.wbenc",
-   "sha256": "c799b817c81b1b58e7fad8897af2999e1462a1ab5bcf1e3c9bd6a13bc53d70d9",
+   "sha256": "e1e348aff83236283688dd823872fae5d2644516d4cbcd9f9252c474ca7bc393",
    "size": 592438,
    "source": "textures/magma/normal.jpg",
    "src": "payload/textures/magma/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/magma/roughness.jpg.wbenc",
-   "sha256": "173572a9aeea133a756d8c61f85a6579a692be0f7bc86dc97c0ddafb89b5cfdd",
+   "sha256": "1704279c14010011b1b3040fb4a622cbae4ac0f65a85f3fd681d0920de5886db",
    "size": 142148,
    "source": "textures/magma/roughness.jpg",
    "src": "payload/textures/magma/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/marble/albedo.jpg.wbenc",
-   "sha256": "39cf6040ba45389b2e121bd6e8b9396f684620696f43341a3524074a463edd3d",
+   "sha256": "0cf633d644bb8156e56fec1deb7a48b0cda59cb8ceb1cb0976577f8b15584774",
    "size": 401885,
    "source": "textures/marble/albedo.jpg",
    "src": "payload/textures/marble/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/marble/normal.jpg.wbenc",
-   "sha256": "ed557da1905cf22b0a539cade1230b8f12bf1d3278f1e05e13c4a0c75d61d2c1",
+   "sha256": "e3800bd6f29da784f9463c389c7ff34a23fc7c65734e6e915eaa22e8010b6e62",
    "size": 6530,
    "source": "textures/marble/normal.jpg",
    "src": "payload/textures/marble/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/marble/roughness.jpg.wbenc",
-   "sha256": "dab23d3245caa672a518963d117adabcdee62f50ebf0682fc10879f3e3de5c08",
+   "sha256": "dea6b897a8a28c82b3d106fa1884accec546d53c7a5c7660b45a27b8a0f3a2e6",
    "size": 228313,
    "source": "textures/marble/roughness.jpg",
    "src": "payload/textures/marble/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/metal/albedo.jpg.wbenc",
-   "sha256": "749324004a93d5ce27d678c8eca308bfacb3db23da8e5e0da4ad5db3bb5b2bbb",
+   "sha256": "0c61eabbafa42e2eee2a8a0b1dbb67bfe9e9efb3d5183f022c0b53358078d6ef",
    "size": 170130,
    "source": "textures/metal/albedo.jpg",
    "src": "payload/textures/metal/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/metal/normal.jpg.wbenc",
-   "sha256": "6486c8aff7fedad61fd8510cecc9c0323421ad118d755920345f5eb23df39db4",
+   "sha256": "5e08378ead66775488a5574adbf4ee2c498da38142ca3e7fa3ad2a40d3e2d98c",
    "size": 48461,
    "source": "textures/metal/normal.jpg",
    "src": "payload/textures/metal/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/metal/roughness.jpg.wbenc",
-   "sha256": "7926efea46bf930864110c579d140898509e72a1194c9a61c0c375cf1a2d98aa",
+   "sha256": "88c2d959c44dfbfaabbb303d9bd72c6c2c7753326efd544b5fe965d87f221eba",
    "size": 77763,
    "source": "textures/metal/roughness.jpg",
    "src": "payload/textures/metal/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/moon.png.wbenc",
-   "sha256": "df593c1dce3513d4c4af6d4a36b45a19a8a700f29cf0a8b58d714d9fc1dc1be5",
+   "sha256": "3ab842348fc7e4b6cc9b8cabed4208a72f336aa2d8df50ea0ff4afaa6392b5bc",
    "size": 658312,
    "source": "textures/moon.png",
    "src": "payload/textures/moon.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/normal_bricks/albedo.jpg.wbenc",
-   "sha256": "666776fd4aaa7625ffe73e7876138cef2471005a2620721280fe73cf47b4add6",
+   "sha256": "c9660cb01f2681cd5466017c248a2ed8d35bb98bd687be40f2baec23a1ca1dbc",
    "size": 369485,
    "source": "textures/normal_bricks/albedo.jpg",
    "src": "payload/textures/normal_bricks/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/normal_bricks/normal.jpg.wbenc",
-   "sha256": "7527f02916c61bba57d1f200de4da1aca3e7c37b619168b46bec34ad024f5047",
+   "sha256": "36be8fbf4990c49523fa942a822b4e2684689b0ec6d635d3b03b0f0e80cbeaa5",
    "size": 354734,
    "source": "textures/normal_bricks/normal.jpg",
    "src": "payload/textures/normal_bricks/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/normal_bricks/roughness.jpg.wbenc",
-   "sha256": "079cf5564d651a43c4d44658e4133b4aae51dfe6fb12b1190afa1a5858a0875b",
+   "sha256": "ff4b3ee21bbe480d975cf0e9ce30fa38be71898c3ef1179c9e9671d7ed43a768",
    "size": 314880,
    "source": "textures/normal_bricks/roughness.jpg",
    "src": "payload/textures/normal_bricks/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/pebble/albedo.jpg.wbenc",
-   "sha256": "dc3c4df98d5c953c18cefebd7f901e3d1833cf3ee7bfe85c591489ec69846338",
+   "sha256": "25f27056abb5989fa6d0626606bcec28c477db8f138b89e06d5c1631ef337706",
    "size": 376196,
    "source": "textures/pebble/albedo.jpg",
    "src": "payload/textures/pebble/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/pebble/normal.jpg.wbenc",
-   "sha256": "222d9bb6b879d98e8dd3a0e287ebf694e6201531215c72c5183c1f4e068cebee",
+   "sha256": "5af2e8e068b70dd339f6e17281678624ec6065ffe215e3dc634dc5c098c97142",
    "size": 685175,
    "source": "textures/pebble/normal.jpg",
    "src": "payload/textures/pebble/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/pebble/roughness.jpg.wbenc",
-   "sha256": "7da50df601a22ef3a69c7b535361b871537263c0311fcf8120955300c530e70e",
+   "sha256": "77e5d851a28a52fe0e1dd90d133258efff756d4dd17ed99f1cb3b0c63d280e9d",
    "size": 238828,
    "source": "textures/pebble/roughness.jpg",
    "src": "payload/textures/pebble/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/plastic/albedo.jpg.wbenc",
-   "sha256": "fd760e8a61793e85964c8bd74d2a770682dab6834d345af08e90de1aafca52f0",
+   "sha256": "8915c901e2bc6ac64b77bfbbee16d9f366286a68584385b5b6b58b9cee214d29",
    "size": 92578,
    "source": "textures/plastic/albedo.jpg",
    "src": "payload/textures/plastic/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/plastic/normal.jpg.wbenc",
-   "sha256": "25d1360aa908b46c2e471636d4e81f8961db2ecd43f304d58c043947f1c34d51",
+   "sha256": "4bb9663c63d06ac37bdb0683e62f6ee1a6321ca3c239253969114d41500017a7",
    "size": 193163,
    "source": "textures/plastic/normal.jpg",
    "src": "payload/textures/plastic/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/plastic/roughness.jpg.wbenc",
-   "sha256": "cead22dc425084b52499d73f1498201791d795d7c981e132a0ae991c22353ae2",
+   "sha256": "dcd6d793b4206624e5fcbe2b4bf075411eb6583f047d7e65f6b8f030fb37f348",
    "size": 276108,
    "source": "textures/plastic/roughness.jpg",
    "src": "payload/textures/plastic/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/rocky_ground/albedo.jpg.wbenc",
-   "sha256": "b3ab978911083d67db0bb06e1264f28fc905546502ee893792d7fa48a0b406c6",
+   "sha256": "4769526fa944f04c55d74b0915f7f0133ee56f0f319b8804078b8e301ba493c4",
    "size": 418692,
    "source": "textures/rocky_ground/albedo.jpg",
    "src": "payload/textures/rocky_ground/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/rocky_ground/normal.jpg.wbenc",
-   "sha256": "336dcd3f385e925b45bfe17ef4414df45e493887cfd886761dec48d645361fb4",
+   "sha256": "7f9528d5982993fc246e6d89dc4d7492a6f5a16fb157677108814cd377a5a453",
    "size": 488960,
    "source": "textures/rocky_ground/normal.jpg",
    "src": "payload/textures/rocky_ground/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/rocky_ground/roughness.jpg.wbenc",
-   "sha256": "b9e175369e799ef29b344f6d965d0cead3852fb077cabb2cfbbd50f738fc48b8",
+   "sha256": "abe264e48454a1ad1e3a9ca062c1acedc1ffc1c29f9c7a77d4b36d8179f0924c",
    "size": 397072,
    "source": "textures/rocky_ground/roughness.jpg",
    "src": "payload/textures/rocky_ground/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/rough_stone/albedo.jpg.wbenc",
-   "sha256": "691b10297e0f48f2c613b142410e560917e4bf909e12973c22309b86be579d31",
+   "sha256": "ae54ff0c354945a1eb18ec64e0ad255705fb24f8c1e0b5d8e9d4625c01541432",
    "size": 451036,
    "source": "textures/rough_stone/albedo.jpg",
    "src": "payload/textures/rough_stone/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/rough_stone/normal.jpg.wbenc",
-   "sha256": "0170a7371746e87f392479e660ae916e7520d7263e78d1a871466bf890393ad2",
+   "sha256": "464c4b3ac5e13e48d2c2c6631e0aa86b465aad11c4b0069d5da3a4023c8b373b",
    "size": 373976,
    "source": "textures/rough_stone/normal.jpg",
    "src": "payload/textures/rough_stone/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/rough_stone/roughness.jpg.wbenc",
-   "sha256": "4c9d370d650531d307a5fb845c516a8cf14e2713aa3f24f85e17c9f2a922d362",
+   "sha256": "11ee0f2960e3f950cfc9f21f86d89c0cc5bbc3a789936eb27a11e2ade3b38c4c",
    "size": 112468,
    "source": "textures/rough_stone/roughness.jpg",
    "src": "payload/textures/rough_stone/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/rust/albedo.jpg.wbenc",
-   "sha256": "abd4b52657667e412662f06e52d8a645a3b01a78b113ec0dcadd59d84356b568",
+   "sha256": "71f57bde238a1c04d54accf121d00289ef1aae55aa0cc83d3f3ac3a84e89b8cf",
    "size": 328598,
    "source": "textures/rust/albedo.jpg",
    "src": "payload/textures/rust/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/rust/normal.jpg.wbenc",
-   "sha256": "029504cce589312f8d73006ad0fe562e058bec0d32e82394f64499355e26fcfe",
+   "sha256": "2e64fe8608b8096e82120778e4a6e734d7d077a166879634e39f62bf85f6ffb6",
    "size": 113969,
    "source": "textures/rust/normal.jpg",
    "src": "payload/textures/rust/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/rust/roughness.jpg.wbenc",
-   "sha256": "ca39c7afdecce1cac77526ed75088d39c5b3fa34faeb8c536e3930ce321e0614",
+   "sha256": "dcb7a0175c8fa097586e83e17ee56eb502d54a8f589dee82998a904940ad72b6",
    "size": 377653,
    "source": "textures/rust/roughness.jpg",
    "src": "payload/textures/rust/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/sand/albedo.jpg.wbenc",
-   "sha256": "a0c94ac2aad2a0cbc14e0629e57bd7b71cb8b6a5c41e4d62949f8ddff3822792",
+   "sha256": "605ab05240bd0da63863f051eb020f90c7129e34df862f89904f4b3dc0b740e4",
    "size": 387292,
    "source": "textures/sand/albedo.jpg",
    "src": "payload/textures/sand/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/sand/normal.jpg.wbenc",
-   "sha256": "aae373d63decd2f86e2180ece38baea5c91b0a05cef7d1125b2b98585f75e63e",
+   "sha256": "f41c0c4cccc190ef67543b18cab3fe52f6f2e9aebaf1fa7027e3816f260bcd67",
    "size": 447177,
    "source": "textures/sand/normal.jpg",
    "src": "payload/textures/sand/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/sand/roughness.jpg.wbenc",
-   "sha256": "ddebacfc18e40644879b6901edef7e0b3a6a996184feae9d16e42b8ff3966bf3",
+   "sha256": "ab58c7b027f3d403f96b244974355bd7ab8d1ee3e05992029ef22784de3e02ed",
    "size": 367404,
    "source": "textures/sand/roughness.jpg",
    "src": "payload/textures/sand/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/slate_roof_tiles/albedo.jpg.wbenc",
-   "sha256": "f39e950d88131de47488cf86937d39d1851ba54ecadedc889b213c93642d5224",
+   "sha256": "b04ed20d92faf0b14bce94730389e98476103492ab0224233efb2d9ccaa09be9",
    "size": 295028,
    "source": "textures/slate_roof_tiles/albedo.jpg",
    "src": "payload/textures/slate_roof_tiles/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/slate_roof_tiles/normal.jpg.wbenc",
-   "sha256": "fe6971644920008915801977ea3d265492d6a229719046dd28f867c241460d03",
+   "sha256": "975b166b61660b23d00bb98624fe7b8b5edcf4a636e612f31610e2953320018a",
    "size": 439738,
    "source": "textures/slate_roof_tiles/normal.jpg",
    "src": "payload/textures/slate_roof_tiles/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/slate_roof_tiles/roughness.jpg.wbenc",
-   "sha256": "6c351e4c30d62067d16517a9c445d34cca4ca77382fff4e85f8270eb2b2c635d",
+   "sha256": "0f94e5747a6c09c6b2d6d0915d2a4bfcee75904ebc4dfedd3274d1933af326a1",
    "size": 449362,
    "source": "textures/slate_roof_tiles/roughness.jpg",
    "src": "payload/textures/slate_roof_tiles/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/small_cobblestone/albedo.jpg.wbenc",
-   "sha256": "a2888d64c21472cc46e09d960ef3c1bb001327f1096c9cd0e1e686878528a61b",
+   "sha256": "0eaefa16becd3390cac2d28675868b973b5f2587ec7f219555437523f6d22eae",
    "size": 416573,
    "source": "textures/small_cobblestone/albedo.jpg",
    "src": "payload/textures/small_cobblestone/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/small_cobblestone/normal.jpg.wbenc",
-   "sha256": "a752680834f897bae8643d53de395ed101607810127cc372e0c18cb253ff4774",
+   "sha256": "d1ff3218de0f37654a2a6ec2927b58685959c139134737bfcdfb2d56c92572b0",
    "size": 536609,
    "source": "textures/small_cobblestone/normal.jpg",
    "src": "payload/textures/small_cobblestone/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/small_cobblestone/roughness.jpg.wbenc",
-   "sha256": "8320d4601b69851eac5b2c35414753e21c9cce3318d59982754ff74ae048ec46",
+   "sha256": "445a86dcb7f6b52bd7a8a12aadc04965fe436a41713569f3d2fb60bbd9812057",
    "size": 391268,
    "source": "textures/small_cobblestone/roughness.jpg",
    "src": "payload/textures/small_cobblestone/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/snow/albedo.jpg.wbenc",
-   "sha256": "2ad61253ba371c08b8518f4461605be160aec50c24aceddbcdabeb43169a672d",
+   "sha256": "e71d497b564efce950d2ee194d564edee06fb2dace0fc946d10e3ba9d3826561",
    "size": 96828,
    "source": "textures/snow/albedo.jpg",
    "src": "payload/textures/snow/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/snow/normal.jpg.wbenc",
-   "sha256": "930558c21ef2c37dfd16c8f0bdb98fa2b4519e5a283b27d4c7e84a11693e2c76",
+   "sha256": "05e3f24dc2b4e34cb07685cc54397f7174c618a19c3e3b27cc44165eec54a376",
    "size": 221391,
    "source": "textures/snow/normal.jpg",
    "src": "payload/textures/snow/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/snow/roughness.jpg.wbenc",
-   "sha256": "c9b772615f46e7b3540a3f6387168b436065543f0dd2b6bd6a344a80243eaa6a",
+   "sha256": "0a46286c96c5e87be69271d6d2387c9849fac06af33bfdb2a6ec5ed7c4ed6fa5",
    "size": 457929,
    "source": "textures/snow/roughness.jpg",
    "src": "payload/textures/snow/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/stone/albedo.jpg.wbenc",
-   "sha256": "1f129bcfd668f3bfc5ce6df97b543aaba01973c62f02563b93357d44b96a949b",
+   "sha256": "df4cf0e7dfae0e68acc1e7e056f1855a612b4a2d6bfad56a6951802dc1b544f7",
    "size": 395699,
    "source": "textures/stone/albedo.jpg",
    "src": "payload/textures/stone/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/stone/normal.jpg.wbenc",
-   "sha256": "93b068c99eae3b426b688fe038dbd482516d268dbb1c069200b3747c1b5d4086",
+   "sha256": "e8116e99cc7d838da45f64c51ac28ef03164fbab460663461866c52de3c803f8",
    "size": 564749,
    "source": "textures/stone/normal.jpg",
    "src": "payload/textures/stone/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/stone/roughness.jpg.wbenc",
-   "sha256": "10dd0c198645e5b35196e4d193e92b9280d779e176b4c7b72057dd1942c32f31",
+   "sha256": "906a6a9953f6cdbb1a71b18e779098971e6a0045f36b06a6d80d02891a888921",
    "size": 282121,
    "source": "textures/stone/roughness.jpg",
    "src": "payload/textures/stone/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/tiles/albedo.jpg.wbenc",
-   "sha256": "7be192d94773d4e495c6cdbeb6efbfe56ea9b1faa9ae18687d1ae43e23ac764a",
+   "sha256": "db90f902fd1ce324a86a508c1275105db34ce976a2f8a896741fb6b981230589",
    "size": 451252,
    "source": "textures/tiles/albedo.jpg",
    "src": "payload/textures/tiles/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/tiles/normal.jpg.wbenc",
-   "sha256": "672b42ea958c97ec9e65183d405d2482c7f926590aecc40291eed09917a6da42",
+   "sha256": "67429254c9639509066513d4fc5278b7b515660cd877bb8d966ac16e1a1d20f9",
    "size": 319117,
    "source": "textures/tiles/normal.jpg",
    "src": "payload/textures/tiles/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/tiles/roughness.jpg.wbenc",
-   "sha256": "d26e384837e851f72f21a9fb5966577fc9725a26b26f69d6b2f39750c31cb60f",
+   "sha256": "c9df4eae8ee3c0202bf15a111a37d12b5f3589798ccbd7d8cdb12385aa0c7aeb",
    "size": 209659,
    "source": "textures/tiles/roughness.jpg",
    "src": "payload/textures/tiles/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/wireframe_grid/albedo.png.wbenc",
-   "sha256": "1218c067fc5f82fce61888237ac7680c0b5a87952c1f186e3068ddb15029116c",
+   "sha256": "06be944920ec200a93ab29df50c492cb1171a65545948a48b7851d941fe1c65e",
    "size": 356035,
    "source": "textures/wireframe_grid/albedo.png",
    "src": "payload/textures/wireframe_grid/albedo.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/wireframe_grid/normal.png.wbenc",
-   "sha256": "270acaa6c744a45a1b14aeeb266cbaabbc38cdbe19b479cb3004c3fe21408c77",
+   "sha256": "577af93b52b882514f38d0a5abf8e03dbbe873fb69a426b5ccb5c5a9f095bf4b",
    "size": 473564,
    "source": "textures/wireframe_grid/normal.png",
    "src": "payload/textures/wireframe_grid/normal.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/wireframe_grid/roughness.png.wbenc",
-   "sha256": "81eae504345ebaf2af82210e86a5c691bcf30e0b424f69bfbd3e2f999442dba2",
+   "sha256": "65d23df56e3e7ec27eed6554fa11e1196f1772f524f3fcfbff7690f4221e7af5",
    "size": 477049,
    "source": "textures/wireframe_grid/roughness.png",
    "src": "payload/textures/wireframe_grid/roughness.png.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/wood/albedo.jpg.wbenc",
-   "sha256": "db85922c24879d8307e0c6fdc680c785c290679d661a3f962835803ed9f58c14",
+   "sha256": "3df265cfdf1a41c9b07310d15735aafe25abb9d4d4985b0d2ac9461a59da7964",
    "size": 516618,
    "source": "textures/wood/albedo.jpg",
    "src": "payload/textures/wood/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/wood/normal.jpg.wbenc",
-   "sha256": "1a2151c7afb3b7771f90670134803bfae336a2c48f04e6a44429a17a2349969c",
+   "sha256": "ad240898b173c1f7c2c4a0bef861ee957f24fb17501d397431a79b9b92adb68a",
    "size": 663526,
    "source": "textures/wood/normal.jpg",
    "src": "payload/textures/wood/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/wood/roughness.jpg.wbenc",
-   "sha256": "af1f41c9cf3a9c0736ba546b6a623f4614d2fcff729fbf7170cd9b75f1f035fb",
+   "sha256": "4c2e9c604e677737302455648448f700f05614d5b20abcd4c72944cbdbaf6a5a",
    "size": 403847,
    "source": "textures/wood/roughness.jpg",
    "src": "payload/textures/wood/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/wood_bark/albedo.jpg.wbenc",
-   "sha256": "c0891a8946b3621cee399144106aa23c08ceacbcb0c4ec87baa5304c05d8b613",
+   "sha256": "6b80e4732861c2603c8ceecba0de2f3b7365f1166799939a58b04f9bdb484a86",
    "size": 540572,
    "source": "textures/wood_bark/albedo.jpg",
    "src": "payload/textures/wood_bark/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/wood_bark/normal.jpg.wbenc",
-   "sha256": "0a2127f4a25f6c1b3eb6045df6b62dfa0b9470b4b71738dacff8a3fedeb33d1d",
+   "sha256": "6e46a80c4954bd82180e35eb8ba169736a2bae29bb860391bc9fce77c9f00527",
    "size": 664871,
    "source": "textures/wood_bark/normal.jpg",
    "src": "payload/textures/wood_bark/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/wood_bark/roughness.jpg.wbenc",
-   "sha256": "94eae6d1529439412f1c4acd5c3e225ce98d9b8f736a2dfb14ae3ef999ffddd0",
+   "sha256": "ce0c09022576f20418b9c09d40a6298281165f695ffdb556acd13727301b6e3c",
    "size": 408178,
    "source": "textures/wood_bark/roughness.jpg",
    "src": "payload/textures/wood_bark/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/wood_planks/albedo.jpg.wbenc",
-   "sha256": "beead7d97089c21015a0951a9374e5022bef0705b994fdb9d6d62372c2f5cbc9",
+   "sha256": "a5ab600b1691edb912951f031b32cbe169b6dd6bfd7cefc43b5692be43b53fb9",
    "size": 243716,
    "source": "textures/wood_planks/albedo.jpg",
    "src": "payload/textures/wood_planks/albedo.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/wood_planks/normal.jpg.wbenc",
-   "sha256": "a6fdd20657655344d5b0068a2c6c7ce684a8bebc01cb0e1edf64640aa7dde6ff",
+   "sha256": "8abc899641b76c55520598f1cf04dd46e21a054cc4ab4f2e5ccc7bc10ba0d03b",
    "size": 148495,
    "source": "textures/wood_planks/normal.jpg",
    "src": "payload/textures/wood_planks/normal.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/textures/wood_planks/roughness.jpg.wbenc",
-   "sha256": "2ade64718130bb31b85ed7a42431c65e0bb02613911e68212046ea21317518d3",
+   "sha256": "58e43e53bac58b0c01581de91b093bd2f7a575ef679d4d4a545f9f0287abfc40",
    "size": 126198,
    "source": "textures/wood_planks/roughness.jpg",
    "src": "payload/textures/wood_planks/roughness.jpg.wbenc"
   },
   {
    "path": "weildbuild_data/payload/wb-version.json.wbenc",
-   "sha256": "f24ea210d82de5b98009fc38420e2bcfdbe034f0af057e6e71f8a4096b79c4c8",
+   "sha256": "0851c385a72723b19e2ea63e0db166eb80ba26713294f2f27a83dcb7594e9d1b",
    "size": 72,
    "source": "wb-version.json",
    "src": "payload/wb-version.json.wbenc"
   },
   {
    "path": "weildbuild_installer.py",
-   "sha256": "ce5c9b7a752fe7dda799f938b92d41ae60f1ace2dd826a47433d2bf73a0511a1",
-   "size": 34319,
+   "sha256": "b560957b4a9935f38957e1dd8ab72c97f089579e5f075e96b1d596b981bb6b85",
+   "size": 35573,
    "source": "weildbuild_installer.py",
    "src": "weildbuild_installer.py"
   },
   {
    "path": "weildbuild_launcher.py",
-   "sha256": "da06c65e02a26fa7582578c350b4c031e3dafe5c46a678c48e8b7e199a0de5dc",
-   "size": 31119,
+   "sha256": "33f46ad60e63480f582ea713b88ac9f63c1adae41bd89615ded943af02a52acb",
+   "size": 33479,
    "source": "weildbuild_launcher.py",
    "src": "weildbuild_launcher.py"
   },
   {
    "path": "weildbuild_updater.py",
-   "sha256": "56f6f95e07162f5a7084a278e93b2e316ded9e8e582dbf0f46b1778901a166f6",
-   "size": 23403,
+   "sha256": "3ab34f7ec9e1e7c6d3feeb6729688e31803ab66028fdb20d1b6c107430849fa6",
+   "size": 24571,
    "source": "weildbuild_updater.py",
    "src": "weildbuild_updater.py"
   }
  ],
  "format": "wb-manifest-1",
- "generatedAt": 1795375364,
+ "generatedAt": 1795377665,
  "version": "1.0.0"
 }
