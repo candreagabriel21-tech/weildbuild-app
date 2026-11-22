@@ -1,0 +1,1809 @@
+{
+ "channel": "mobile",
+ "enc": "WBENC1",
+ "files": [
+  {
+   "path": "weildbuild_data/pardon.txt",
+   "sha256": "456864fce5cbc9e1f7e9bdfcd77543bbdcbe819f8211ba94cc8f517a3f663098",
+   "size": 197,
+   "source": "pardon.txt",
+   "src": "pardon.txt"
+  },
+  {
+   "path": "weildbuild_data/payload/404-image.png.wbenc",
+   "sha256": "3763b4d9f7110f0be3759bc16c0dc70e346f78c7e7f0759a4552bb868b187cc8",
+   "size": 15196,
+   "source": "404-image.png",
+   "src": "payload/404-image.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/404.html.wbenc",
+   "sha256": "6aed2e8ea8a8ec6db3400800c32e27f512ca6704e8c41d487f601939881b817b",
+   "size": 23123,
+   "source": "404.html",
+   "src": "payload/404.html.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/404/index.html.wbenc",
+   "sha256": "ed7c204c3c7e4cfec8589d169507b71d17b7569a1217491324d06ce2632b5a4c",
+   "size": 23123,
+   "source": "404/index.html",
+   "src": "payload/404/index.html.wbenc"
+  },
+  {
+   "apk": true,
+   "path": "weildbuild_data/payload/WeildBuild-1.0.0.apk.wbenc",
+   "sha256": "cef78c53d2fbceb0304953b73ffecf82be1df0a9ed42a4e614a20f2e37758c21",
+   "size": 45510169,
+   "source": "WeildBuild-1.0.0.apk",
+   "src": "payload/WeildBuild-1.0.0.apk.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/__next.__PAGE__.txt.wbenc",
+   "sha256": "8cc778cdf86791ba65c98a079b39eff3198f84dcbf695e6c4f74af8146e86a85",
+   "size": 1572,
+   "source": "__next.__PAGE__.txt",
+   "src": "payload/__next.__PAGE__.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/__next._full.txt.wbenc",
+   "sha256": "2886bb32890fcf07347e31b00958e1790a759ffabd9ea9a8c33653a0201113b1",
+   "size": 9711,
+   "source": "__next._full.txt",
+   "src": "payload/__next._full.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/__next._head.txt.wbenc",
+   "sha256": "1287f26a72132ce918db82d8051e9d03679018b4aff40119c22f9ecf0d69a4ef",
+   "size": 1523,
+   "source": "__next._head.txt",
+   "src": "payload/__next._head.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/__next._index.txt.wbenc",
+   "sha256": "9e8c68fad06ded44ee343e6066f560b41107b8ac8be9ff0c6bab8cedccdcd315",
+   "size": 5896,
+   "source": "__next._index.txt",
+   "src": "payload/__next._index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/__next._tree.txt.wbenc",
+   "sha256": "e133b7bdafa5968446b79f47e51c3b004889d5b9b43171066b4de38d16ed0f67",
+   "size": 328,
+   "source": "__next._tree.txt",
+   "src": "payload/__next._tree.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/01mm6ro1ctctf.css.wbenc",
+   "sha256": "ff242c708e85f6fb499bf44c51185e8a15ad0ea680ebd2019f0bd0d7b0fc5efd",
+   "size": 219723,
+   "source": "_next/static/chunks/01mm6ro1ctctf.css",
+   "src": "payload/_next/static/chunks/01mm6ro1ctctf.css.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/05-c3ty_6dwfk.js.wbenc",
+   "sha256": "aef2e934b3eaa5728c69fef8d5063eeef7a4dee24ed1dbb61a1cac3fdb375c0b",
+   "size": 3431,
+   "source": "_next/static/chunks/05-c3ty_6dwfk.js",
+   "src": "payload/_next/static/chunks/05-c3ty_6dwfk.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/0cz1d0mv5g_q7.js.wbenc",
+   "sha256": "0e8a5d9800e45417c5b9f8c1525e4b7acb23ef947ce263b96b338b6334f6e941",
+   "size": 112648,
+   "source": "_next/static/chunks/0cz1d0mv5g_q7.js",
+   "src": "payload/_next/static/chunks/0cz1d0mv5g_q7.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/0f-n2esjzafad.js.wbenc",
+   "sha256": "2913ad15a2ef8add9b179e57bfea80b3738a000aba4cda5d41aa201ee289c612",
+   "size": 6869,
+   "source": "_next/static/chunks/0f-n2esjzafad.js",
+   "src": "payload/_next/static/chunks/0f-n2esjzafad.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/0k0b6w9pzw_ki.js.wbenc",
+   "sha256": "ee85d8c5969de1ca4acb20a55c217040fd3b081db317b59b8b97ee85493e08a9",
+   "size": 50169,
+   "source": "_next/static/chunks/0k0b6w9pzw_ki.js",
+   "src": "payload/_next/static/chunks/0k0b6w9pzw_ki.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/0kw6-ke1pt323.js.wbenc",
+   "sha256": "016602a253c1973d09a6b655335d2ebfcec5050a9cec0f114a0f115f1837d3ae",
+   "size": 56161,
+   "source": "_next/static/chunks/0kw6-ke1pt323.js",
+   "src": "payload/_next/static/chunks/0kw6-ke1pt323.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/16gtqoylixq9n.js.wbenc",
+   "sha256": "c4411d8c749949de3938e15f00376e0da438ed4e4f5a41a8587638ca0697fdd6",
+   "size": 13437,
+   "source": "_next/static/chunks/16gtqoylixq9n.js",
+   "src": "payload/_next/static/chunks/16gtqoylixq9n.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/19hz7sn1bbhqv.js.wbenc",
+   "sha256": "29a906753949761da7f025aa75caab6693668343c2b2fb8e3bc6ec713819f1c5",
+   "size": 16168,
+   "source": "_next/static/chunks/19hz7sn1bbhqv.js",
+   "src": "payload/_next/static/chunks/19hz7sn1bbhqv.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/1aidumqvn97kd.js.wbenc",
+   "sha256": "aefc3d04cc1a9ae67521a99a71df20119479cd6fff90dcc2abd67ddd6c3be540",
+   "size": 352104,
+   "source": "_next/static/chunks/1aidumqvn97kd.js",
+   "src": "payload/_next/static/chunks/1aidumqvn97kd.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/1bopmorfz0qjw.js.wbenc",
+   "sha256": "a60b77f507e87d21bddb0c55ce26b2fb508ff3df7ca687880c39eadf449d725a",
+   "size": 29265,
+   "source": "_next/static/chunks/1bopmorfz0qjw.js",
+   "src": "payload/_next/static/chunks/1bopmorfz0qjw.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/1d1w9dvao1h42.js.wbenc",
+   "sha256": "c5b08d5532bac22f62ef7f6b1c3f7979c74aa8c85547c9db3dbe138ee2bdce0d",
+   "size": 44000,
+   "source": "_next/static/chunks/1d1w9dvao1h42.js",
+   "src": "payload/_next/static/chunks/1d1w9dvao1h42.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/1eb-sqafh6qa2.js.wbenc",
+   "sha256": "98267d2527a4f2b47ccf631e4ae7ed8e4a61bc0e350786990102d6f184e199e3",
+   "size": 24319,
+   "source": "_next/static/chunks/1eb-sqafh6qa2.js",
+   "src": "payload/_next/static/chunks/1eb-sqafh6qa2.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/1i8bjrextp7qi.js.wbenc",
+   "sha256": "3aeb8ea74757f40016b62247571fffc56557bb39e989f8673e013f3850af6209",
+   "size": 6293035,
+   "source": "_next/static/chunks/1i8bjrextp7qi.js",
+   "src": "payload/_next/static/chunks/1i8bjrextp7qi.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/1t055q2h_lgbe.js.wbenc",
+   "sha256": "31346922f3ec29da4b0f949785b9c51771a5a566cf82f1d7f3903e7c593a4423",
+   "size": 14918,
+   "source": "_next/static/chunks/1t055q2h_lgbe.js",
+   "src": "payload/_next/static/chunks/1t055q2h_lgbe.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/1xtjeaxrx2sn0.js.wbenc",
+   "sha256": "387823dc023a27923427c7b82348beaee07166c28b13983533dffcdf816c4fff",
+   "size": 16204,
+   "source": "_next/static/chunks/1xtjeaxrx2sn0.js",
+   "src": "payload/_next/static/chunks/1xtjeaxrx2sn0.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/2sii1-4l2ob9j.js.wbenc",
+   "sha256": "950be06aa72c68653ec42412ff736f3f37587d466949dc3a62fd8861d309b509",
+   "size": 6293035,
+   "source": "_next/static/chunks/2sii1-4l2ob9j.js",
+   "src": "payload/_next/static/chunks/2sii1-4l2ob9j.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/314o2p8-gaysn.js.wbenc",
+   "sha256": "7f94915a56124b24c88c189a7e0d1d5ebfd03706058e02d2fedad32e28e36702",
+   "size": 54700,
+   "source": "_next/static/chunks/314o2p8-gaysn.js",
+   "src": "payload/_next/static/chunks/314o2p8-gaysn.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/34avkk1rn-gtc.js.wbenc",
+   "sha256": "4721fa12a77fad64bd85b6ac9638ff01a9c85d6ad6662e2fdca1d7be6ff2e9bf",
+   "size": 31918,
+   "source": "_next/static/chunks/34avkk1rn-gtc.js",
+   "src": "payload/_next/static/chunks/34avkk1rn-gtc.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/3jh1u-s3k0bkk.js.wbenc",
+   "sha256": "f9b6efc266853ac75dda4d183071cc371b5a881d7d5dceaeca8dd037bc0f42d2",
+   "size": 203438,
+   "source": "_next/static/chunks/3jh1u-s3k0bkk.js",
+   "src": "payload/_next/static/chunks/3jh1u-s3k0bkk.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/3obfewke3_gct.js.wbenc",
+   "sha256": "83577c9d5d13a58b1dba4841a06c74d28d2f5e33164d46e6a850f153af265121",
+   "size": 5418,
+   "source": "_next/static/chunks/3obfewke3_gct.js",
+   "src": "payload/_next/static/chunks/3obfewke3_gct.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/3rkb7mhvf0pbr.js.wbenc",
+   "sha256": "084a9a5eba2aed410c38e8073f5ac5bf8bddc8680c2808947bb93e736335a3c9",
+   "size": 137024,
+   "source": "_next/static/chunks/3rkb7mhvf0pbr.js",
+   "src": "payload/_next/static/chunks/3rkb7mhvf0pbr.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/3u89emnr38f8z.js.wbenc",
+   "sha256": "22443fb57b557373a346da3933d5cf72d89e63fb972dfd2dc323c4d7e3efe3ed",
+   "size": 112702,
+   "source": "_next/static/chunks/3u89emnr38f8z.js",
+   "src": "payload/_next/static/chunks/3u89emnr38f8z.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/42l61ft34eog7.js.wbenc",
+   "sha256": "80407d112bff5996d5a7f076f682616055c538866cf101590c3daafb4efdd0ce",
+   "size": 783,
+   "source": "_next/static/chunks/42l61ft34eog7.js",
+   "src": "payload/_next/static/chunks/42l61ft34eog7.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/chunks/turbopack-0dwuar63e99oe.js.wbenc",
+   "sha256": "327027f34e19abd47ee528a24a6f882d89996c20382f255a713266103828bf95",
+   "size": 10700,
+   "source": "_next/static/chunks/turbopack-0dwuar63e99oe.js",
+   "src": "payload/_next/static/chunks/turbopack-0dwuar63e99oe.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/hqZZjwo_keOsCRpBnfsuA/_buildManifest.js.wbenc",
+   "sha256": "b6c0513644c573209ca008bd01008867684a30323de814ec61a40f087b562739",
+   "size": 273,
+   "source": "_next/static/hqZZjwo_keOsCRpBnfsuA/_buildManifest.js",
+   "src": "payload/_next/static/hqZZjwo_keOsCRpBnfsuA/_buildManifest.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/hqZZjwo_keOsCRpBnfsuA/_clientMiddlewareManifest.js.wbenc",
+   "sha256": "1416b6d0b15e5c24d3425f1e2e51e245a2f12c72a237d59955240ce8c133a64d",
+   "size": 150,
+   "source": "_next/static/hqZZjwo_keOsCRpBnfsuA/_clientMiddlewareManifest.js",
+   "src": "payload/_next/static/hqZZjwo_keOsCRpBnfsuA/_clientMiddlewareManifest.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_next/static/hqZZjwo_keOsCRpBnfsuA/_ssgManifest.js.wbenc",
+   "sha256": "6d0a8a6bbfa847c72160726ddbbed9d7df74be0efa64b14fac8fd44468e5b615",
+   "size": 134,
+   "source": "_next/static/hqZZjwo_keOsCRpBnfsuA/_ssgManifest.js",
+   "src": "payload/_next/static/hqZZjwo_keOsCRpBnfsuA/_ssgManifest.js.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_not-found/__next._full.txt.wbenc",
+   "sha256": "f84a0ebe2be7e7acd5c61007ed55fa5a5ccfa8ab5dda507939767a0ead5d7fda",
+   "size": 9779,
+   "source": "_not-found/__next._full.txt",
+   "src": "payload/_not-found/__next._full.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_not-found/__next._head.txt.wbenc",
+   "sha256": "d95fdf2fbef6c2ca910d1a71759920d3ee33739a48889d0e66cffa0c6dd38598",
+   "size": 1574,
+   "source": "_not-found/__next._head.txt",
+   "src": "payload/_not-found/__next._head.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_not-found/__next._index.txt.wbenc",
+   "sha256": "0ff2f14a7188c72adf215876fbb048d911b10fba5e235278c387dc2a30c696dc",
+   "size": 5896,
+   "source": "_not-found/__next._index.txt",
+   "src": "payload/_not-found/__next._index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_not-found/__next._not-found.__PAGE__.txt.wbenc",
+   "sha256": "3cc83e3dbc48199a528a52d9ca7c88b2e53655499e7d452d9d79d94b49d35c0a",
+   "size": 1254,
+   "source": "_not-found/__next._not-found.__PAGE__.txt",
+   "src": "payload/_not-found/__next._not-found.__PAGE__.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_not-found/__next._not-found.txt.wbenc",
+   "sha256": "6e062966bcf5957e05c5bc7f9375e63abce4e09cd1499a5c3465c6bcdfa54912",
+   "size": 739,
+   "source": "_not-found/__next._not-found.txt",
+   "src": "payload/_not-found/__next._not-found.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_not-found/__next._tree.txt.wbenc",
+   "sha256": "cbb47b2fc0acb0e65f21cd098a63b810a69c6cd6831af3b16c7f4a1331a836c9",
+   "size": 403,
+   "source": "_not-found/__next._tree.txt",
+   "src": "payload/_not-found/__next._tree.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_not-found/index.html.wbenc",
+   "sha256": "b74329beb8e8f110ec71db899e64a37650ae5fee6c6398ee475d3f66bc49b18d",
+   "size": 23123,
+   "source": "_not-found/index.html",
+   "src": "payload/_not-found/index.html.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/_not-found/index.txt.wbenc",
+   "sha256": "0bd4ce0e9fa07b29278ae2ef93c9eb064aafbd6a1d0cebce373a599445580db6",
+   "size": 9779,
+   "source": "_not-found/index.txt",
+   "src": "payload/_not-found/index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/avatars/default_avatar.png.wbenc",
+   "sha256": "6162bdd0ebd282806d59e844611142dbbc5735a543875b28c721c4bba03f5815",
+   "size": 21315,
+   "source": "avatars/default_avatar.png",
+   "src": "payload/avatars/default_avatar.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/city-map-e2e.json.wbenc",
+   "sha256": "992a885e27fdc5878e814ff523ba1a72f733ae848fa1e333d4a382a699b11ec3",
+   "size": 3257064,
+   "source": "city-map-e2e.json",
+   "src": "payload/city-map-e2e.json.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/city-map.json.wbenc",
+   "sha256": "84ed518a854f22da3b3d94f7498959de99a1e2f75ada2d81a55a7d6db9cd62f8",
+   "size": 3257064,
+   "source": "city-map.json",
+   "src": "payload/city-map.json.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/create/__next._full.txt.wbenc",
+   "sha256": "403d597d392f4c5e5ca9303185ac6cb8e33758905e6973e88123a4b2a02983ad",
+   "size": 9838,
+   "source": "create/__next._full.txt",
+   "src": "payload/create/__next._full.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/create/__next._head.txt.wbenc",
+   "sha256": "5521e86798a1a7fa3854ca3200fd4c883382f1304be78ab223ef0ec2b6da13bb",
+   "size": 1523,
+   "source": "create/__next._head.txt",
+   "src": "payload/create/__next._head.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/create/__next._index.txt.wbenc",
+   "sha256": "1bf84f5c3824c6ef4d3db13c3f58052599f84268fe349276d15b264bd6d64ab3",
+   "size": 5896,
+   "source": "create/__next._index.txt",
+   "src": "payload/create/__next._index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/create/__next._tree.txt.wbenc",
+   "sha256": "b4eae006ba36e9c22f147506fddc09b3935d5465b5d8aa0e4cbe889bfbf066e5",
+   "size": 398,
+   "source": "create/__next._tree.txt",
+   "src": "payload/create/__next._tree.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/create/__next.create.__PAGE__.txt.wbenc",
+   "sha256": "5640e3c27550519df6496a2edc08666d7e28e2e5a30d265b48edfd16a70910d7",
+   "size": 1318,
+   "source": "create/__next.create.__PAGE__.txt",
+   "src": "payload/create/__next.create.__PAGE__.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/create/__next.create.txt.wbenc",
+   "sha256": "8a2c8aba16ed94ce9690462da525a5712e3324286fa01df369519096fecfc2eb",
+   "size": 739,
+   "source": "create/__next.create.txt",
+   "src": "payload/create/__next.create.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/create/index.html.wbenc",
+   "sha256": "e900ad8c8367a55e4f16c8d73866362d9553b60f762e4aaa7cb30df4cba3b289",
+   "size": 23302,
+   "source": "create/index.html",
+   "src": "payload/create/index.html.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/create/index.txt.wbenc",
+   "sha256": "6735bce61a2e7eca85c606003fbba912d66c83139e205be559d95848df2c6cef",
+   "size": 9838,
+   "source": "create/index.txt",
+   "src": "payload/create/index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/devlogs/__next._full.txt.wbenc",
+   "sha256": "456a4d46c87ea1292db04b85c23cf98606147bafa3461280674ae5e823295fe6",
+   "size": 34877,
+   "source": "devlogs/__next._full.txt",
+   "src": "payload/devlogs/__next._full.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/devlogs/__next._head.txt.wbenc",
+   "sha256": "da51916db9493a5b1f71fc7478679842cf4d5b6f8203c284b478383610b5f12c",
+   "size": 1483,
+   "source": "devlogs/__next._head.txt",
+   "src": "payload/devlogs/__next._head.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/devlogs/__next._index.txt.wbenc",
+   "sha256": "28762cf984a8d566fa3d475430d5d199809551cd899d436c4089a0c90705428d",
+   "size": 5896,
+   "source": "devlogs/__next._index.txt",
+   "src": "payload/devlogs/__next._index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/devlogs/__next._tree.txt.wbenc",
+   "sha256": "54e471f592857a008349e85b8b9674d65378e7cb72272137baa310ce6e39ec18",
+   "size": 399,
+   "source": "devlogs/__next._tree.txt",
+   "src": "payload/devlogs/__next._tree.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/devlogs/__next.devlogs.__PAGE__.txt.wbenc",
+   "sha256": "9cda96fbfca36fdefdfcdd882ceac1f4767b3221eb50d512e9c58e64d2d375d9",
+   "size": 26377,
+   "source": "devlogs/__next.devlogs.__PAGE__.txt",
+   "src": "payload/devlogs/__next.devlogs.__PAGE__.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/devlogs/__next.devlogs.txt.wbenc",
+   "sha256": "3b929d5f0ce75027e2bdfa3959416f54fa045a94fee04312ea9079cc4a399e7d",
+   "size": 739,
+   "source": "devlogs/__next.devlogs.txt",
+   "src": "payload/devlogs/__next.devlogs.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/devlogs/index.html.wbenc",
+   "sha256": "116de164c5a128e054a9c28acab9c055120186bf53f9b9c97e83d6ea539a8fe3",
+   "size": 73470,
+   "source": "devlogs/index.html",
+   "src": "payload/devlogs/index.html.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/devlogs/index.txt.wbenc",
+   "sha256": "b54e3c1b393531e8b2b43595756c19fbaa7d8c564a376a0c8eb4879d52baba67",
+   "size": 34877,
+   "source": "devlogs/index.txt",
+   "src": "payload/devlogs/index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/images/build-to-survive-thumb.jpg.wbenc",
+   "sha256": "1e35730abf58e65d1c55cd5626f0d719c642649f148a0bf02a6ad1afa0a6d87a",
+   "size": 28795,
+   "source": "images/build-to-survive-thumb.jpg",
+   "src": "payload/images/build-to-survive-thumb.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/images/tower-sword-fight-thumb.jpg.wbenc",
+   "sha256": "6514d429412970257345665cb10033a3b0e602ac7af71208f88e26e07e8f625b",
+   "size": 33239,
+   "source": "images/tower-sword-fight-thumb.jpg",
+   "src": "payload/images/tower-sword-fight-thumb.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/index.html.wbenc",
+   "sha256": "3e3d77987171cbc727b65400d1ccf88f80e627a0bd7be8feee4c96150093be00",
+   "size": 22899,
+   "source": "index.html",
+   "src": "payload/index.html.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/index.txt.wbenc",
+   "sha256": "a60b82ec835a61151fb4abbc4d21c8880d160a79f7740d91f927cb78d86e5268",
+   "size": 9711,
+   "source": "index.txt",
+   "src": "payload/index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-1.png.wbenc",
+   "sha256": "629211188d888e3caadc95f872966dbfcaf73bd91611127cffe73813be51bf45",
+   "size": 405,
+   "source": "items/faces/FACE-1.png",
+   "src": "payload/items/faces/FACE-1.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-11.png.wbenc",
+   "sha256": "6bcdae2a7c87ad4dc236330bed1b461381916545d83eea582951d332e00f00a4",
+   "size": 5558,
+   "source": "items/faces/FACE-11.png",
+   "src": "payload/items/faces/FACE-11.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-12.png.wbenc",
+   "sha256": "4ac75e80493fafdd1cf0425daf900f123e4c476238c7ea50a4f3271088740706",
+   "size": 4002,
+   "source": "items/faces/FACE-12.png",
+   "src": "payload/items/faces/FACE-12.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-13.png.wbenc",
+   "sha256": "c511950a285bd6b4a96c5b01161460e67c97cd75ce2a6476100c12dd8bdf0f61",
+   "size": 5421,
+   "source": "items/faces/FACE-13.png",
+   "src": "payload/items/faces/FACE-13.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-14.png.wbenc",
+   "sha256": "568308bc36674a1b1f8776205a5129572f60cd505b18df03b74662ffb7c25f7c",
+   "size": 3554,
+   "source": "items/faces/FACE-14.png",
+   "src": "payload/items/faces/FACE-14.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-15.png.wbenc",
+   "sha256": "dec1e9ab59c4f362daf17f5c5519f4251f8ae13d8597e133c165c983000580b4",
+   "size": 451,
+   "source": "items/faces/FACE-15.png",
+   "src": "payload/items/faces/FACE-15.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-16.png.wbenc",
+   "sha256": "650eca9910405c9d5ba5896dce23baf2c67d8dfbf1be99351eda4a1dc41d4d32",
+   "size": 8054,
+   "source": "items/faces/FACE-16.png",
+   "src": "payload/items/faces/FACE-16.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-17.png.wbenc",
+   "sha256": "a106cbae12487438e3701371fefe7eac4a3e5e2c16a9ca05c9e8269f40c2709f",
+   "size": 14407,
+   "source": "items/faces/FACE-17.png",
+   "src": "payload/items/faces/FACE-17.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-18.png.wbenc",
+   "sha256": "1856f51c694b74d80ffc70e7fcb51c59b6612e0e5f3c19d8393afcc5a9356b23",
+   "size": 8627,
+   "source": "items/faces/FACE-18.png",
+   "src": "payload/items/faces/FACE-18.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-19.png.wbenc",
+   "sha256": "f01528a73f1a37248efef8a0c7aa6c642861b23b457fc5250556190c6378a75b",
+   "size": 605,
+   "source": "items/faces/FACE-19.png",
+   "src": "payload/items/faces/FACE-19.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-2.png.wbenc",
+   "sha256": "73e5eaef12d59c3713c24babf8aaafa078dc43b767cc6cb8a5de6edb72200d24",
+   "size": 468,
+   "source": "items/faces/FACE-2.png",
+   "src": "payload/items/faces/FACE-2.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-20.png.wbenc",
+   "sha256": "9d8c9932adaff406e4eaa3097b00c5611321391bb9c1e734f49e682078d79419",
+   "size": 494,
+   "source": "items/faces/FACE-20.png",
+   "src": "payload/items/faces/FACE-20.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-21.png.wbenc",
+   "sha256": "ce8c97b03c7abb6073e5708b2fce118f3de2fd2e6b3b79905ed2bd72bc43af48",
+   "size": 1046,
+   "source": "items/faces/FACE-21.png",
+   "src": "payload/items/faces/FACE-21.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-3.png.wbenc",
+   "sha256": "fe51fade77eb1945d57a36574a5485c66c87baf340ae100b64431c76979bc38b",
+   "size": 4642,
+   "source": "items/faces/FACE-3.png",
+   "src": "payload/items/faces/FACE-3.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-4.png.wbenc",
+   "sha256": "6ede8fa9122fceac374887cd9d7af3e0166dfe71bc25b73ff89fea05603cea60",
+   "size": 2784,
+   "source": "items/faces/FACE-4.png",
+   "src": "payload/items/faces/FACE-4.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-5.png.wbenc",
+   "sha256": "608d0b0540699eb9605cedb5d14cbf6bf57ce9309b20bf34abbc42363527aad6",
+   "size": 494,
+   "source": "items/faces/FACE-5.png",
+   "src": "payload/items/faces/FACE-5.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-6.png.wbenc",
+   "sha256": "9f041a56305d2ac827275cebaf8f8bc143f3a3c628b264ab58745e45ed0c484f",
+   "size": 2771,
+   "source": "items/faces/FACE-6.png",
+   "src": "payload/items/faces/FACE-6.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-7.png.wbenc",
+   "sha256": "e8f9632f6076806c2fe9a8360578fc0eff4f5deed05cd8d67ef083cf92cb57ab",
+   "size": 2727,
+   "source": "items/faces/FACE-7.png",
+   "src": "payload/items/faces/FACE-7.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-8.png.wbenc",
+   "sha256": "a68da79376ea622c9d03f34b6a1c2775437f60a0ce8330bfdde8615639442b97",
+   "size": 2222,
+   "source": "items/faces/FACE-8.png",
+   "src": "payload/items/faces/FACE-8.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/items/faces/FACE-9.png.wbenc",
+   "sha256": "7644844ac79c5a41ba3efa35abec8464ade70e677cbb0ab4cc54fe045af9e2ae",
+   "size": 3434,
+   "source": "items/faces/FACE-9.png",
+   "src": "payload/items/faces/FACE-9.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/logo.png.wbenc",
+   "sha256": "44ad73d2d1a474773048dd6caf7bca9f01b5d64f94138a5eb3cae0f67602518b",
+   "size": 40643,
+   "source": "logo.png",
+   "src": "payload/logo.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/logos/icon-192.png.wbenc",
+   "sha256": "fa496782986d70fd2482ab3df7141c6e0382f7b9cb4e15c2124b0429cad9faae",
+   "size": 23033,
+   "source": "logos/icon-192.png",
+   "src": "payload/logos/icon-192.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/logos/icon-512.png.wbenc",
+   "sha256": "85ff76981a838e1f09dc489b452d26c063a48272ce931e0cc0668e8671376558",
+   "size": 55747,
+   "source": "logos/icon-512.png",
+   "src": "payload/logos/icon-512.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/logos/logo.png.wbenc",
+   "sha256": "3fb47184a81ec934300e7a03d674f46545fd7f30b5d5e40bc1695e7057a16ea2",
+   "size": 40643,
+   "source": "logos/logo.png",
+   "src": "payload/logos/logo.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/logos/text_logo_retro.png.wbenc",
+   "sha256": "5f038c679186c743e680f21442ec27b2360256fd99dc8cefe1ac00418c71336d",
+   "size": 7597,
+   "source": "logos/text_logo_retro.png",
+   "src": "payload/logos/text_logo_retro.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/logos/text_logo_simple.png.wbenc",
+   "sha256": "58a2e030bc3de836ebf311b67e11caf8a6e050a410ead9ec7286d9b0a4c8defc",
+   "size": 79211,
+   "source": "logos/text_logo_simple.png",
+   "src": "payload/logos/text_logo_simple.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/manifest.webmanifest.wbenc",
+   "sha256": "1e8f397b00e3688e38fad38cf043fa5cdc9bcaba0e6cdb9ffb77d30e38dc6a58",
+   "size": 804,
+   "source": "manifest.webmanifest",
+   "src": "payload/manifest.webmanifest.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/privacy/__next._full.txt.wbenc",
+   "sha256": "0310ba1cc3d66bfa499a833e32d4fd3106a616ad494db990ec635d19c360ef3e",
+   "size": 24850,
+   "source": "privacy/__next._full.txt",
+   "src": "payload/privacy/__next._full.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/privacy/__next._head.txt.wbenc",
+   "sha256": "584afdeac01585b319d0eb4cc657399de1812e90dbcf71a5e053181b01ac9724",
+   "size": 1499,
+   "source": "privacy/__next._head.txt",
+   "src": "payload/privacy/__next._head.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/privacy/__next._index.txt.wbenc",
+   "sha256": "7582076f007a6821ea9dbdd6a48f87188ab54a38f0f72f9a2190a7042a4ea9fd",
+   "size": 5896,
+   "source": "privacy/__next._index.txt",
+   "src": "payload/privacy/__next._index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/privacy/__next._tree.txt.wbenc",
+   "sha256": "91e78b9641237e9f61af261402a8f7dd3ac06cfea77eacb97cba5a329c4c2546",
+   "size": 399,
+   "source": "privacy/__next._tree.txt",
+   "src": "payload/privacy/__next._tree.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/privacy/__next.privacy.__PAGE__.txt.wbenc",
+   "sha256": "598069c8c4392a1599a54733b04a675674229742f20967470e7e9ea58bab6ab2",
+   "size": 16354,
+   "source": "privacy/__next.privacy.__PAGE__.txt",
+   "src": "payload/privacy/__next.privacy.__PAGE__.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/privacy/__next.privacy.txt.wbenc",
+   "sha256": "8d00a356a12b88b2bdd12ef71993ed9f79f31a3a7eb7413cc4defef07287e7fd",
+   "size": 739,
+   "source": "privacy/__next.privacy.txt",
+   "src": "payload/privacy/__next.privacy.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/privacy/index.html.wbenc",
+   "sha256": "c0f186b9e4c7908a723be75d5cd51af3bdb4db6de687ffcd4d130f1f7b9717f0",
+   "size": 55848,
+   "source": "privacy/index.html",
+   "src": "payload/privacy/index.html.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/privacy/index.txt.wbenc",
+   "sha256": "ebd9460cb960908be1364097d4fbc90f2a29acfa16770316f0b60beed32bef3b",
+   "size": 24850,
+   "source": "privacy/index.txt",
+   "src": "payload/privacy/index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/robots.txt.wbenc",
+   "sha256": "9980db4e0b3a0a1c05da6eb2357f8bb64a2efa6a6ffc9dd6363b5ba0fd9f1658",
+   "size": 214,
+   "source": "robots.txt",
+   "src": "payload/robots.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/rules/__next._full.txt.wbenc",
+   "sha256": "8e80cb833a99cd75066ea20e8ade320db5ed4ee2e91b0c8d7c7dc00b7f5b50ea",
+   "size": 19570,
+   "source": "rules/__next._full.txt",
+   "src": "payload/rules/__next._full.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/rules/__next._head.txt.wbenc",
+   "sha256": "1a266d0bb233909cb8d476b3fc771639cd9770c0ac6e9111ed6d2d709c2a70a6",
+   "size": 1501,
+   "source": "rules/__next._head.txt",
+   "src": "payload/rules/__next._head.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/rules/__next._index.txt.wbenc",
+   "sha256": "96e70f4df7ec0e842c291e4a4612eb27bf1698e1b902d25b26c5f3d1de2db76d",
+   "size": 5896,
+   "source": "rules/__next._index.txt",
+   "src": "payload/rules/__next._index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/rules/__next._tree.txt.wbenc",
+   "sha256": "2b18147f51f80304bc6becd5c7533a55930dfe3f238d9bcdbdb5f37a0133eac9",
+   "size": 397,
+   "source": "rules/__next._tree.txt",
+   "src": "payload/rules/__next._tree.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/rules/__next.rules.__PAGE__.txt.wbenc",
+   "sha256": "e2605e8a84ab4e21eba42b51677269dc26d216b26c656c1373719e0f6e22bb02",
+   "size": 11054,
+   "source": "rules/__next.rules.__PAGE__.txt",
+   "src": "payload/rules/__next.rules.__PAGE__.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/rules/__next.rules.txt.wbenc",
+   "sha256": "2484471a3c9d12ee702015a21c2e8033591d3d297043dd6ea7b24b402db657db",
+   "size": 739,
+   "source": "rules/__next.rules.txt",
+   "src": "payload/rules/__next.rules.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/rules/index.html.wbenc",
+   "sha256": "62283e781ff6791acbed5be19a172f3dae2103e609168710c662df205ef162bd",
+   "size": 45740,
+   "source": "rules/index.html",
+   "src": "payload/rules/index.html.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/rules/index.txt.wbenc",
+   "sha256": "7c12bfccbe0d407a58684865bf0b16835e2538cd236b6b22a98a60609a612352",
+   "size": 19570,
+   "source": "rules/index.txt",
+   "src": "payload/rules/index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/build-to-survive/break.mp3.wbenc",
+   "sha256": "d3af6ea5b2d58d2b6f467ab53998dff3216fb1665a2c141020399d8eabe62c98",
+   "size": 10085,
+   "source": "sounds/build-to-survive/break.mp3",
+   "src": "payload/sounds/build-to-survive/break.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/build-to-survive/claim.mp3.wbenc",
+   "sha256": "3b877f63210538a1b1518f51c4a7b16d32fc58a35def86b8efc5d17d710f7827",
+   "size": 5069,
+   "source": "sounds/build-to-survive/claim.mp3",
+   "src": "payload/sounds/build-to-survive/claim.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/build-to-survive/disaster_warn.mp3.wbenc",
+   "sha256": "179457fe3b77861ed08c6b796c00a6e0fc98cc2dd47f87c6cb787c900685f344",
+   "size": 321846,
+   "source": "sounds/build-to-survive/disaster_warn.mp3",
+   "src": "payload/sounds/build-to-survive/disaster_warn.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/build-to-survive/place.mp3.wbenc",
+   "sha256": "b8cab36e91195535ba7616cecf871583018457d8b3c26937b7e336f844305ee6",
+   "size": 37686,
+   "source": "sounds/build-to-survive/place.mp3",
+   "src": "payload/sounds/build-to-survive/place.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/build-to-survive/survive.mp3.wbenc",
+   "sha256": "68054b40b381a7b21abca8e3924b6bc6734206f8740173234eee9d649daf2911",
+   "size": 29311,
+   "source": "sounds/build-to-survive/survive.mp3",
+   "src": "payload/sounds/build-to-survive/survive.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/build-to-survive/zombie_attack.mp3.wbenc",
+   "sha256": "249b710d856300ebdd849240ebb804161aab408d7566637a3a9d2ccee528d5c9",
+   "size": 16854,
+   "source": "sounds/build-to-survive/zombie_attack.mp3",
+   "src": "payload/sounds/build-to-survive/zombie_attack.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/build-to-survive/zombie_sound.m4a.wbenc",
+   "sha256": "63d66c8cb22ada6cd25b9f24910990d3563feb228322e4b35c98af099fbce7d8",
+   "size": 73569,
+   "source": "sounds/build-to-survive/zombie_sound.m4a",
+   "src": "payload/sounds/build-to-survive/zombie_sound.m4a.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/effects/click.mp3.wbenc",
+   "sha256": "fb865f0d17e63a2f35eb2dd4a0067f38cad14edddb04b4ac640c3c1655065c4a",
+   "size": 5069,
+   "source": "sounds/effects/click.mp3",
+   "src": "payload/sounds/effects/click.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/effects/death.mp3.wbenc",
+   "sha256": "c0bc2f9c749a586153165bfda966a60e0f1f5173c8a10e0c0ebee31bb42ee86e",
+   "size": 49635,
+   "source": "sounds/effects/death.mp3",
+   "src": "payload/sounds/effects/death.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/effects/explosion.mp3.wbenc",
+   "sha256": "fd62bac5175378165f3772ab5be97c9699318ba2d20b60cd9551e3a7c8e5b451",
+   "size": 49635,
+   "source": "sounds/effects/explosion.mp3",
+   "src": "payload/sounds/effects/explosion.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/effects/install_error.mp3.wbenc",
+   "sha256": "0cb8ccf4dbac7a1e2da747314b494c205fa46900c5e9d59e62cd0e3aa4ed9573",
+   "size": 12174,
+   "source": "sounds/effects/install_error.mp3",
+   "src": "payload/sounds/effects/install_error.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/effects/install_success.mp3.wbenc",
+   "sha256": "c49b14b2f60379f370f8ac0ad656925461561b4451c8392b2be42b177862fa8b",
+   "size": 43939,
+   "source": "sounds/effects/install_success.mp3",
+   "src": "payload/sounds/effects/install_success.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/effects/jump.mp3.wbenc",
+   "sha256": "9e2b710d9e0b0337ee45ffde74339fa5c5b66b71acb4ec9ad1eb3cb9767237ff",
+   "size": 11574,
+   "source": "sounds/effects/jump.mp3",
+   "src": "payload/sounds/effects/jump.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/effects/scary_laugh.mp3.wbenc",
+   "sha256": "020f9cb9c330dd9005e7486359ffbe3e97a7013d2e7bb27b0aace7b13ee6e9a0",
+   "size": 224916,
+   "source": "sounds/effects/scary_laugh.mp3",
+   "src": "payload/sounds/effects/scary_laugh.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/effects/scream.mp3.wbenc",
+   "sha256": "f461a6e779d9196412fab93f6623a0beca7b03f6afd01c4024b75574f60e60b0",
+   "size": 62747,
+   "source": "sounds/effects/scream.mp3",
+   "src": "payload/sounds/effects/scream.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/effects/used_tool.wav.wbenc",
+   "sha256": "227ceaeb9231fa37aafd26655b0595fb03c096ef432eeec03b933833111b9e96",
+   "size": 105938,
+   "source": "sounds/effects/used_tool.wav",
+   "src": "payload/sounds/effects/used_tool.wav.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/effects/walk.mp3.wbenc",
+   "sha256": "57a20a71e2da90268f3f38b6a3a01de6e5cb38bd60a6c7cd94e87152bd6db28e",
+   "size": 6323,
+   "source": "sounds/effects/walk.mp3",
+   "src": "payload/sounds/effects/walk.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/tower-sword-fight/bazooka_shoot.mp3.wbenc",
+   "sha256": "107a51ca8200f73ba86b5da57c1ea16eb04a18e746c64c080c1c81346a2864fa",
+   "size": 76086,
+   "source": "sounds/tower-sword-fight/bazooka_shoot.mp3",
+   "src": "payload/sounds/tower-sword-fight/bazooka_shoot.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/tower-sword-fight/draw_regen_staff.mp3.wbenc",
+   "sha256": "f9d5202268c9fbdbb183730ed95f2a0b633390bd00b73bb8608cc21a278723d0",
+   "size": 65334,
+   "source": "sounds/tower-sword-fight/draw_regen_staff.mp3",
+   "src": "payload/sounds/tower-sword-fight/draw_regen_staff.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/tower-sword-fight/draw_sword.mp3.wbenc",
+   "sha256": "c2ab658539fc26066765d019c5a777cfa10ba06f8e56aa480106f1dd9061db38",
+   "size": 35094,
+   "source": "sounds/tower-sword-fight/draw_sword.mp3",
+   "src": "payload/sounds/tower-sword-fight/draw_sword.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/tower-sword-fight/grap_hook_select.mp3.wbenc",
+   "sha256": "f82941edf9e128ae645bacdcfa909a4c2c8c99bc403841394d1c36066b3b76e7",
+   "size": 30983,
+   "source": "sounds/tower-sword-fight/grap_hook_select.mp3",
+   "src": "payload/sounds/tower-sword-fight/grap_hook_select.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/tower-sword-fight/hook_shoot.mp3.wbenc",
+   "sha256": "05d79fea6ba903e0898549d0395a1e6d3d199fa9cd29c50f10fee7f79178139d",
+   "size": 3397,
+   "source": "sounds/tower-sword-fight/hook_shoot.mp3",
+   "src": "payload/sounds/tower-sword-fight/hook_shoot.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/sounds/tower-sword-fight/sword_use.mp3.wbenc",
+   "sha256": "3a35e8a9ecd7d2f9b861e92381093997d0f119678bbac0066417ce980be77fba",
+   "size": 16854,
+   "source": "sounds/tower-sword-fight/sword_use.mp3",
+   "src": "payload/sounds/tower-sword-fight/sword_use.mp3.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/splash-texts.json.wbenc",
+   "sha256": "986d8f6498177714c915050b06203dd00e6be7fc0f1cee0e5045cd1e8894c657",
+   "size": 4261,
+   "source": "splash-texts.json",
+   "src": "payload/splash-texts.json.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/splashscreen.html.wbenc",
+   "sha256": "44fd93f9b2951c58b1e29aff39f85d6d829f4ff29e641d60b5c00294e60f52d2",
+   "size": 15642,
+   "source": "splashscreen.html",
+   "src": "payload/splashscreen.html.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/studio/__next._full.txt.wbenc",
+   "sha256": "ed917eb63068ae81623fa37576ec84121d13de1560c3432dd8d2afdfa79e1265",
+   "size": 9838,
+   "source": "studio/__next._full.txt",
+   "src": "payload/studio/__next._full.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/studio/__next._head.txt.wbenc",
+   "sha256": "4859220cc081c9a3d28757e71bf813cec226ccd3fad3d4efb9f0b8a1998ea887",
+   "size": 1523,
+   "source": "studio/__next._head.txt",
+   "src": "payload/studio/__next._head.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/studio/__next._index.txt.wbenc",
+   "sha256": "1f423ec1f811e899b98d807c4e5ef2179217d58745ea3adc1896b09c879c5d53",
+   "size": 5896,
+   "source": "studio/__next._index.txt",
+   "src": "payload/studio/__next._index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/studio/__next._tree.txt.wbenc",
+   "sha256": "deba43de34d26c9b06f93cabfdf6333e5050485ed3c07bd7a550b6c134340a90",
+   "size": 398,
+   "source": "studio/__next._tree.txt",
+   "src": "payload/studio/__next._tree.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/studio/__next.studio.__PAGE__.txt.wbenc",
+   "sha256": "06693fd968a54a52f7e5617c9e6f756643dabac4d2226aab8a6939dc547434f1",
+   "size": 1318,
+   "source": "studio/__next.studio.__PAGE__.txt",
+   "src": "payload/studio/__next.studio.__PAGE__.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/studio/__next.studio.txt.wbenc",
+   "sha256": "94ae18b71e6d5ecc6c49dbdaa17d05e3d66fa3e2af565ea0dc376638c02a3c4b",
+   "size": 739,
+   "source": "studio/__next.studio.txt",
+   "src": "payload/studio/__next.studio.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/studio/index.html.wbenc",
+   "sha256": "f164d2cfa9a08d7f61782016cca8774150d368e74c97065f00ce092e4f4fff0b",
+   "size": 23302,
+   "source": "studio/index.html",
+   "src": "payload/studio/index.html.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/studio/index.txt.wbenc",
+   "sha256": "94e1e039bfaf624d58b849e07ad90bdf2d28f45e8346f1086685aa8102e09d69",
+   "size": 9838,
+   "source": "studio/index.txt",
+   "src": "payload/studio/index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/terms/__next._full.txt.wbenc",
+   "sha256": "7a3de750f78b18220638d7c91a4b87b6961f7dadf481001f3d961f4cd54f5f02",
+   "size": 20716,
+   "source": "terms/__next._full.txt",
+   "src": "payload/terms/__next._full.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/terms/__next._head.txt.wbenc",
+   "sha256": "df3e6ccb9966e5945e5cc76ee656063d2b0a1979d31ab4bde790b0b80d1aa0a0",
+   "size": 1479,
+   "source": "terms/__next._head.txt",
+   "src": "payload/terms/__next._head.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/terms/__next._index.txt.wbenc",
+   "sha256": "19e861f70a9182efb451e09bbdb2de36c32d5c7b4f574e6cf6cb9469a0a6daee",
+   "size": 5896,
+   "source": "terms/__next._index.txt",
+   "src": "payload/terms/__next._index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/terms/__next._tree.txt.wbenc",
+   "sha256": "57a8297de7119915898d4f09f7e21a3410badd19fedfd80c47a2f0baa0d7efd9",
+   "size": 397,
+   "source": "terms/__next._tree.txt",
+   "src": "payload/terms/__next._tree.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/terms/__next.terms.__PAGE__.txt.wbenc",
+   "sha256": "00ccbc89c0d9bc81ad75a4ea1e9931929b8fce8236cf766f24e877c15f81d291",
+   "size": 12224,
+   "source": "terms/__next.terms.__PAGE__.txt",
+   "src": "payload/terms/__next.terms.__PAGE__.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/terms/__next.terms.txt.wbenc",
+   "sha256": "e8313fd08e33f3526776a342e5e30786eba74084f280d843f3e9d5b6a3bbefc3",
+   "size": 739,
+   "source": "terms/__next.terms.txt",
+   "src": "payload/terms/__next.terms.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/terms/index.html.wbenc",
+   "sha256": "4d5c18ce28b8ce46bb48d067730d12fbfcaf0af9b889855ffe09167e5fd50605",
+   "size": 48227,
+   "source": "terms/index.html",
+   "src": "payload/terms/index.html.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/terms/index.txt.wbenc",
+   "sha256": "950f602e8ba348601ce334a1a383b2d2e018ea748c94d7c4cce0b0493d036dfe",
+   "size": 20716,
+   "source": "terms/index.txt",
+   "src": "payload/terms/index.txt.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/brick/albedo.jpg.wbenc",
+   "sha256": "e66828a356178b2f28001af6edf2cd0d4fa3041a31bec19ecf16e00d97bcc6e8",
+   "size": 313308,
+   "source": "textures/brick/albedo.jpg",
+   "src": "payload/textures/brick/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/brick/normal.jpg.wbenc",
+   "sha256": "ec4faec1420c9b0564fd4ba07868004059845b0ad3142396240860e3fc62a7b2",
+   "size": 337486,
+   "source": "textures/brick/normal.jpg",
+   "src": "payload/textures/brick/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/brick/roughness.jpg.wbenc",
+   "sha256": "99cb01a2529d13e0a3e7d969fb8b76e5f6058594e3658f920f580f43ad52887c",
+   "size": 317865,
+   "source": "textures/brick/roughness.jpg",
+   "src": "payload/textures/brick/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/cardboard/albedo.jpg.wbenc",
+   "sha256": "c6e057ce0747082d8aead797b2803aec35407b8a1dfefbf10f74a5fb1a992cd3",
+   "size": 120248,
+   "source": "textures/cardboard/albedo.jpg",
+   "src": "payload/textures/cardboard/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/cardboard/normal.jpg.wbenc",
+   "sha256": "21d00b8c58b6376dc68a6b1b06e41a3a2f34d852cc3ac724e1e9df16a53b63ae",
+   "size": 132425,
+   "source": "textures/cardboard/normal.jpg",
+   "src": "payload/textures/cardboard/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/cardboard/roughness.jpg.wbenc",
+   "sha256": "4e844828e34ef5891ff18b3eb8acadb532cb27e7ddca87e2bf2f894ec4a3feb1",
+   "size": 97576,
+   "source": "textures/cardboard/roughness.jpg",
+   "src": "payload/textures/cardboard/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/carpet/albedo.jpg.wbenc",
+   "sha256": "8fbce8242d44147afb36526cd41ff3c5c323df6e48233ae660a4c71b250cf4d2",
+   "size": 290700,
+   "source": "textures/carpet/albedo.jpg",
+   "src": "payload/textures/carpet/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/carpet/normal.jpg.wbenc",
+   "sha256": "2c9d3e3e9da66ac874fa2e4d724545fe125a260bf30b6d3706f26b1f28cf8ee7",
+   "size": 570473,
+   "source": "textures/carpet/normal.jpg",
+   "src": "payload/textures/carpet/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/carpet/roughness.jpg.wbenc",
+   "sha256": "1d070a9801b2a823ee34c277df48c3a0734b7aa6fb122854cf3b2c8e27ce67c4",
+   "size": 335433,
+   "source": "textures/carpet/roughness.jpg",
+   "src": "payload/textures/carpet/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/cobblestone/albedo.jpg.wbenc",
+   "sha256": "3ccaf9bdeba9b0c66594fb43cf1c1db41b0f9b46b562833abaab43966b5fef36",
+   "size": 437869,
+   "source": "textures/cobblestone/albedo.jpg",
+   "src": "payload/textures/cobblestone/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/cobblestone/normal.jpg.wbenc",
+   "sha256": "f259862dbed803e8d549d2c1bf8a1b6c0ff1bfb4193e9795ff13b44686b40bfa",
+   "size": 331122,
+   "source": "textures/cobblestone/normal.jpg",
+   "src": "payload/textures/cobblestone/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/cobblestone/roughness.jpg.wbenc",
+   "sha256": "e55c21b08df27e88674efe85b0bb09877336fde294ae3474e8263e560df66798",
+   "size": 387215,
+   "source": "textures/cobblestone/roughness.jpg",
+   "src": "payload/textures/cobblestone/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/concrete/albedo.jpg.wbenc",
+   "sha256": "6dc7c12a1650e2499492f7dbe8047252f1cfe1d5c63b8c6f41e4899758b93df3",
+   "size": 503863,
+   "source": "textures/concrete/albedo.jpg",
+   "src": "payload/textures/concrete/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/concrete/normal.jpg.wbenc",
+   "sha256": "5d8e9f681c655cd38530d703b50dacbd011fded0fbf54b68ea2c045b63a034c3",
+   "size": 367263,
+   "source": "textures/concrete/normal.jpg",
+   "src": "payload/textures/concrete/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/concrete/roughness.jpg.wbenc",
+   "sha256": "57b31bd3a9ee0fa15594d6517c1c7efef7ccda376d495d15354c6fb24ca6cfee",
+   "size": 375657,
+   "source": "textures/concrete/roughness.jpg",
+   "src": "payload/textures/concrete/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/diamond_plate/albedo.jpg.wbenc",
+   "sha256": "8e68f6759fa18ecb9f229844234b2025bfca3b9921f8347c2c88ecf4680cd2dc",
+   "size": 221394,
+   "source": "textures/diamond_plate/albedo.jpg",
+   "src": "payload/textures/diamond_plate/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/diamond_plate/normal.jpg.wbenc",
+   "sha256": "44b3c4f6d6345499104182aab8b1be0b4bcae1256420bd950b206d82e46f7bf7",
+   "size": 269154,
+   "source": "textures/diamond_plate/normal.jpg",
+   "src": "payload/textures/diamond_plate/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/diamond_plate/roughness.jpg.wbenc",
+   "sha256": "7725a9a1e35392949ef5258ee134c8b03a3a96836d6dbcf407de4c57a42583ff",
+   "size": 296320,
+   "source": "textures/diamond_plate/roughness.jpg",
+   "src": "payload/textures/diamond_plate/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/dirt/albedo.jpg.wbenc",
+   "sha256": "c8f890c4ef8f27c911c326b9e9de05e4b517cde3523236d7899e1dd8d769c744",
+   "size": 461181,
+   "source": "textures/dirt/albedo.jpg",
+   "src": "payload/textures/dirt/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/dirt/normal.jpg.wbenc",
+   "sha256": "c72ad6e51b17cd964d9b19fcb5ef710eabc501f04b0defed4e96bccb57823fb6",
+   "size": 554736,
+   "source": "textures/dirt/normal.jpg",
+   "src": "payload/textures/dirt/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/dirt/roughness.jpg.wbenc",
+   "sha256": "74cb43c034231f18ab46c8ee0f221cec209c7746d060c3678e5c8ae47cd43cb7",
+   "size": 528387,
+   "source": "textures/dirt/roughness.jpg",
+   "src": "payload/textures/dirt/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/foil/albedo.jpg.wbenc",
+   "sha256": "6aece05600c8f42347b1e77a3e7e98c73da4ad67d485e656e5699c0e3f7e7afd",
+   "size": 68835,
+   "source": "textures/foil/albedo.jpg",
+   "src": "payload/textures/foil/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/foil/normal.jpg.wbenc",
+   "sha256": "6f32e4cb9bfd73c324d844814e09daca23c07a64d6a369228147a91b287af1e0",
+   "size": 431562,
+   "source": "textures/foil/normal.jpg",
+   "src": "payload/textures/foil/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/foil/roughness.jpg.wbenc",
+   "sha256": "21c94beea25a19c83370aca0b674e279d6eb3f25c2892a92026f809d93b2682b",
+   "size": 110273,
+   "source": "textures/foil/roughness.jpg",
+   "src": "payload/textures/foil/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/geometric_tiles/albedo.jpg.wbenc",
+   "sha256": "1c94be187d22ab4f4434c409e0f50fd218dddc586e92c7a46125ea805b851be7",
+   "size": 469266,
+   "source": "textures/geometric_tiles/albedo.jpg",
+   "src": "payload/textures/geometric_tiles/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/geometric_tiles/normal.jpg.wbenc",
+   "sha256": "a2b586b9f437669c7f3092fb5ac26e5b9a84f2cf2f196e0ac291da46c3351306",
+   "size": 394032,
+   "source": "textures/geometric_tiles/normal.jpg",
+   "src": "payload/textures/geometric_tiles/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/geometric_tiles/roughness.jpg.wbenc",
+   "sha256": "5b6a7ed7ad0bffdb841e2c9b1a7efee6e82d9e5c31b6f2ec09383a5d553c4b5d",
+   "size": 383074,
+   "source": "textures/geometric_tiles/roughness.jpg",
+   "src": "payload/textures/geometric_tiles/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/granite/albedo.jpg.wbenc",
+   "sha256": "f56635e5d766ac6ce5ad7df976c4cbf4b107a8c6eb1b6d4fdfeef8518eccb0a1",
+   "size": 565342,
+   "source": "textures/granite/albedo.jpg",
+   "src": "payload/textures/granite/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/granite/normal.jpg.wbenc",
+   "sha256": "17ba584edadbe7ce98b04b7d65b28ace3d884340e2ad1b03d625e22c32cbf7dc",
+   "size": 230788,
+   "source": "textures/granite/normal.jpg",
+   "src": "payload/textures/granite/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/granite/roughness.jpg.wbenc",
+   "sha256": "af9f0b9fc022145bb337ce96572776b25d3c1eb0dc5c973ad55258cd8270a804",
+   "size": 321951,
+   "source": "textures/granite/roughness.jpg",
+   "src": "payload/textures/granite/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/grass/albedo.jpg.wbenc",
+   "sha256": "5af99ddb85a01f8322a18375f2e33ce82f1006b4097c996db56d019da2fba374",
+   "size": 439603,
+   "source": "textures/grass/albedo.jpg",
+   "src": "payload/textures/grass/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/grass/normal.jpg.wbenc",
+   "sha256": "0dd087a95db77ca970a8f657026c15d3ff97f31d202521c900456c963cb6613f",
+   "size": 661471,
+   "source": "textures/grass/normal.jpg",
+   "src": "payload/textures/grass/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/grass/roughness.jpg.wbenc",
+   "sha256": "4354f269e5954f0cbfc9d01de64205be97a44f76e6fb9a007079eeb2f9155ce7",
+   "size": 500678,
+   "source": "textures/grass/roughness.jpg",
+   "src": "payload/textures/grass/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/ice/albedo.jpg.wbenc",
+   "sha256": "f6fe462026eb2b46514fdb67d0a64b9d0f69139a63e650208bff2b3992d4dc3a",
+   "size": 230842,
+   "source": "textures/ice/albedo.jpg",
+   "src": "payload/textures/ice/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/ice/normal.jpg.wbenc",
+   "sha256": "843b12a163cc3864ee0e0032e301e44e378f2e9c9c65803d940b423af66810ab",
+   "size": 83836,
+   "source": "textures/ice/normal.jpg",
+   "src": "payload/textures/ice/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/ice/roughness.jpg.wbenc",
+   "sha256": "b8096877560e1ae18734d3cc80d73147492c5b3de589c3647d65ab599b3bb982",
+   "size": 186843,
+   "source": "textures/ice/roughness.jpg",
+   "src": "payload/textures/ice/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/lava/albedo.jpg.wbenc",
+   "sha256": "b18b30a2e03a832d49927c8c45511ccbe49f5c82f5d6e3644c06b250a424b3b8",
+   "size": 306134,
+   "source": "textures/lava/albedo.jpg",
+   "src": "payload/textures/lava/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/lava/normal.jpg.wbenc",
+   "sha256": "e4f658c830893f6ee5e7bcdc66940a6c8805eb9d6cbe06c563bb131bddc46550",
+   "size": 349346,
+   "source": "textures/lava/normal.jpg",
+   "src": "payload/textures/lava/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/lava/roughness.jpg.wbenc",
+   "sha256": "94b20505569a27e7c19f3bf2a3b7f6b51726453fd2f44b7c7e9eeddaa370c97e",
+   "size": 223936,
+   "source": "textures/lava/roughness.jpg",
+   "src": "payload/textures/lava/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/leather/albedo.jpg.wbenc",
+   "sha256": "4e8c82fb6e81c6c1a876856de0b4f600d0896a3efc2a1f9bd643245e6655db87",
+   "size": 277920,
+   "source": "textures/leather/albedo.jpg",
+   "src": "payload/textures/leather/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/leather/normal.jpg.wbenc",
+   "sha256": "366aa8827dc55c486aef48ab59eb84acf91c582aaf6359b9c4fafc928b73ddd3",
+   "size": 211068,
+   "source": "textures/leather/normal.jpg",
+   "src": "payload/textures/leather/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/leather/roughness.jpg.wbenc",
+   "sha256": "2e2d3f341b256d7d9e6f2839af9abde4708a21d2869811f7da7e8ac1c5d0a90a",
+   "size": 597514,
+   "source": "textures/leather/roughness.jpg",
+   "src": "payload/textures/leather/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/magma/albedo.jpg.wbenc",
+   "sha256": "0c0b0f6da0daef59da4b04239e8f2470f0cdfae13e68277d7997b18719940d86",
+   "size": 411908,
+   "source": "textures/magma/albedo.jpg",
+   "src": "payload/textures/magma/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/magma/normal.jpg.wbenc",
+   "sha256": "c799b817c81b1b58e7fad8897af2999e1462a1ab5bcf1e3c9bd6a13bc53d70d9",
+   "size": 592438,
+   "source": "textures/magma/normal.jpg",
+   "src": "payload/textures/magma/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/magma/roughness.jpg.wbenc",
+   "sha256": "173572a9aeea133a756d8c61f85a6579a692be0f7bc86dc97c0ddafb89b5cfdd",
+   "size": 142148,
+   "source": "textures/magma/roughness.jpg",
+   "src": "payload/textures/magma/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/marble/albedo.jpg.wbenc",
+   "sha256": "39cf6040ba45389b2e121bd6e8b9396f684620696f43341a3524074a463edd3d",
+   "size": 401885,
+   "source": "textures/marble/albedo.jpg",
+   "src": "payload/textures/marble/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/marble/normal.jpg.wbenc",
+   "sha256": "ed557da1905cf22b0a539cade1230b8f12bf1d3278f1e05e13c4a0c75d61d2c1",
+   "size": 6530,
+   "source": "textures/marble/normal.jpg",
+   "src": "payload/textures/marble/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/marble/roughness.jpg.wbenc",
+   "sha256": "dab23d3245caa672a518963d117adabcdee62f50ebf0682fc10879f3e3de5c08",
+   "size": 228313,
+   "source": "textures/marble/roughness.jpg",
+   "src": "payload/textures/marble/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/metal/albedo.jpg.wbenc",
+   "sha256": "749324004a93d5ce27d678c8eca308bfacb3db23da8e5e0da4ad5db3bb5b2bbb",
+   "size": 170130,
+   "source": "textures/metal/albedo.jpg",
+   "src": "payload/textures/metal/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/metal/normal.jpg.wbenc",
+   "sha256": "6486c8aff7fedad61fd8510cecc9c0323421ad118d755920345f5eb23df39db4",
+   "size": 48461,
+   "source": "textures/metal/normal.jpg",
+   "src": "payload/textures/metal/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/metal/roughness.jpg.wbenc",
+   "sha256": "7926efea46bf930864110c579d140898509e72a1194c9a61c0c375cf1a2d98aa",
+   "size": 77763,
+   "source": "textures/metal/roughness.jpg",
+   "src": "payload/textures/metal/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/moon.png.wbenc",
+   "sha256": "df593c1dce3513d4c4af6d4a36b45a19a8a700f29cf0a8b58d714d9fc1dc1be5",
+   "size": 658312,
+   "source": "textures/moon.png",
+   "src": "payload/textures/moon.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/normal_bricks/albedo.jpg.wbenc",
+   "sha256": "666776fd4aaa7625ffe73e7876138cef2471005a2620721280fe73cf47b4add6",
+   "size": 369485,
+   "source": "textures/normal_bricks/albedo.jpg",
+   "src": "payload/textures/normal_bricks/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/normal_bricks/normal.jpg.wbenc",
+   "sha256": "7527f02916c61bba57d1f200de4da1aca3e7c37b619168b46bec34ad024f5047",
+   "size": 354734,
+   "source": "textures/normal_bricks/normal.jpg",
+   "src": "payload/textures/normal_bricks/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/normal_bricks/roughness.jpg.wbenc",
+   "sha256": "079cf5564d651a43c4d44658e4133b4aae51dfe6fb12b1190afa1a5858a0875b",
+   "size": 314880,
+   "source": "textures/normal_bricks/roughness.jpg",
+   "src": "payload/textures/normal_bricks/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/pebble/albedo.jpg.wbenc",
+   "sha256": "dc3c4df98d5c953c18cefebd7f901e3d1833cf3ee7bfe85c591489ec69846338",
+   "size": 376196,
+   "source": "textures/pebble/albedo.jpg",
+   "src": "payload/textures/pebble/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/pebble/normal.jpg.wbenc",
+   "sha256": "222d9bb6b879d98e8dd3a0e287ebf694e6201531215c72c5183c1f4e068cebee",
+   "size": 685175,
+   "source": "textures/pebble/normal.jpg",
+   "src": "payload/textures/pebble/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/pebble/roughness.jpg.wbenc",
+   "sha256": "7da50df601a22ef3a69c7b535361b871537263c0311fcf8120955300c530e70e",
+   "size": 238828,
+   "source": "textures/pebble/roughness.jpg",
+   "src": "payload/textures/pebble/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/plastic/albedo.jpg.wbenc",
+   "sha256": "fd760e8a61793e85964c8bd74d2a770682dab6834d345af08e90de1aafca52f0",
+   "size": 92578,
+   "source": "textures/plastic/albedo.jpg",
+   "src": "payload/textures/plastic/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/plastic/normal.jpg.wbenc",
+   "sha256": "25d1360aa908b46c2e471636d4e81f8961db2ecd43f304d58c043947f1c34d51",
+   "size": 193163,
+   "source": "textures/plastic/normal.jpg",
+   "src": "payload/textures/plastic/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/plastic/roughness.jpg.wbenc",
+   "sha256": "cead22dc425084b52499d73f1498201791d795d7c981e132a0ae991c22353ae2",
+   "size": 276108,
+   "source": "textures/plastic/roughness.jpg",
+   "src": "payload/textures/plastic/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/rocky_ground/albedo.jpg.wbenc",
+   "sha256": "b3ab978911083d67db0bb06e1264f28fc905546502ee893792d7fa48a0b406c6",
+   "size": 418692,
+   "source": "textures/rocky_ground/albedo.jpg",
+   "src": "payload/textures/rocky_ground/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/rocky_ground/normal.jpg.wbenc",
+   "sha256": "336dcd3f385e925b45bfe17ef4414df45e493887cfd886761dec48d645361fb4",
+   "size": 488960,
+   "source": "textures/rocky_ground/normal.jpg",
+   "src": "payload/textures/rocky_ground/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/rocky_ground/roughness.jpg.wbenc",
+   "sha256": "b9e175369e799ef29b344f6d965d0cead3852fb077cabb2cfbbd50f738fc48b8",
+   "size": 397072,
+   "source": "textures/rocky_ground/roughness.jpg",
+   "src": "payload/textures/rocky_ground/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/rough_stone/albedo.jpg.wbenc",
+   "sha256": "691b10297e0f48f2c613b142410e560917e4bf909e12973c22309b86be579d31",
+   "size": 451036,
+   "source": "textures/rough_stone/albedo.jpg",
+   "src": "payload/textures/rough_stone/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/rough_stone/normal.jpg.wbenc",
+   "sha256": "0170a7371746e87f392479e660ae916e7520d7263e78d1a871466bf890393ad2",
+   "size": 373976,
+   "source": "textures/rough_stone/normal.jpg",
+   "src": "payload/textures/rough_stone/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/rough_stone/roughness.jpg.wbenc",
+   "sha256": "4c9d370d650531d307a5fb845c516a8cf14e2713aa3f24f85e17c9f2a922d362",
+   "size": 112468,
+   "source": "textures/rough_stone/roughness.jpg",
+   "src": "payload/textures/rough_stone/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/rust/albedo.jpg.wbenc",
+   "sha256": "abd4b52657667e412662f06e52d8a645a3b01a78b113ec0dcadd59d84356b568",
+   "size": 328598,
+   "source": "textures/rust/albedo.jpg",
+   "src": "payload/textures/rust/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/rust/normal.jpg.wbenc",
+   "sha256": "029504cce589312f8d73006ad0fe562e058bec0d32e82394f64499355e26fcfe",
+   "size": 113969,
+   "source": "textures/rust/normal.jpg",
+   "src": "payload/textures/rust/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/rust/roughness.jpg.wbenc",
+   "sha256": "ca39c7afdecce1cac77526ed75088d39c5b3fa34faeb8c536e3930ce321e0614",
+   "size": 377653,
+   "source": "textures/rust/roughness.jpg",
+   "src": "payload/textures/rust/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/sand/albedo.jpg.wbenc",
+   "sha256": "a0c94ac2aad2a0cbc14e0629e57bd7b71cb8b6a5c41e4d62949f8ddff3822792",
+   "size": 387292,
+   "source": "textures/sand/albedo.jpg",
+   "src": "payload/textures/sand/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/sand/normal.jpg.wbenc",
+   "sha256": "aae373d63decd2f86e2180ece38baea5c91b0a05cef7d1125b2b98585f75e63e",
+   "size": 447177,
+   "source": "textures/sand/normal.jpg",
+   "src": "payload/textures/sand/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/sand/roughness.jpg.wbenc",
+   "sha256": "ddebacfc18e40644879b6901edef7e0b3a6a996184feae9d16e42b8ff3966bf3",
+   "size": 367404,
+   "source": "textures/sand/roughness.jpg",
+   "src": "payload/textures/sand/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/slate_roof_tiles/albedo.jpg.wbenc",
+   "sha256": "f39e950d88131de47488cf86937d39d1851ba54ecadedc889b213c93642d5224",
+   "size": 295028,
+   "source": "textures/slate_roof_tiles/albedo.jpg",
+   "src": "payload/textures/slate_roof_tiles/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/slate_roof_tiles/normal.jpg.wbenc",
+   "sha256": "fe6971644920008915801977ea3d265492d6a229719046dd28f867c241460d03",
+   "size": 439738,
+   "source": "textures/slate_roof_tiles/normal.jpg",
+   "src": "payload/textures/slate_roof_tiles/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/slate_roof_tiles/roughness.jpg.wbenc",
+   "sha256": "6c351e4c30d62067d16517a9c445d34cca4ca77382fff4e85f8270eb2b2c635d",
+   "size": 449362,
+   "source": "textures/slate_roof_tiles/roughness.jpg",
+   "src": "payload/textures/slate_roof_tiles/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/small_cobblestone/albedo.jpg.wbenc",
+   "sha256": "a2888d64c21472cc46e09d960ef3c1bb001327f1096c9cd0e1e686878528a61b",
+   "size": 416573,
+   "source": "textures/small_cobblestone/albedo.jpg",
+   "src": "payload/textures/small_cobblestone/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/small_cobblestone/normal.jpg.wbenc",
+   "sha256": "a752680834f897bae8643d53de395ed101607810127cc372e0c18cb253ff4774",
+   "size": 536609,
+   "source": "textures/small_cobblestone/normal.jpg",
+   "src": "payload/textures/small_cobblestone/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/small_cobblestone/roughness.jpg.wbenc",
+   "sha256": "8320d4601b69851eac5b2c35414753e21c9cce3318d59982754ff74ae048ec46",
+   "size": 391268,
+   "source": "textures/small_cobblestone/roughness.jpg",
+   "src": "payload/textures/small_cobblestone/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/snow/albedo.jpg.wbenc",
+   "sha256": "2ad61253ba371c08b8518f4461605be160aec50c24aceddbcdabeb43169a672d",
+   "size": 96828,
+   "source": "textures/snow/albedo.jpg",
+   "src": "payload/textures/snow/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/snow/normal.jpg.wbenc",
+   "sha256": "930558c21ef2c37dfd16c8f0bdb98fa2b4519e5a283b27d4c7e84a11693e2c76",
+   "size": 221391,
+   "source": "textures/snow/normal.jpg",
+   "src": "payload/textures/snow/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/snow/roughness.jpg.wbenc",
+   "sha256": "c9b772615f46e7b3540a3f6387168b436065543f0dd2b6bd6a344a80243eaa6a",
+   "size": 457929,
+   "source": "textures/snow/roughness.jpg",
+   "src": "payload/textures/snow/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/stone/albedo.jpg.wbenc",
+   "sha256": "1f129bcfd668f3bfc5ce6df97b543aaba01973c62f02563b93357d44b96a949b",
+   "size": 395699,
+   "source": "textures/stone/albedo.jpg",
+   "src": "payload/textures/stone/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/stone/normal.jpg.wbenc",
+   "sha256": "93b068c99eae3b426b688fe038dbd482516d268dbb1c069200b3747c1b5d4086",
+   "size": 564749,
+   "source": "textures/stone/normal.jpg",
+   "src": "payload/textures/stone/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/stone/roughness.jpg.wbenc",
+   "sha256": "10dd0c198645e5b35196e4d193e92b9280d779e176b4c7b72057dd1942c32f31",
+   "size": 282121,
+   "source": "textures/stone/roughness.jpg",
+   "src": "payload/textures/stone/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/tiles/albedo.jpg.wbenc",
+   "sha256": "7be192d94773d4e495c6cdbeb6efbfe56ea9b1faa9ae18687d1ae43e23ac764a",
+   "size": 451252,
+   "source": "textures/tiles/albedo.jpg",
+   "src": "payload/textures/tiles/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/tiles/normal.jpg.wbenc",
+   "sha256": "672b42ea958c97ec9e65183d405d2482c7f926590aecc40291eed09917a6da42",
+   "size": 319117,
+   "source": "textures/tiles/normal.jpg",
+   "src": "payload/textures/tiles/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/tiles/roughness.jpg.wbenc",
+   "sha256": "d26e384837e851f72f21a9fb5966577fc9725a26b26f69d6b2f39750c31cb60f",
+   "size": 209659,
+   "source": "textures/tiles/roughness.jpg",
+   "src": "payload/textures/tiles/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/wireframe_grid/albedo.png.wbenc",
+   "sha256": "1218c067fc5f82fce61888237ac7680c0b5a87952c1f186e3068ddb15029116c",
+   "size": 356035,
+   "source": "textures/wireframe_grid/albedo.png",
+   "src": "payload/textures/wireframe_grid/albedo.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/wireframe_grid/normal.png.wbenc",
+   "sha256": "270acaa6c744a45a1b14aeeb266cbaabbc38cdbe19b479cb3004c3fe21408c77",
+   "size": 473564,
+   "source": "textures/wireframe_grid/normal.png",
+   "src": "payload/textures/wireframe_grid/normal.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/wireframe_grid/roughness.png.wbenc",
+   "sha256": "81eae504345ebaf2af82210e86a5c691bcf30e0b424f69bfbd3e2f999442dba2",
+   "size": 477049,
+   "source": "textures/wireframe_grid/roughness.png",
+   "src": "payload/textures/wireframe_grid/roughness.png.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/wood/albedo.jpg.wbenc",
+   "sha256": "db85922c24879d8307e0c6fdc680c785c290679d661a3f962835803ed9f58c14",
+   "size": 516618,
+   "source": "textures/wood/albedo.jpg",
+   "src": "payload/textures/wood/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/wood/normal.jpg.wbenc",
+   "sha256": "1a2151c7afb3b7771f90670134803bfae336a2c48f04e6a44429a17a2349969c",
+   "size": 663526,
+   "source": "textures/wood/normal.jpg",
+   "src": "payload/textures/wood/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/wood/roughness.jpg.wbenc",
+   "sha256": "af1f41c9cf3a9c0736ba546b6a623f4614d2fcff729fbf7170cd9b75f1f035fb",
+   "size": 403847,
+   "source": "textures/wood/roughness.jpg",
+   "src": "payload/textures/wood/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/wood_bark/albedo.jpg.wbenc",
+   "sha256": "c0891a8946b3621cee399144106aa23c08ceacbcb0c4ec87baa5304c05d8b613",
+   "size": 540572,
+   "source": "textures/wood_bark/albedo.jpg",
+   "src": "payload/textures/wood_bark/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/wood_bark/normal.jpg.wbenc",
+   "sha256": "0a2127f4a25f6c1b3eb6045df6b62dfa0b9470b4b71738dacff8a3fedeb33d1d",
+   "size": 664871,
+   "source": "textures/wood_bark/normal.jpg",
+   "src": "payload/textures/wood_bark/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/wood_bark/roughness.jpg.wbenc",
+   "sha256": "94eae6d1529439412f1c4acd5c3e225ce98d9b8f736a2dfb14ae3ef999ffddd0",
+   "size": 408178,
+   "source": "textures/wood_bark/roughness.jpg",
+   "src": "payload/textures/wood_bark/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/wood_planks/albedo.jpg.wbenc",
+   "sha256": "beead7d97089c21015a0951a9374e5022bef0705b994fdb9d6d62372c2f5cbc9",
+   "size": 243716,
+   "source": "textures/wood_planks/albedo.jpg",
+   "src": "payload/textures/wood_planks/albedo.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/wood_planks/normal.jpg.wbenc",
+   "sha256": "a6fdd20657655344d5b0068a2c6c7ce684a8bebc01cb0e1edf64640aa7dde6ff",
+   "size": 148495,
+   "source": "textures/wood_planks/normal.jpg",
+   "src": "payload/textures/wood_planks/normal.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/textures/wood_planks/roughness.jpg.wbenc",
+   "sha256": "2ade64718130bb31b85ed7a42431c65e0bb02613911e68212046ea21317518d3",
+   "size": 126198,
+   "source": "textures/wood_planks/roughness.jpg",
+   "src": "payload/textures/wood_planks/roughness.jpg.wbenc"
+  },
+  {
+   "path": "weildbuild_data/payload/wb-version.json.wbenc",
+   "sha256": "f24ea210d82de5b98009fc38420e2bcfdbe034f0af057e6e71f8a4096b79c4c8",
+   "size": 72,
+   "source": "wb-version.json",
+   "src": "payload/wb-version.json.wbenc"
+  },
+  {
+   "path": "weildbuild_installer.py",
+   "sha256": "ce5c9b7a752fe7dda799f938b92d41ae60f1ace2dd826a47433d2bf73a0511a1",
+   "size": 34319,
+   "source": "weildbuild_installer.py",
+   "src": "weildbuild_installer.py"
+  },
+  {
+   "path": "weildbuild_launcher.py",
+   "sha256": "da06c65e02a26fa7582578c350b4c031e3dafe5c46a678c48e8b7e199a0de5dc",
+   "size": 31119,
+   "source": "weildbuild_launcher.py",
+   "src": "weildbuild_launcher.py"
+  },
+  {
+   "path": "weildbuild_updater.py",
+   "sha256": "56f6f95e07162f5a7084a278e93b2e316ded9e8e582dbf0f46b1778901a166f6",
+   "size": 23403,
+   "source": "weildbuild_updater.py",
+   "src": "weildbuild_updater.py"
+  }
+ ],
+ "format": "wb-manifest-1",
+ "generatedAt": 1795375364,
+ "version": "1.0.0"
+}
