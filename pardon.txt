@@ -1,6 +1,0 @@
-# WeildBuild local-only files. The updater never deletes these paths.
-# Sessions, the browser profile (login state) and logs live here.
-pardon/
-pardon/browser-profile/
-pardon/session/
-pardon/logs/

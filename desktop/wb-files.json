@@ -1,0 +1,1014 @@
+{
+  "version": "1.1.0",
+  "generated": "2026-11-22T22:00:20.519Z",
+  "files": [
+    {
+      "path": "app/__next.__PAGE__.txt",
+      "size": 1518
+    },
+    {
+      "path": "app/__next._full.txt",
+      "size": 9657
+    },
+    {
+      "path": "app/__next._head.txt",
+      "size": 1469
+    },
+    {
+      "path": "app/__next._index.txt",
+      "size": 5842
+    },
+    {
+      "path": "app/__next._tree.txt",
+      "size": 274
+    },
+    {
+      "path": "app/_next/static/chunks/05-c3ty_6dwfk.js",
+      "size": 3377
+    },
+    {
+      "path": "app/_next/static/chunks/08bm9kef5349s.css",
+      "size": 214194
+    },
+    {
+      "path": "app/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "size": 112594
+    },
+    {
+      "path": "app/_next/static/chunks/0f-n2esjzafad.js",
+      "size": 6815
+    },
+    {
+      "path": "app/_next/static/chunks/0kh4qcxzygx4t.js",
+      "size": 16123
+    },
+    {
+      "path": "app/_next/static/chunks/1-cbdep0w5b33.js",
+      "size": 14730
+    },
+    {
+      "path": "app/_next/static/chunks/16gtqoylixq9n.js",
+      "size": 13383
+    },
+    {
+      "path": "app/_next/static/chunks/1d1w9dvao1h42.js",
+      "size": 43946
+    },
+    {
+      "path": "app/_next/static/chunks/1eb-sqafh6qa2.js",
+      "size": 24265
+    },
+    {
+      "path": "app/_next/static/chunks/1l_2snov7g6ib.js",
+      "size": 6293072
+    },
+    {
+      "path": "app/_next/static/chunks/2f6c_gy_9h8he.js",
+      "size": 31460
+    },
+    {
+      "path": "app/_next/static/chunks/2loe_3neilhdd.js",
+      "size": 56503
+    },
+    {
+      "path": "app/_next/static/chunks/314o2p8-gaysn.js",
+      "size": 54646
+    },
+    {
+      "path": "app/_next/static/chunks/34avkk1rn-gtc.js",
+      "size": 31864
+    },
+    {
+      "path": "app/_next/static/chunks/39g6zki5tt8s_.js",
+      "size": 47581
+    },
+    {
+      "path": "app/_next/static/chunks/3jh1u-s3k0bkk.js",
+      "size": 203384
+    },
+    {
+      "path": "app/_next/static/chunks/3loeei_bdq4y0.js",
+      "size": 6293072
+    },
+    {
+      "path": "app/_next/static/chunks/3obfewke3_gct.js",
+      "size": 5364
+    },
+    {
+      "path": "app/_next/static/chunks/3qjk60-eibu1f.js",
+      "size": 16159
+    },
+    {
+      "path": "app/_next/static/chunks/3rkb7mhvf0pbr.js",
+      "size": 136970
+    },
+    {
+      "path": "app/_next/static/chunks/3s18ekcs9n9cl.js",
+      "size": 351216
+    },
+    {
+      "path": "app/_next/static/chunks/3u89emnr38f8z.js",
+      "size": 112648
+    },
+    {
+      "path": "app/_next/static/chunks/turbopack-0dwuar63e99oe.js",
+      "size": 10646
+    },
+    {
+      "path": "app/_next/static/PPN0HjIZ4_IRNviNYgF6k/_buildManifest.js",
+      "size": 219
+    },
+    {
+      "path": "app/_next/static/PPN0HjIZ4_IRNviNYgF6k/_clientMiddlewareManifest.js",
+      "size": 96
+    },
+    {
+      "path": "app/_next/static/PPN0HjIZ4_IRNviNYgF6k/_ssgManifest.js",
+      "size": 80
+    },
+    {
+      "path": "app/_not-found/__next._full.txt",
+      "size": 9725
+    },
+    {
+      "path": "app/_not-found/__next._head.txt",
+      "size": 1520
+    },
+    {
+      "path": "app/_not-found/__next._index.txt",
+      "size": 5842
+    },
+    {
+      "path": "app/_not-found/__next._not-found.__PAGE__.txt",
+      "size": 1200
+    },
+    {
+      "path": "app/_not-found/__next._not-found.txt",
+      "size": 685
+    },
+    {
+      "path": "app/_not-found/__next._tree.txt",
+      "size": 349
+    },
+    {
+      "path": "app/_not-found/index.html",
+      "size": 23077
+    },
+    {
+      "path": "app/_not-found/index.txt",
+      "size": 9725
+    },
+    {
+      "path": "app/404-image.png",
+      "size": 15142
+    },
+    {
+      "path": "app/404.html",
+      "size": 23077
+    },
+    {
+      "path": "app/404/index.html",
+      "size": 23077
+    },
+    {
+      "path": "app/avatars/default_avatar.png",
+      "size": 21261
+    },
+    {
+      "path": "app/city-map-e2e.json",
+      "size": 3257010
+    },
+    {
+      "path": "app/city-map.json",
+      "size": 3257010
+    },
+    {
+      "path": "app/create/__next._full.txt",
+      "size": 9784
+    },
+    {
+      "path": "app/create/__next._head.txt",
+      "size": 1469
+    },
+    {
+      "path": "app/create/__next._index.txt",
+      "size": 5842
+    },
+    {
+      "path": "app/create/__next._tree.txt",
+      "size": 344
+    },
+    {
+      "path": "app/create/__next.create.__PAGE__.txt",
+      "size": 1264
+    },
+    {
+      "path": "app/create/__next.create.txt",
+      "size": 685
+    },
+    {
+      "path": "app/create/index.html",
+      "size": 23256
+    },
+    {
+      "path": "app/create/index.txt",
+      "size": 9784
+    },
+    {
+      "path": "app/devlogs/__next._full.txt",
+      "size": 34823
+    },
+    {
+      "path": "app/devlogs/__next._head.txt",
+      "size": 1429
+    },
+    {
+      "path": "app/devlogs/__next._index.txt",
+      "size": 5842
+    },
+    {
+      "path": "app/devlogs/__next._tree.txt",
+      "size": 345
+    },
+    {
+      "path": "app/devlogs/__next.devlogs.__PAGE__.txt",
+      "size": 26323
+    },
+    {
+      "path": "app/devlogs/__next.devlogs.txt",
+      "size": 685
+    },
+    {
+      "path": "app/devlogs/index.html",
+      "size": 73424
+    },
+    {
+      "path": "app/devlogs/index.txt",
+      "size": 34823
+    },
+    {
+      "path": "app/images/build-to-survive-thumb.jpg",
+      "size": 28741
+    },
+    {
+      "path": "app/images/tower-sword-fight-thumb.jpg",
+      "size": 33185
+    },
+    {
+      "path": "app/index.html",
+      "size": 22853
+    },
+    {
+      "path": "app/index.txt",
+      "size": 9657
+    },
+    {
+      "path": "app/items/faces/FACE-1.png",
+      "size": 351
+    },
+    {
+      "path": "app/items/faces/FACE-11.png",
+      "size": 5504
+    },
+    {
+      "path": "app/items/faces/FACE-12.png",
+      "size": 3948
+    },
+    {
+      "path": "app/items/faces/FACE-13.png",
+      "size": 5367
+    },
+    {
+      "path": "app/items/faces/FACE-14.png",
+      "size": 3500
+    },
+    {
+      "path": "app/items/faces/FACE-15.png",
+      "size": 397
+    },
+    {
+      "path": "app/items/faces/FACE-16.png",
+      "size": 8000
+    },
+    {
+      "path": "app/items/faces/FACE-17.png",
+      "size": 14353
+    },
+    {
+      "path": "app/items/faces/FACE-18.png",
+      "size": 8573
+    },
+    {
+      "path": "app/items/faces/FACE-19.png",
+      "size": 551
+    },
+    {
+      "path": "app/items/faces/FACE-2.png",
+      "size": 414
+    },
+    {
+      "path": "app/items/faces/FACE-20.png",
+      "size": 440
+    },
+    {
+      "path": "app/items/faces/FACE-21.png",
+      "size": 992
+    },
+    {
+      "path": "app/items/faces/FACE-3.png",
+      "size": 4588
+    },
+    {
+      "path": "app/items/faces/FACE-4.png",
+      "size": 2730
+    },
+    {
+      "path": "app/items/faces/FACE-5.png",
+      "size": 440
+    },
+    {
+      "path": "app/items/faces/FACE-6.png",
+      "size": 2717
+    },
+    {
+      "path": "app/items/faces/FACE-7.png",
+      "size": 2673
+    },
+    {
+      "path": "app/items/faces/FACE-8.png",
+      "size": 2168
+    },
+    {
+      "path": "app/items/faces/FACE-9.png",
+      "size": 3380
+    },
+    {
+      "path": "app/logo.png",
+      "size": 40589
+    },
+    {
+      "path": "app/logos/icon-192.png",
+      "size": 22979
+    },
+    {
+      "path": "app/logos/icon-512.png",
+      "size": 55693
+    },
+    {
+      "path": "app/logos/logo.png",
+      "size": 40589
+    },
+    {
+      "path": "app/logos/text_logo_retro.png",
+      "size": 7543
+    },
+    {
+      "path": "app/logos/text_logo_simple.png",
+      "size": 79157
+    },
+    {
+      "path": "app/manifest.webmanifest",
+      "size": 750
+    },
+    {
+      "path": "app/privacy/__next._full.txt",
+      "size": 24796
+    },
+    {
+      "path": "app/privacy/__next._head.txt",
+      "size": 1445
+    },
+    {
+      "path": "app/privacy/__next._index.txt",
+      "size": 5842
+    },
+    {
+      "path": "app/privacy/__next._tree.txt",
+      "size": 345
+    },
+    {
+      "path": "app/privacy/__next.privacy.__PAGE__.txt",
+      "size": 16300
+    },
+    {
+      "path": "app/privacy/__next.privacy.txt",
+      "size": 685
+    },
+    {
+      "path": "app/privacy/index.html",
+      "size": 55802
+    },
+    {
+      "path": "app/privacy/index.txt",
+      "size": 24796
+    },
+    {
+      "path": "app/robots.txt",
+      "size": 160
+    },
+    {
+      "path": "app/rules/__next._full.txt",
+      "size": 19516
+    },
+    {
+      "path": "app/rules/__next._head.txt",
+      "size": 1447
+    },
+    {
+      "path": "app/rules/__next._index.txt",
+      "size": 5842
+    },
+    {
+      "path": "app/rules/__next._tree.txt",
+      "size": 343
+    },
+    {
+      "path": "app/rules/__next.rules.__PAGE__.txt",
+      "size": 11000
+    },
+    {
+      "path": "app/rules/__next.rules.txt",
+      "size": 685
+    },
+    {
+      "path": "app/rules/index.html",
+      "size": 45694
+    },
+    {
+      "path": "app/rules/index.txt",
+      "size": 19516
+    },
+    {
+      "path": "app/sounds/build-to-survive/break.mp3",
+      "size": 10031
+    },
+    {
+      "path": "app/sounds/build-to-survive/claim.mp3",
+      "size": 5015
+    },
+    {
+      "path": "app/sounds/build-to-survive/disaster_warn.mp3",
+      "size": 321792
+    },
+    {
+      "path": "app/sounds/build-to-survive/place.mp3",
+      "size": 37632
+    },
+    {
+      "path": "app/sounds/build-to-survive/survive.mp3",
+      "size": 29257
+    },
+    {
+      "path": "app/sounds/build-to-survive/zombie_attack.mp3",
+      "size": 16800
+    },
+    {
+      "path": "app/sounds/build-to-survive/zombie_sound.m4a",
+      "size": 73515
+    },
+    {
+      "path": "app/sounds/effects/click.mp3",
+      "size": 5015
+    },
+    {
+      "path": "app/sounds/effects/death.mp3",
+      "size": 49581
+    },
+    {
+      "path": "app/sounds/effects/explosion.mp3",
+      "size": 49581
+    },
+    {
+      "path": "app/sounds/effects/install_error.mp3",
+      "size": 12120
+    },
+    {
+      "path": "app/sounds/effects/install_prompt.mp3",
+      "size": 13792
+    },
+    {
+      "path": "app/sounds/effects/install_success.mp3",
+      "size": 43885
+    },
+    {
+      "path": "app/sounds/effects/jump.mp3",
+      "size": 11520
+    },
+    {
+      "path": "app/sounds/effects/scary_laugh.mp3",
+      "size": 224862
+    },
+    {
+      "path": "app/sounds/effects/scream.mp3",
+      "size": 62693
+    },
+    {
+      "path": "app/sounds/effects/used_tool.wav",
+      "size": 105884
+    },
+    {
+      "path": "app/sounds/effects/walk.mp3",
+      "size": 6269
+    },
+    {
+      "path": "app/sounds/tower-sword-fight/bazooka_shoot.mp3",
+      "size": 76032
+    },
+    {
+      "path": "app/sounds/tower-sword-fight/draw_regen_staff.mp3",
+      "size": 65280
+    },
+    {
+      "path": "app/sounds/tower-sword-fight/draw_sword.mp3",
+      "size": 35040
+    },
+    {
+      "path": "app/sounds/tower-sword-fight/grap_hook_select.mp3",
+      "size": 30929
+    },
+    {
+      "path": "app/sounds/tower-sword-fight/hook_shoot.mp3",
+      "size": 3343
+    },
+    {
+      "path": "app/sounds/tower-sword-fight/sword_use.mp3",
+      "size": 16800
+    },
+    {
+      "path": "app/splash-texts.json",
+      "size": 4207
+    },
+    {
+      "path": "app/splashscreen.html",
+      "size": 15588
+    },
+    {
+      "path": "app/studio/__next._full.txt",
+      "size": 9784
+    },
+    {
+      "path": "app/studio/__next._head.txt",
+      "size": 1469
+    },
+    {
+      "path": "app/studio/__next._index.txt",
+      "size": 5842
+    },
+    {
+      "path": "app/studio/__next._tree.txt",
+      "size": 344
+    },
+    {
+      "path": "app/studio/__next.studio.__PAGE__.txt",
+      "size": 1264
+    },
+    {
+      "path": "app/studio/__next.studio.txt",
+      "size": 685
+    },
+    {
+      "path": "app/studio/index.html",
+      "size": 23256
+    },
+    {
+      "path": "app/studio/index.txt",
+      "size": 9784
+    },
+    {
+      "path": "app/terms/__next._full.txt",
+      "size": 20662
+    },
+    {
+      "path": "app/terms/__next._head.txt",
+      "size": 1425
+    },
+    {
+      "path": "app/terms/__next._index.txt",
+      "size": 5842
+    },
+    {
+      "path": "app/terms/__next._tree.txt",
+      "size": 343
+    },
+    {
+      "path": "app/terms/__next.terms.__PAGE__.txt",
+      "size": 12170
+    },
+    {
+      "path": "app/terms/__next.terms.txt",
+      "size": 685
+    },
+    {
+      "path": "app/terms/index.html",
+      "size": 48181
+    },
+    {
+      "path": "app/terms/index.txt",
+      "size": 20662
+    },
+    {
+      "path": "app/textures/brick/albedo.jpg",
+      "size": 313254
+    },
+    {
+      "path": "app/textures/brick/normal.jpg",
+      "size": 337432
+    },
+    {
+      "path": "app/textures/brick/roughness.jpg",
+      "size": 317811
+    },
+    {
+      "path": "app/textures/cardboard/albedo.jpg",
+      "size": 120194
+    },
+    {
+      "path": "app/textures/cardboard/normal.jpg",
+      "size": 132371
+    },
+    {
+      "path": "app/textures/cardboard/roughness.jpg",
+      "size": 97522
+    },
+    {
+      "path": "app/textures/carpet/albedo.jpg",
+      "size": 290646
+    },
+    {
+      "path": "app/textures/carpet/normal.jpg",
+      "size": 570419
+    },
+    {
+      "path": "app/textures/carpet/roughness.jpg",
+      "size": 335379
+    },
+    {
+      "path": "app/textures/cobblestone/albedo.jpg",
+      "size": 437815
+    },
+    {
+      "path": "app/textures/cobblestone/normal.jpg",
+      "size": 331068
+    },
+    {
+      "path": "app/textures/cobblestone/roughness.jpg",
+      "size": 387161
+    },
+    {
+      "path": "app/textures/concrete/albedo.jpg",
+      "size": 503809
+    },
+    {
+      "path": "app/textures/concrete/normal.jpg",
+      "size": 367209
+    },
+    {
+      "path": "app/textures/concrete/roughness.jpg",
+      "size": 375603
+    },
+    {
+      "path": "app/textures/diamond_plate/albedo.jpg",
+      "size": 221340
+    },
+    {
+      "path": "app/textures/diamond_plate/normal.jpg",
+      "size": 269100
+    },
+    {
+      "path": "app/textures/diamond_plate/roughness.jpg",
+      "size": 296266
+    },
+    {
+      "path": "app/textures/dirt/albedo.jpg",
+      "size": 461127
+    },
+    {
+      "path": "app/textures/dirt/normal.jpg",
+      "size": 554682
+    },
+    {
+      "path": "app/textures/dirt/roughness.jpg",
+      "size": 528333
+    },
+    {
+      "path": "app/textures/foil/albedo.jpg",
+      "size": 68781
+    },
+    {
+      "path": "app/textures/foil/normal.jpg",
+      "size": 431508
+    },
+    {
+      "path": "app/textures/foil/roughness.jpg",
+      "size": 110219
+    },
+    {
+      "path": "app/textures/geometric_tiles/albedo.jpg",
+      "size": 469212
+    },
+    {
+      "path": "app/textures/geometric_tiles/normal.jpg",
+      "size": 393978
+    },
+    {
+      "path": "app/textures/geometric_tiles/roughness.jpg",
+      "size": 383020
+    },
+    {
+      "path": "app/textures/granite/albedo.jpg",
+      "size": 565288
+    },
+    {
+      "path": "app/textures/granite/normal.jpg",
+      "size": 230734
+    },
+    {
+      "path": "app/textures/granite/roughness.jpg",
+      "size": 321897
+    },
+    {
+      "path": "app/textures/grass/albedo.jpg",
+      "size": 439549
+    },
+    {
+      "path": "app/textures/grass/normal.jpg",
+      "size": 661417
+    },
+    {
+      "path": "app/textures/grass/roughness.jpg",
+      "size": 500624
+    },
+    {
+      "path": "app/textures/ice/albedo.jpg",
+      "size": 230788
+    },
+    {
+      "path": "app/textures/ice/normal.jpg",
+      "size": 83782
+    },
+    {
+      "path": "app/textures/ice/roughness.jpg",
+      "size": 186789
+    },
+    {
+      "path": "app/textures/lava/albedo.jpg",
+      "size": 306080
+    },
+    {
+      "path": "app/textures/lava/normal.jpg",
+      "size": 349292
+    },
+    {
+      "path": "app/textures/lava/roughness.jpg",
+      "size": 223882
+    },
+    {
+      "path": "app/textures/leather/albedo.jpg",
+      "size": 277866
+    },
+    {
+      "path": "app/textures/leather/normal.jpg",
+      "size": 211014
+    },
+    {
+      "path": "app/textures/leather/roughness.jpg",
+      "size": 597460
+    },
+    {
+      "path": "app/textures/magma/albedo.jpg",
+      "size": 411854
+    },
+    {
+      "path": "app/textures/magma/normal.jpg",
+      "size": 592384
+    },
+    {
+      "path": "app/textures/magma/roughness.jpg",
+      "size": 142094
+    },
+    {
+      "path": "app/textures/marble/albedo.jpg",
+      "size": 401831
+    },
+    {
+      "path": "app/textures/marble/normal.jpg",
+      "size": 6476
+    },
+    {
+      "path": "app/textures/marble/roughness.jpg",
+      "size": 228259
+    },
+    {
+      "path": "app/textures/metal/albedo.jpg",
+      "size": 170076
+    },
+    {
+      "path": "app/textures/metal/normal.jpg",
+      "size": 48407
+    },
+    {
+      "path": "app/textures/metal/roughness.jpg",
+      "size": 77709
+    },
+    {
+      "path": "app/textures/moon.png",
+      "size": 658258
+    },
+    {
+      "path": "app/textures/normal_bricks/albedo.jpg",
+      "size": 369431
+    },
+    {
+      "path": "app/textures/normal_bricks/normal.jpg",
+      "size": 354680
+    },
+    {
+      "path": "app/textures/normal_bricks/roughness.jpg",
+      "size": 314826
+    },
+    {
+      "path": "app/textures/pebble/albedo.jpg",
+      "size": 376142
+    },
+    {
+      "path": "app/textures/pebble/normal.jpg",
+      "size": 685121
+    },
+    {
+      "path": "app/textures/pebble/roughness.jpg",
+      "size": 238774
+    },
+    {
+      "path": "app/textures/plastic/albedo.jpg",
+      "size": 92524
+    },
+    {
+      "path": "app/textures/plastic/normal.jpg",
+      "size": 193109
+    },
+    {
+      "path": "app/textures/plastic/roughness.jpg",
+      "size": 276054
+    },
+    {
+      "path": "app/textures/rocky_ground/albedo.jpg",
+      "size": 418638
+    },
+    {
+      "path": "app/textures/rocky_ground/normal.jpg",
+      "size": 488906
+    },
+    {
+      "path": "app/textures/rocky_ground/roughness.jpg",
+      "size": 397018
+    },
+    {
+      "path": "app/textures/rough_stone/albedo.jpg",
+      "size": 450982
+    },
+    {
+      "path": "app/textures/rough_stone/normal.jpg",
+      "size": 373922
+    },
+    {
+      "path": "app/textures/rough_stone/roughness.jpg",
+      "size": 112414
+    },
+    {
+      "path": "app/textures/rust/albedo.jpg",
+      "size": 328544
+    },
+    {
+      "path": "app/textures/rust/normal.jpg",
+      "size": 113915
+    },
+    {
+      "path": "app/textures/rust/roughness.jpg",
+      "size": 377599
+    },
+    {
+      "path": "app/textures/sand/albedo.jpg",
+      "size": 387238
+    },
+    {
+      "path": "app/textures/sand/normal.jpg",
+      "size": 447123
+    },
+    {
+      "path": "app/textures/sand/roughness.jpg",
+      "size": 367350
+    },
+    {
+      "path": "app/textures/slate_roof_tiles/albedo.jpg",
+      "size": 294974
+    },
+    {
+      "path": "app/textures/slate_roof_tiles/normal.jpg",
+      "size": 439684
+    },
+    {
+      "path": "app/textures/slate_roof_tiles/roughness.jpg",
+      "size": 449308
+    },
+    {
+      "path": "app/textures/small_cobblestone/albedo.jpg",
+      "size": 416519
+    },
+    {
+      "path": "app/textures/small_cobblestone/normal.jpg",
+      "size": 536555
+    },
+    {
+      "path": "app/textures/small_cobblestone/roughness.jpg",
+      "size": 391214
+    },
+    {
+      "path": "app/textures/snow/albedo.jpg",
+      "size": 96774
+    },
+    {
+      "path": "app/textures/snow/normal.jpg",
+      "size": 221337
+    },
+    {
+      "path": "app/textures/snow/roughness.jpg",
+      "size": 457875
+    },
+    {
+      "path": "app/textures/stone/albedo.jpg",
+      "size": 395645
+    },
+    {
+      "path": "app/textures/stone/normal.jpg",
+      "size": 564695
+    },
+    {
+      "path": "app/textures/stone/roughness.jpg",
+      "size": 282067
+    },
+    {
+      "path": "app/textures/tiles/albedo.jpg",
+      "size": 451198
+    },
+    {
+      "path": "app/textures/tiles/normal.jpg",
+      "size": 319063
+    },
+    {
+      "path": "app/textures/tiles/roughness.jpg",
+      "size": 209605
+    },
+    {
+      "path": "app/textures/wireframe_grid/albedo.png",
+      "size": 355981
+    },
+    {
+      "path": "app/textures/wireframe_grid/normal.png",
+      "size": 473510
+    },
+    {
+      "path": "app/textures/wireframe_grid/roughness.png",
+      "size": 476995
+    },
+    {
+      "path": "app/textures/wood_bark/albedo.jpg",
+      "size": 540518
+    },
+    {
+      "path": "app/textures/wood_bark/normal.jpg",
+      "size": 664817
+    },
+    {
+      "path": "app/textures/wood_bark/roughness.jpg",
+      "size": 408124
+    },
+    {
+      "path": "app/textures/wood_planks/albedo.jpg",
+      "size": 243662
+    },
+    {
+      "path": "app/textures/wood_planks/normal.jpg",
+      "size": 148441
+    },
+    {
+      "path": "app/textures/wood_planks/roughness.jpg",
+      "size": 126144
+    },
+    {
+      "path": "app/textures/wood/albedo.jpg",
+      "size": 516564
+    },
+    {
+      "path": "app/textures/wood/normal.jpg",
+      "size": 663472
+    },
+    {
+      "path": "app/textures/wood/roughness.jpg",
+      "size": 403793
+    },
+    {
+      "path": "app/wb-sw.js",
+      "size": 2082
+    }
+  ]
+}

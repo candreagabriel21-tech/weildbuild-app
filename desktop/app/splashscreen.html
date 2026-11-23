@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>WeildBuild</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  :root {
+    --bg-0: #0a0a1a;
+    --bg-1: #12122b;
+    --accent: #6366f1;
+    --splash-yellow: #fde047;
+    --text-dim: #8b8fa8;
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: var(--bg-0);
+    font-family: system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    user-select: none;
+    cursor: default;
+  }
+
+  body {
+    position: relative;
+    transition: opacity .42s ease;
+  }
+  body.fade-out { opacity: 0; }
+
+  /* ─── Background: gradient + faint studio grid + vignette ─── */
+  .bg {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse 120% 80% at 50% 30%, var(--bg-1) 0%, var(--bg-0) 65%),
+      var(--bg-0);
+  }
+  .bg-grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(99,102,241,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(99,102,241,.05) 1px, transparent 1px);
+    background-size: 44px 44px;
+    mask-image: radial-gradient(ellipse 90% 75% at 50% 45%, #000 30%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 90% 75% at 50% 45%, #000 30%, transparent 100%);
+  }
+  .vignette {
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse 100% 100% at 50% 50%, transparent 55%, rgba(0,0,0,.5) 100%);
+    pointer-events: none;
+  }
+
+  /* floating particles */
+  .particle {
+    position: absolute;
+    width: 3px; height: 3px;
+    border-radius: 50%;
+    background: rgba(139,92,246,.55);
+    animation: floatUp linear infinite;
+    opacity: 0;
+  }
+  @keyframes floatUp {
+    0%   { transform: translateY(0) scale(1); opacity: 0; }
+    10%  { opacity: .7; }
+    90%  { opacity: .5; }
+    100% { transform: translateY(-46vh) scale(.6); opacity: 0; }
+  }
+
+  /* ─── Layout ─── */
+  .stage {
+    position: relative;
+    width: 100%; height: 100%;
+    display: flex; flex-direction: column; align-items: center;
+  }
+
+  /* ─── Logo (top half) ─── */
+  .logo-wrap {
+    margin-top: 74px;
+    width: 620px;
+    display: flex; justify-content: center;
+    animation: logoFloat 4.2s ease-in-out infinite;
+    filter: drop-shadow(0 0 26px rgba(99,102,241,.32)) drop-shadow(0 4px 14px rgba(0,0,0,.6));
+  }
+  .logo-wrap img { width: 100%; height: auto; display: block; }
+  @keyframes logoFloat {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(-8px); }
+  }
+
+  /* ─── Splash text ─── */
+  .splash-text {
+    margin-top: 18px;
+    color: var(--splash-yellow);
+    font-style: italic;
+    font-weight: 800;
+    font-size: 21px;
+    letter-spacing: .3px;
+    transform: rotate(-4deg);
+    text-shadow: 2px 2px 0 rgba(0,0,0,.85), 0 0 18px rgba(253,224,71,.25);
+    animation: splashPulse .9s ease-in-out infinite alternate;
+    max-width: 720px;
+    text-align: center;
+  }
+  @keyframes splashPulse {
+    from { transform: rotate(-4deg) scale(1); }
+    to   { transform: rotate(-4deg) scale(1.07); }
+  }
+
+  /* ─── Cube scene (bottom half) ─── */
+  .scene-wrap {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    perspective: 860px;
+    perspective-origin: 50% 30%;
+  }
+  .cube-world {
+    position: absolute;
+    left: 50%; top: 44%;
+    transform: translate(-50%, -50%) rotateX(-21deg) rotateZ(0deg);
+    transform-style: preserve-3d;
+  }
+  .cube {
+    position: absolute;
+    transform-style: preserve-3d;
+  }
+  .face {
+    position: absolute;
+    inset: 0;
+    background: hsl(var(--h, 250) 74% 58% / .92);
+    border: 2px solid hsl(var(--h, 250) 80% 72% / .95);
+    box-shadow: inset 0 0 18px hsl(var(--h, 250) 80% 30% / .55);
+    transition: background-color .38s ease, border-color .38s ease, box-shadow .38s ease;
+    backface-visibility: visible;
+  }
+  /* per-face shading offsets for depth */
+  .face.f-front  { filter: brightness(1.00); }
+  .face.f-back   { filter: brightness(.72); }
+  .face.f-right  { filter: brightness(.86); }
+  .face.f-left   { filter: brightness(.66); }
+  .face.f-top    { filter: brightness(1.22); }
+  .face.f-bottom { filter: brightness(.55); }
+
+  .shadow-ellipse {
+    position: absolute;
+    left: 50%; top: 44%;
+    width: 240px; height: 56px;
+    transform: translate(-50%, 74px);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,.55) 0%, transparent 68%);
+    filter: blur(6px);
+    pointer-events: none;
+  }
+
+  /* small building cubes pop-in */
+  .mini-pop {
+    animation: miniPop .62s cubic-bezier(.22, 1.4, .36, 1) both;
+  }
+  @keyframes miniPop {
+    0%   { transform: translate3d(var(--tx,0), var(--ty,0), 0) scale(0.05); opacity: 0; }
+    60%  { opacity: 1; }
+    100% { transform: translate3d(var(--tx,0), var(--ty,0), 0) scale(1); opacity: 1; }
+  }
+
+  /* ─── Bottom bar ─── */
+  .bottom-bar {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 58px;
+    padding: 0 22px;
+    display: flex; align-items: center; justify-content: space-between;
+    font-size: 13px;
+    color: var(--text-dim);
+    background: linear-gradient(transparent, rgba(5,5,15,.72));
+  }
+  .loading-label { display: flex; align-items: center; gap: 10px; }
+  .dots::after {
+    content: "";
+    animation: dots 1.4s steps(4, end) infinite;
+  }
+  @keyframes dots {
+    0% { content: ""; }
+    25% { content: "."; }
+    50% { content: ".."; }
+    75%, 100% { content: "..."; }
+  }
+  .load-bar {
+    width: 150px; height: 4px;
+    background: rgba(139,92,246,.14);
+    border-radius: 99px;
+    overflow: hidden;
+    position: relative;
+  }
+  .load-bar::after {
+    content: "";
+    position: absolute; inset: 0;
+    width: 42%;
+    border-radius: 99px;
+    background: linear-gradient(90deg, #6366f1, #a855f7);
+    animation: barSlide 1.15s ease-in-out infinite;
+  }
+  @keyframes barSlide {
+    0%   { transform: translateX(-110%); }
+    100% { transform: translateX(360%); }
+  }
+  .version { color: #6b7089; font-weight: 600; letter-spacing: .4px; }
+  .slow-hint {
+    position: absolute;
+    left: 50%; bottom: 66px;
+    transform: translateX(-50%);
+    font-size: 12.5px;
+    color: #a78bfa;
+    opacity: 0;
+    transition: opacity .5s ease;
+  }
+  .slow-hint.show { opacity: .85; }
+</style>
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="bg-grid"></div>
+  <div class="vignette"></div>
+
+  <div class="stage">
+    <!-- Logo -->
+    <div class="logo-wrap">
+      <img src="./logos/text_logo_simple.png" alt="WeildBuild" />
+    </div>
+
+    <!-- Random splash text (injected by JS) -->
+    <div class="splash-text" id="splashText">WeildBuild.</div>
+
+    <!-- 3D cube scene -->
+    <div class="scene-wrap">
+      <div class="shadow-ellipse"></div>
+      <div class="cube-world" id="cubeWorld"></div>
+    </div>
+  </div>
+
+  <div class="slow-hint" id="slowHint">Taking longer than expected&hellip;</div>
+
+  <div class="bottom-bar">
+    <div class="loading-label">
+      <div class="load-bar"></div>
+      <span>Loading WeildBuild<span class="dots"></span></span>
+    </div>
+    <div class="version">1.1.0 - desktop</div>
+  </div>
+
+<script>
+(function () {
+  "use strict";
+
+  // ═════════════════════════════════════════════════════════
+  // Random splash text
+  // ═════════════════════════════════════════════════════════
+  const FALLBACK_TEXTS = [
+    "WeildBuild.",
+    "Let's start building!",
+    "Remember me?",
+    "Thanks for reading me!"
+  ];
+  const splashEl = document.getElementById("splashText");
+
+  fetch("./splash-texts.json")
+    .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+    .then(function (data) {
+      const list = (data && Array.isArray(data.splashTexts)) ? data.splashTexts : FALLBACK_TEXTS;
+      splashEl.textContent = String(list[Math.floor(Math.random() * list.length)]);
+    })
+    .catch(function () {
+      splashEl.textContent = FALLBACK_TEXTS[Math.floor(Math.random() * FALLBACK_TEXTS.length)];
+    });
+
+  // ═════════════════════════════════════════════════════════
+  // Floating background particles
+  // ═════════════════════════════════════════════════════════
+  for (let i = 0; i < 14; i++) {
+    const p = document.createElement("div");
+    p.className = "particle";
+    p.style.left = (Math.random() * 100) + "%";
+    p.style.top = (58 + Math.random() * 42) + "%";
+    p.style.animationDuration = (7 + Math.random() * 8) + "s";
+    p.style.animationDelay = (-Math.random() * 10) + "s";
+    const s = 2 + Math.random() * 2.5;
+    p.style.width = s + "px";
+    p.style.height = s + "px";
+    document.body.appendChild(p);
+  }
+
+  // ═════════════════════════════════════════════════════════
+  // CSS-3D cube factory
+  // ═════════════════════════════════════════════════════════
+  function makeCube(size, hue) {
+    const cube = document.createElement("div");
+    cube.className = "cube";
+    cube.style.width = size + "px";
+    cube.style.height = size + "px";
+    cube.style.setProperty("--h", hue);
+
+    const half = size / 2;
+    const faces = [
+      ["f-front",  "translateZ(" + half + "px)"],
+      ["f-back",   "rotateY(180deg) translateZ(" + half + "px)"],
+      ["f-right",  "rotateY(90deg) translateZ(" + half + "px)"],
+      ["f-left",   "rotateY(-90deg) translateZ(" + half + "px)"],
+      ["f-top",    "rotateX(90deg) translateZ(" + half + "px)"],
+      ["f-bottom", "rotateX(-90deg) translateZ(" + half + "px)"]
+    ];
+    faces.forEach(function (f) {
+      const el = document.createElement("div");
+      el.className = "face " + f[0];
+      el.style.transform = f[1];
+      cube.appendChild(el);
+    });
+    return cube;
+  }
+
+  const world = document.getElementById("cubeWorld");
+  const randomHue = function () { return Math.floor(Math.random() * 360); };
+
+  // ── Hero cube ──
+  const HERO = 84;
+  const hero = makeCube(HERO, 250);
+  hero.style.left = "calc(50% - " + (HERO / 2) + "px)";
+  hero.style.top = "calc(50% - " + (HERO / 2) + "px)";
+  world.appendChild(hero);
+
+  // ── Building cubes: platform under the hero cube ──
+  // They pop in one-by-one ("cube-to-cube building").
+  const MINI = 34;
+  const GAP = 12;
+  const platformCount = 5;
+  const minis = [];
+  const rowWidth = platformCount * MINI + (platformCount - 1) * GAP;
+  for (let i = 0; i < platformCount; i++) {
+    const c = makeCube(MINI, randomHue());
+    const x = -(rowWidth / 2) + (MINI / 2) + i * (MINI + GAP);
+    c.style.left = "calc(50% - " + (MINI / 2) + "px)";
+    c.style.top = "calc(50% - " + (MINI / 2) + "px)";
+    c.style.setProperty("--tx", x + "px");
+    c.style.setProperty("--ty", (HERO / 2 + MINI / 2 + 16) + "px");
+    c.style.transform = "translate3d(" + x + "px," + (HERO / 2 + MINI / 2 + 16) + "px,0) rotateY(" + (i * 24 - 24) + "deg) scale(0.05)";
+    c.style.opacity = "0";
+    world.appendChild(c);
+    minis.push({ el: c, x: x, y: (HERO / 2 + MINI / 2 + 16), rot: i * 24 - 24, delay: 420 + i * 380 });
+  }
+
+  function popIn(mini) {
+    mini.el.classList.add("mini-pop");
+    // final resting transform (CSS var driven by miniPop keyframes)
+    mini.el.style.transform = "";
+  }
+
+  // ═════════════════════════════════════════════════════════
+  // Hero cube animation:
+  //   spin once (fast → slows down) → pause → spin again → pause → loop
+  // Random color changes throughout.
+  // ═════════════════════════════════════════════════════════
+  const SPIN_MS = 1400;      // one full 360° spin, eased out
+  const HOLD1_MS = 900;      // pause after first spin
+  const HOLD2_MS = 1250;     // pause after second spin
+  const CYCLE = SPIN_MS + HOLD1_MS + SPIN_MS + HOLD2_MS;
+
+  function easeOutCubic(t) { return 1 - Math.pow(1 - t, 3); }
+
+  const t0 = performance.now();
+
+  function frame(now) {
+    const t = (now - t0) % CYCLE;
+
+    let yRot;
+    if (t < SPIN_MS) {
+      // first spin: fast start, slows down to a stop
+      yRot = 360 * easeOutCubic(t / SPIN_MS);
+    } else if (t < SPIN_MS + HOLD1_MS) {
+      yRot = 360; // resting (slowed to a stop)
+    } else if (t < SPIN_MS + HOLD1_MS + SPIN_MS) {
+      // second spin: fast start, slows down again
+      const u = (t - SPIN_MS - HOLD1_MS) / SPIN_MS;
+      yRot = 360 + 360 * easeOutCubic(u);
+    } else {
+      yRot = 720; // resting before loop (720 ≡ 0, so the loop is seamless)
+    }
+
+    // gentle bob so the cube feels alive while resting
+    const bob = Math.sin((now - t0) / 520) * 5;
+    const hover = -(HERO / 2 + 26);
+
+    hero.style.transform =
+      "translate3d(0," + (hover + bob) + "px,0) rotateY(" + yRot + "deg)";
+
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+
+  // schedule mini cube pop-ins
+  minis.forEach(function (m) {
+    setTimeout(function () { popIn(m); }, m.delay);
+  });
+
+  // random color changes (hero + occasional mini repaint)
+  setInterval(function () {
+    hero.style.setProperty("--h", randomHue());
+  }, 820);
+  setInterval(function () {
+    const m = minis[Math.floor(Math.random() * minis.length)];
+    if (m && m.el.classList.contains("mini-pop")) {
+      m.el.style.setProperty("--h", randomHue());
+    }
+  }, 1400);
+
+  // ═════════════════════════════════════════════════════════
+  // Tauri integration: close when the main app is ready
+  // ═════════════════════════════════════════════════════════
+  const MIN_ANIM_MS = 4600; // let the building animation finish
+  const started = performance.now();
+  let closeRequested = false;
+  let closing = false;
+
+  function tryClose() {
+    if (!closeRequested || closing) return;
+    const elapsed = performance.now() - started;
+    if (elapsed < MIN_ANIM_MS) {
+      setTimeout(tryClose, MIN_ANIM_MS - elapsed + 40);
+      return;
+    }
+    closing = true;
+    document.body.classList.add("fade-out");
+    setTimeout(function () {
+      const api = window.__TAURI__;
+      if (api && api.window) {
+        const getter = api.window.getCurrentWindow || api.window.getCurrent;
+        if (getter) {
+          try { getter.call(api.window).close(); } catch (e) { /* ignore */ }
+        }
+      }
+    }, 440);
+  }
+
+  const tauriApi = window.__TAURI__;
+  if (tauriApi && tauriApi.event && tauriApi.event.listen) {
+    tauriApi.event.listen("splash:close", function () {
+      closeRequested = true;
+      tryClose();
+    });
+  }
+
+  // "still loading" hint after 8s
+  setTimeout(function () {
+    if (!closing) document.getElementById("slowHint").classList.add("show");
+  }, 8000);
+})();
+</script>
+</body>
+</html>
